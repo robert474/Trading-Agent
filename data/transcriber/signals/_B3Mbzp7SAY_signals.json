@@ -1,0 +1,438 @@
+{
+  "video_id": "_B3Mbzp7SAY",
+  "title": "Weekly Watchlist 12 15 25",
+  "date": "2025-12-15",
+  "duration_minutes": 24,
+  "extracted_at": "2025-12-20T20:09:34.732179",
+  "market_context": {
+    "overall_trend": "rolling over to downside",
+    "key_events": [
+      "FOMC meeting Wednesday - market rallied then sold off Thursday/Friday",
+      "Employment report Tuesday",
+      "CPI Thursday",
+      "Retail sales Tuesday"
+    ],
+    "volatility_note": "VIX still coming down, market could grind higher"
+  },
+  "zone_levels": [
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 680.0,
+      "timeframe": "daily",
+      "notes": "Key level to hold"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 682.0,
+      "timeframe": "daily",
+      "notes": "Key level to hold"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "resistance",
+      "price": 686.79,
+      "timeframe": "daily",
+      "notes": "Price level to trade against"
+    },
+    {
+      "ticker": "ES",
+      "zone_type": "support",
+      "price": 6012.0,
+      "timeframe": "15min",
+      "notes": "Candles couldn't close below - strong support"
+    },
+    {
+      "ticker": "ES",
+      "zone_type": "resistance",
+      "price": 6036.0,
+      "timeframe": "15min",
+      "notes": "Need to break for calls"
+    },
+    {
+      "ticker": "ES",
+      "zone_type": "support",
+      "price": 6000.0,
+      "timeframe": "15min",
+      "notes": "Break below for puts"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "support",
+      "price": 512.44,
+      "timeframe": "daily",
+      "notes": "Must hold for longs"
+    },
+    {
+      "ticker": "NQ",
+      "zone_type": "resistance",
+      "price": 25254.0,
+      "timeframe": "15min",
+      "notes": "Couldn't get back above"
+    },
+    {
+      "ticker": "NQ",
+      "zone_type": "support",
+      "price": 25170.0,
+      "timeframe": "15min",
+      "notes": "Below this = puts to 25036"
+    },
+    {
+      "ticker": "NQ",
+      "zone_type": "support",
+      "price": 25036.0,
+      "timeframe": "1h",
+      "notes": "Target for puts"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 277.0,
+      "timeframe": "daily",
+      "notes": "Repeated bounces - strong demand"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "resistance",
+      "price": 279.2,
+      "timeframe": "4h",
+      "notes": "Interim level for safe calls"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 225.18,
+      "timeframe": "daily",
+      "notes": "Bouncing off repeatedly"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 223.0,
+      "timeframe": "1month",
+      "notes": "One month demand"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 222.0,
+      "timeframe": "daily",
+      "notes": "Target if breaks 225"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "support",
+      "price": 476.0,
+      "timeframe": "daily",
+      "notes": "Break below for puts to 473"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "resistance",
+      "price": 480.0,
+      "timeframe": "daily",
+      "notes": "Range high"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "support",
+      "price": 303.0,
+      "timeframe": "daily",
+      "notes": "Break below for 299.15"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "resistance",
+      "price": 309.56,
+      "timeframe": "15min",
+      "notes": "Above with strength for 319"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "gap",
+      "price": 305.57,
+      "timeframe": "daily",
+      "notes": "Daily gap top"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "support",
+      "price": 439.0,
+      "timeframe": "daily",
+      "notes": "Range low"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "resistance",
+      "price": 459.0,
+      "timeframe": "daily",
+      "notes": "Prior pivot"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "resistance",
+      "price": 466.0,
+      "timeframe": "daily",
+      "notes": "Supply level"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "resistance",
+      "price": 474.0,
+      "timeframe": "daily",
+      "notes": "Prior highs"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "support",
+      "price": 636.96,
+      "timeframe": "daily",
+      "notes": "Good for calls"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "resistance",
+      "price": 647.0,
+      "timeframe": "daily",
+      "notes": "Safe for puts"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 174.0,
+      "timeframe": "daily",
+      "notes": "Break for puts to 171"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 171.0,
+      "timeframe": "daily",
+      "notes": "Put target"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "wick_level",
+      "price": 173.0,
+      "timeframe": "15min",
+      "notes": "Watch for wick rejection"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "support",
+      "price": 209.0,
+      "timeframe": "daily",
+      "notes": "Break below for puts to 203"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "support",
+      "price": 203.0,
+      "timeframe": "daily",
+      "notes": "Put target"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "demand",
+      "price": 201.0,
+      "timeframe": "4h",
+      "notes": "Real buyers here"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "fib_50",
+      "price": 177.0,
+      "timeframe": "daily",
+      "notes": "50 fib - strong reaction"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "fib_618",
+      "price": 184.61,
+      "timeframe": "daily",
+      "notes": "618 fib top"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "resistance",
+      "price": 187.0,
+      "timeframe": "daily",
+      "notes": "Break above for 192"
+    },
+    {
+      "ticker": "MSTR",
+      "zone_type": "support",
+      "price": 374.6,
+      "timeframe": "daily",
+      "notes": "Break with strength for puts to 366"
+    },
+    {
+      "ticker": "MSTR",
+      "zone_type": "support",
+      "price": 366.0,
+      "timeframe": "15min",
+      "notes": "Put target"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "gap_low",
+      "price": 117.85,
+      "timeframe": "daily",
+      "notes": "Gap fill reached"
+    },
+    {
+      "ticker": "ORCL",
+      "zone_type": "gap_above",
+      "price": 190.0,
+      "timeframe": "daily",
+      "notes": "Gap above to watch"
+    },
+    {
+      "ticker": "ORCL",
+      "zone_type": "gap_below",
+      "price": 180.0,
+      "timeframe": "daily",
+      "notes": "Gap below likely fills first"
+    },
+    {
+      "ticker": "LULU",
+      "zone_type": "resistance",
+      "price": 408.0,
+      "timeframe": "daily",
+      "notes": "Prior pivot - puts if rejected"
+    },
+    {
+      "ticker": "NKE",
+      "zone_type": "support",
+      "price": 65.93,
+      "timeframe": "daily",
+      "notes": "Break below for puts"
+    },
+    {
+      "ticker": "NKE",
+      "zone_type": "resistance",
+      "price": 69.43,
+      "timeframe": "daily",
+      "notes": "Better put entry"
+    },
+    {
+      "ticker": "NKE",
+      "zone_type": "demand",
+      "price": 59.0,
+      "timeframe": "1month",
+      "notes": "Strong calls here"
+    },
+    {
+      "ticker": "NKE",
+      "zone_type": "demand",
+      "price": 52.0,
+      "timeframe": "daily",
+      "notes": "Equity pickup level"
+    },
+    {
+      "ticker": "HD",
+      "zone_type": "resistance",
+      "price": 362.0,
+      "timeframe": "daily",
+      "notes": "Above for calls to 381"
+    },
+    {
+      "ticker": "HD",
+      "zone_type": "support",
+      "price": 345.0,
+      "timeframe": "daily",
+      "notes": "Calls here - lots of buyers"
+    },
+    {
+      "ticker": "SBUX",
+      "zone_type": "resistance",
+      "price": 86.0,
+      "timeframe": "daily",
+      "notes": "Calls above"
+    },
+    {
+      "ticker": "SBUX",
+      "zone_type": "support",
+      "price": 82.0,
+      "timeframe": "daily",
+      "notes": "Puts below"
+    }
+  ],
+  "trade_signals": [
+    {
+      "ticker": "SPY",
+      "direction": "short",
+      "entry_condition": "Stay below 686.79",
+      "target": 680.0,
+      "reasoning": "Market rolling over, 9 crossing down, 21 curling lower"
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "long",
+      "entry_condition": "Bounce at 225.18",
+      "target": 230.0,
+      "reasoning": "Repeated bounces off level - strong demand"
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "short",
+      "entry_condition": "Break below 225",
+      "target": 222.0,
+      "reasoning": "Put trade, may hit resistance at 223 one-month demand"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "short",
+      "entry_condition": "Break below 209",
+      "target": 203.0,
+      "reasoning": "Chip weakness, put trade looked good on Friday. 30min supply only"
+    },
+    {
+      "ticker": "PLTR",
+      "direction": "long",
+      "entry_condition": "Above 184.61 (618 fib)",
+      "target": 192.0,
+      "reasoning": "Relative strength, big wick buying at 50 fib (177)"
+    },
+    {
+      "ticker": "MSTR",
+      "direction": "short",
+      "entry_condition": "Break below 374.60 with strength",
+      "target": 366.0,
+      "reasoning": "Bitcoin proxy, rejected off 55 fib, heading lower"
+    },
+    {
+      "ticker": "META",
+      "direction": "long",
+      "entry_condition": "At 636.96",
+      "target": 647.0,
+      "reasoning": "Level respected on Dec 4, nice rally after"
+    },
+    {
+      "ticker": "SBUX",
+      "direction": "neutral",
+      "entry_condition": "Iron condor - sell call spread at top, put spread at bottom",
+      "target": "Range 82-86",
+      "reasoning": "90 day consolidation range, collect premium both sides"
+    }
+  ],
+  "key_insights": [
+    "Use FUTURES data (ES, NQ) for price levels - more relevant than SPY/QQQ",
+    "Tech (QQQ) weaker than broader market (SPY)",
+    "Banks/Financials (XLF, JPM, WFC, C, GS) at all time highs - holding up market",
+    "Must chart VIX for volatility - price levels + volatility = directional bias",
+    "When chips are weak, they sell off 2-5%, not quarters",
+    "Wick rejections at price levels = strong support/resistance",
+    "Small gaps ($1-2) don't act as magnets, large gaps ($20-40) are monumental",
+    "50 fib and 618 fib are key reversal levels",
+    "Iron condors work in 90-day consolidation ranges"
+  ],
+  "methodology_notes": {
+    "timeframe_hierarchy": "Daily > 4H > 1H > 15min for supply/demand importance",
+    "blue_lines": "Short-term interim levels within past 5 days",
+    "fib_levels": "50 and 618 most important for reversals",
+    "gaps": "Large gaps act as magnets, small gaps ignored",
+    "wick_rejection": "When price wicks through level and recovers = strong zone"
+  }
+}

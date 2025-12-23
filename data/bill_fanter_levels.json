@@ -1,0 +1,154 @@
+{
+  "date": "2025-12-22",
+  "video_id": "9xhP60b25Rk",
+  "title": "Weekly Watchlist 12 22 25",
+  "market_context": {
+    "note": "Low volume week - last 2 weeks of year",
+    "monday_tuesday": "Average trading days",
+    "wednesday": "Shortened day - Christmas Eve",
+    "thursday": "Markets closed - Christmas",
+    "friday": "Low volume - consider taking off"
+  },
+  "risk_off_signals": {
+    "bitcoin": {"below": 87000, "action": "risk off"},
+    "hood": {"below": 120, "action": "go short"},
+    "mstr": {"below": 166, "action": "go short"}
+  },
+  "levels": [
+    {
+      "symbol": "SPY",
+      "bias": "neutral",
+      "key_levels": {
+        "bullish_above": 680.85,
+        "bearish_below": 679.55
+      },
+      "notes": "In channel 679-680, liquidity grabs on wicks"
+    },
+    {
+      "symbol": "QQQ",
+      "bias": "bullish_above",
+      "key_levels": {
+        "breakout": 618,
+        "target1": 620,
+        "target2": 626
+      },
+      "notes": "Could be monumental move if breaks out"
+    },
+    {
+      "symbol": "AAPL",
+      "bias": "bullish_above",
+      "key_levels": {
+        "calls_above": 274.14
+      },
+      "notes": "Need to break above resistance line"
+    },
+    {
+      "symbol": "AMZN",
+      "bias": "range",
+      "key_levels": {
+        "calls_at": 225,
+        "puts_at": 228
+      },
+      "notes": "Underperformer all year"
+    },
+    {
+      "symbol": "GOOGL",
+      "bias": "bullish",
+      "key_levels": {
+        "breakout": 308.02,
+        "target": 319
+      },
+      "notes": "Bull flag, big volume breakout Friday"
+    },
+    {
+      "symbol": "TSLA",
+      "bias": "bullish",
+      "key_levels": {
+        "calls_above": 481,
+        "target": 500
+      },
+      "notes": "In uptrend, watching for push over 500"
+    },
+    {
+      "symbol": "META",
+      "bias": "hold_level",
+      "key_levels": {
+        "calls_above": 657,
+        "puts_below": 657
+      },
+      "notes": "Watch 200 SMA for support"
+    },
+    {
+      "symbol": "NVDA",
+      "bias": "range",
+      "key_levels": {
+        "calls_above": 181,
+        "range_low": 171,
+        "range_high": 181
+      },
+      "notes": "Stuck in $171-$181 range"
+    },
+    {
+      "symbol": "AMD",
+      "bias": "watch_vwap",
+      "key_levels": {
+        "calls_above": 214.81,
+        "rejection": 214
+      },
+      "notes": "Rejected at 214, watch for VWAP bounce, need 5min close above"
+    },
+    {
+      "symbol": "AVGO",
+      "bias": "in_between",
+      "key_levels": {
+        "puts_at": 355,
+        "support": 321.43
+      },
+      "notes": "Gap fill zone"
+    },
+    {
+      "symbol": "ORCL",
+      "bias": "bullish",
+      "key_levels": {
+        "calls_above": 191.99,
+        "target1": 198,
+        "target2": 200
+      },
+      "notes": "TikTok deal catalyst"
+    },
+    {
+      "symbol": "PLTR",
+      "bias": "bullish",
+      "key_levels": {
+        "hold_for_gap": 192.82
+      },
+      "notes": "Good momentum, gap fill higher"
+    },
+    {
+      "symbol": "NKE",
+      "bias": "bearish",
+      "key_levels": {
+        "short_at": 59,
+        "target1": 56,
+        "target2": 54
+      },
+      "notes": "China/tariff concerns, dead money for 4 years"
+    },
+    {
+      "symbol": "SBUX",
+      "bias": "watch_level",
+      "key_levels": {
+        "puts_below": 88.34
+      },
+      "notes": "Gap below to fill"
+    },
+    {
+      "symbol": "HD",
+      "bias": "bearish",
+      "key_levels": {
+        "puts_below": 345.11
+      },
+      "notes": "No follow-through"
+    }
+  ]
+}

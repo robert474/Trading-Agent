@@ -1,0 +1,445 @@
+{
+  "video_id": "E_OEDYclPr8",
+  "title": "Weekly Watchlist 09 22 25",
+  "date": "2025-09-22",
+  "duration_minutes": 16,
+  "extracted_at": "2025-12-20T20:49:28.806102",
+  "market_context": {
+    "overall_trend": "new all time highs - very difficult to short, dips being bought",
+    "key_events": [
+      "FOMC lowered rates 25bps - two more cuts baked in through year end",
+      "Lots of Fed speak this week - volatility possible",
+      "Powell speaking Tuesday 12:30 ET (9:30 PT) - be cognizant",
+      "Thursday: inventories, durable goods, GDP Q3, jobless claims",
+      "Friday: PCE, personal spending/income, consumer sentiment"
+    ],
+    "volatility_note": "Consumer sentiment dropping due to food inflation - restaurants repricing menus"
+  },
+  "zone_levels": [
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 654.0,
+      "timeframe": "daily",
+      "notes": "FOMC pushed down here then bought up hard"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "resistance",
+      "price": 660.0,
+      "timeframe": "daily",
+      "notes": "New ATH Thursday"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "bias",
+      "price": 658.0,
+      "timeframe": "daily",
+      "notes": "Very difficult to short - dips bought quickly"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "resistance",
+      "price": 600.0,
+      "timeframe": "daily",
+      "notes": "Targeting this psychological level"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "gap_below",
+      "price": 590.0,
+      "timeframe": "daily",
+      "notes": "Pulled to gap fill then bought right back up"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 244.0,
+      "timeframe": "daily",
+      "notes": "Pullback for calls to continue trend"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 240.0,
+      "timeframe": "daily",
+      "notes": "Retest level - no candle close below on 5min"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "resistance",
+      "price": 246.0,
+      "timeframe": "daily",
+      "notes": "iPhone release ripped 3% to here"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 228.0,
+      "timeframe": "1h",
+      "notes": "Sold here, bounced twice"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "resistance",
+      "price": 233.0,
+      "timeframe": "1h",
+      "notes": "Sold here, bounced twice"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 230.0,
+      "timeframe": "1h",
+      "notes": "Wait for pullback to go long"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "target",
+      "price": 236.0,
+      "timeframe": "daily",
+      "notes": "Target if 233 breaks"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "pattern",
+      "price": 231.0,
+      "timeframe": "1h",
+      "notes": "Higher low forming"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "support",
+      "price": 505.0,
+      "timeframe": "daily",
+      "notes": "Rounding bottom - bought up multiple times"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "resistance",
+      "price": 518.29,
+      "timeframe": "daily",
+      "notes": "Rejecting here - above goes to 522"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "support",
+      "price": 513.0,
+      "timeframe": "daily",
+      "notes": "Ideal pullback for longs"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "target",
+      "price": 522.0,
+      "timeframe": "daily",
+      "notes": "Target - no sellers above"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "resistance",
+      "price": 256.0,
+      "timeframe": "daily",
+      "notes": "Must get above - $3T club member"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "bias",
+      "price": 254.0,
+      "timeframe": "daily",
+      "notes": "ATH - stay away, don't know ceiling"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "support",
+      "price": 350.0,
+      "timeframe": "daily",
+      "notes": "Was basing below - broke above"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "gap_below",
+      "price": 340.0,
+      "timeframe": "daily",
+      "notes": "Small gap fill below"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "resistance",
+      "price": 400.0,
+      "timeframe": "daily",
+      "notes": "Current range"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "target",
+      "price": 439.0,
+      "timeframe": "daily",
+      "notes": "Momentum target"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "target",
+      "price": 456.0,
+      "timeframe": "daily",
+      "notes": "Extended target"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "pattern",
+      "price": 380.0,
+      "timeframe": "daily",
+      "notes": "Run up premarket, sell off pattern - higher lows trending up"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "resistance",
+      "price": 177.0,
+      "timeframe": "daily",
+      "notes": "Need above to move higher"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 170.0,
+      "timeframe": "daily",
+      "notes": "Pre-market low bounce"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "catalyst",
+      "price": 175.0,
+      "timeframe": "daily",
+      "notes": "$5B Intel investment created momentum"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "support",
+      "price": 150.0,
+      "timeframe": "daily",
+      "notes": "If grabbed calls here = huge winner"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "fib_618",
+      "price": 157.44,
+      "timeframe": "daily",
+      "notes": "Above this = going higher"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "fib_50",
+      "price": 155.0,
+      "timeframe": "daily",
+      "notes": "Consolidating in golden zone"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "bias",
+      "price": 152.0,
+      "timeframe": "daily",
+      "notes": "Retail sold on NVDA/Intel news - 'stupid money' - smart money bought dip"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "resistance",
+      "price": 189.0,
+      "timeframe": "daily",
+      "notes": "Prior high before selloff"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "support",
+      "price": 182.0,
+      "timeframe": "daily",
+      "notes": "Bounce for calls"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "target",
+      "price": 184.0,
+      "timeframe": "daily",
+      "notes": "First target"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "target",
+      "price": 187.0,
+      "timeframe": "daily",
+      "notes": "Extended target"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "support",
+      "price": 155.0,
+      "timeframe": "daily",
+      "notes": "Came here before Fed rate cut rally"
+    },
+    {
+      "ticker": "PANW",
+      "zone_type": "resistance",
+      "price": 221.0,
+      "timeframe": "daily",
+      "notes": "Watch for reject or breakout"
+    },
+    {
+      "ticker": "PANW",
+      "zone_type": "support",
+      "price": 166.0,
+      "timeframe": "daily",
+      "notes": "Sold off hard to here"
+    },
+    {
+      "ticker": "PANW",
+      "zone_type": "trendline",
+      "price": 208.0,
+      "timeframe": "daily",
+      "notes": "Super strong trendline"
+    },
+    {
+      "ticker": "FDX",
+      "zone_type": "support",
+      "price": 229.0,
+      "timeframe": "daily",
+      "notes": "Bottom of consolidation"
+    },
+    {
+      "ticker": "FDX",
+      "zone_type": "resistance",
+      "price": 234.0,
+      "timeframe": "daily",
+      "notes": "Top of consolidation"
+    },
+    {
+      "ticker": "FDX",
+      "zone_type": "bias",
+      "price": 231.0,
+      "timeframe": "daily",
+      "notes": "Beat earnings but tariff cost pressure concerns"
+    },
+    {
+      "ticker": "UPS",
+      "zone_type": "resistance",
+      "price": 84.28,
+      "timeframe": "daily",
+      "notes": "Above for bounce higher"
+    },
+    {
+      "ticker": "UPS",
+      "zone_type": "support",
+      "price": 81.95,
+      "timeframe": "daily",
+      "notes": "Target on weakness"
+    },
+    {
+      "ticker": "DIS",
+      "zone_type": "resistance",
+      "price": 113.41,
+      "timeframe": "daily",
+      "notes": "Need to recapture - in downtrend"
+    },
+    {
+      "ticker": "DIS",
+      "zone_type": "support",
+      "price": 110.0,
+      "timeframe": "daily",
+      "notes": "Put trade target"
+    },
+    {
+      "ticker": "DIS",
+      "zone_type": "gap_below",
+      "price": 108.0,
+      "timeframe": "daily",
+      "notes": "Gap fill target"
+    },
+    {
+      "ticker": "OKLO",
+      "zone_type": "resistance",
+      "price": 135.0,
+      "timeframe": "daily",
+      "notes": "From $5 to here - no earnings, insiders selling"
+    },
+    {
+      "ticker": "OKLO",
+      "zone_type": "target",
+      "price": 85.0,
+      "timeframe": "daily",
+      "notes": "Retrace target for puts"
+    },
+    {
+      "ticker": "OKLO",
+      "zone_type": "support",
+      "price": 50.0,
+      "timeframe": "monthly",
+      "notes": "Prior level"
+    },
+    {
+      "ticker": "OKLO",
+      "zone_type": "support",
+      "price": 24.0,
+      "timeframe": "monthly",
+      "notes": "Where smart money entered"
+    }
+  ],
+  "trade_signals": [
+    {
+      "ticker": "AAPL",
+      "direction": "long",
+      "entry_condition": "Pullback to 244",
+      "target": 250.0,
+      "reasoning": "iPhone release ripped 3% - continue trend higher"
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "long",
+      "entry_condition": "Pullback to 230",
+      "target": 236.0,
+      "reasoning": "Higher low forming on 1H"
+    },
+    {
+      "ticker": "MSFT",
+      "direction": "long",
+      "entry_condition": "Above 518.29",
+      "target": 522.0,
+      "reasoning": "Rounding bottom breakout - no sellers above"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "long",
+      "entry_condition": "Above 157.44 (618 fib)",
+      "target": 165.0,
+      "reasoning": "Retail panic sold (stupid money) - smart money bought dip"
+    },
+    {
+      "ticker": "DIS",
+      "direction": "short",
+      "entry_condition": "Below 113.41",
+      "target": 108.0,
+      "reasoning": "Downtrend - Jimmy Kimmel news, subscription cancellations coming"
+    },
+    {
+      "ticker": "OKLO",
+      "direction": "short",
+      "entry_condition": "LEAP puts 1 year out",
+      "target": 85.0,
+      "reasoning": "Meme stock $5 to $135, no earnings, insiders selling - what goes up insanely comes down"
+    }
+  ],
+  "key_insights": [
+    "Rate cut was preemptive - no economic data highly supported it",
+    "FOMC watching job market more than inflation now",
+    "Dips being bought quickly - very difficult to short at ATH",
+    "Wait for call trades rather than catch falling knife on puts",
+    "Retail panic selling = 'stupid money' - smart money buys dip (AMD example)",
+    "Pre-market liquidity can act as support even without price level",
+    "Consumer sentiment dropping due to food inflation",
+    "Meme stocks that go up insanely don't stay up - nobody keeps buying at top",
+    "When market gets greedy, they pile into anything with alpha (high movement, low valuation)",
+    "Market broadening to higher alpha/risk stocks as rate cuts begin"
+  ],
+  "methodology_notes": {
+    "rounding_bottom": "MSFT showed classic rounding bottom pattern for breakout",
+    "golden_zone": "AMD consolidating in 50-618 fib = bullish if breaks above",
+    "premarket_liquidity": "Watch where premarket low is - can act as intraday support"
+  }
+}

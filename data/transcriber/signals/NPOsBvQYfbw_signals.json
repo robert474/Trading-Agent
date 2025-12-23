@@ -1,0 +1,416 @@
+{
+  "video_id": "NPOsBvQYfbw",
+  "title": "Weekly Watchlist 12 01 25",
+  "date": "2025-12-01",
+  "duration_minutes": 14,
+  "extracted_at": "2025-12-20T20:31:15.984585",
+  "market_context": {
+    "overall_trend": "huge rally off lows, approaching ATH",
+    "key_events": [
+      "PMI and ISM manufacturing Monday within 15-30 min of open",
+      "Powell speaking Monday evening",
+      "ADP employment Wednesday - unemployment rate ticked up YoY",
+      "Jobless claims Thursday",
+      "Big Friday: Personal income/spending, PCE, consumer sentiment"
+    ],
+    "volatility_note": "Banks declining credit at highest rate in history, consumer credit at $1.4T"
+  },
+  "zone_levels": [
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 680.0,
+      "timeframe": "daily",
+      "notes": "Current level after rally from 11/24 lows"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "resistance",
+      "price": 683.66,
+      "timeframe": "daily",
+      "notes": "Price pivot to watch"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "resistance",
+      "price": 689.0,
+      "timeframe": "daily",
+      "notes": "All time high"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "target",
+      "price": 700.0,
+      "timeframe": "daily",
+      "notes": "Santa Claus rally blow off top target"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "support",
+      "price": 581.0,
+      "timeframe": "daily",
+      "notes": "Lows from recent move"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "gap_above",
+      "price": 626.0,
+      "timeframe": "daily",
+      "notes": "Gap fill target"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "bias",
+      "price": 600.0,
+      "timeframe": "daily",
+      "notes": "Wait for pullback to go long, don't short"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "resistance",
+      "price": 280.0,
+      "timeframe": "daily",
+      "notes": "Need to break for higher"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "resistance",
+      "price": 284.99,
+      "timeframe": "daily",
+      "notes": "Prior all time high"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 228.0,
+      "timeframe": "daily",
+      "notes": "Just above price level - favorite for Monday long"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "target",
+      "price": 240.0,
+      "timeframe": "daily",
+      "notes": "First target"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "target",
+      "price": 250.0,
+      "timeframe": "daily",
+      "notes": "Second target"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "resistance",
+      "price": 255.0,
+      "timeframe": "daily",
+      "notes": "Headwind level"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "resistance",
+      "price": 494.0,
+      "timeframe": "daily",
+      "notes": "Opposition - need above for 500s"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "target",
+      "price": 500.0,
+      "timeframe": "daily",
+      "notes": "Target if above 494"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "bias",
+      "price": 480.0,
+      "timeframe": "daily",
+      "notes": "Lagger - better opportunities elsewhere"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "support",
+      "price": 319.0,
+      "timeframe": "daily",
+      "notes": "Hold above for calls"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "gap_below",
+      "price": 305.0,
+      "timeframe": "daily",
+      "notes": "Gap below if market weak"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "bias",
+      "price": 325.0,
+      "timeframe": "daily",
+      "notes": "Exceptionally strong - Gemini 3 threat to NVDA"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "support",
+      "price": 580.0,
+      "timeframe": "daily",
+      "notes": "Consolidation low - great bounce"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "support",
+      "price": 647.0,
+      "timeframe": "daily",
+      "notes": "Current level - favorite for longs"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "fib_50",
+      "price": 670.0,
+      "timeframe": "daily",
+      "notes": "50 fib from pivot high to low"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "gap_above",
+      "price": 700.0,
+      "timeframe": "daily",
+      "notes": "Huge gap fill at top"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "bias",
+      "price": 660.0,
+      "timeframe": "daily",
+      "notes": "Cheapest PE in decades, more upside"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "support",
+      "price": 427.93,
+      "timeframe": "daily",
+      "notes": "Price target - hovering around"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "target",
+      "price": 440.0,
+      "timeframe": "daily",
+      "notes": "First target for longs"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "target",
+      "price": 450.0,
+      "timeframe": "daily",
+      "notes": "Second target"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 177.0,
+      "timeframe": "daily",
+      "notes": "Great demarcation level over time"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 167.0,
+      "timeframe": "daily",
+      "notes": "Ideal pickup level if weakness"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "gap_above",
+      "price": 204.0,
+      "timeframe": "4h",
+      "notes": "Gap above"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "bias",
+      "price": 175.0,
+      "timeframe": "daily",
+      "notes": "Struggling - Google Gemini 3 threat"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "support",
+      "price": 214.0,
+      "timeframe": "daily",
+      "notes": "Hold for longs"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "support",
+      "price": 205.0,
+      "timeframe": "daily",
+      "notes": "Gap top - called bounce here, printed big"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "gap_top",
+      "price": 195.0,
+      "timeframe": "daily",
+      "notes": "Gap fill level - watch third test"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "support",
+      "price": 166.78,
+      "timeframe": "daily",
+      "notes": "Hold for longs to 175"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "target",
+      "price": 175.0,
+      "timeframe": "daily",
+      "notes": "Target for calls"
+    },
+    {
+      "ticker": "MSTR",
+      "zone_type": "support",
+      "price": 374.0,
+      "timeframe": "daily",
+      "notes": "Bouncing off this level"
+    },
+    {
+      "ticker": "MSTR",
+      "zone_type": "support",
+      "price": 366.0,
+      "timeframe": "daily",
+      "notes": "Ideal entry if BTC at 80k"
+    },
+    {
+      "ticker": "MSTR",
+      "zone_type": "bias",
+      "price": 380.0,
+      "timeframe": "daily",
+      "notes": "Need BTC break 91k to 80k for setup"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "support",
+      "price": 127.78,
+      "timeframe": "daily",
+      "notes": "Hold for calls to 132"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "gap_below",
+      "price": 120.0,
+      "timeframe": "daily",
+      "notes": "Gap below from Tue-Wed"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "target",
+      "price": 132.0,
+      "timeframe": "daily",
+      "notes": "Target - only 30min supply"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "target",
+      "price": 153.0,
+      "timeframe": "daily",
+      "notes": "Prior high"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "target",
+      "price": 200.0,
+      "timeframe": "daily",
+      "notes": "Price target"
+    }
+  ],
+  "trade_signals": [
+    {
+      "ticker": "AMZN",
+      "direction": "long",
+      "entry_condition": "At open Monday, above price level",
+      "target": 240.0,
+      "reasoning": "Favorite for Monday - just above price level, not much headwind until 255"
+    },
+    {
+      "ticker": "META",
+      "direction": "long",
+      "entry_condition": "At 647",
+      "target": 670.0,
+      "reasoning": "Favorite for longs - cheapest PE in decades, huge gap above, not near 50 fib yet"
+    },
+    {
+      "ticker": "GOOGL",
+      "direction": "long",
+      "entry_condition": "Above 319",
+      "target": 330.0,
+      "reasoning": "Exceptionally strong - Gemini 3 leapfrogging tech, META approaching for chips"
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "long",
+      "entry_condition": "Above 427.93",
+      "target": 450.0,
+      "reasoning": "Picking up momentum, trade in black space between buyers and sellers"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "long",
+      "entry_condition": "Hold 214",
+      "target": 225.0,
+      "reasoning": "Recovered way better than NVDA, 205 calls printed huge from gap bounce"
+    },
+    {
+      "ticker": "HOOD",
+      "direction": "long",
+      "entry_condition": "Hold 127.78",
+      "target": 132.0,
+      "reasoning": "Relative strength, only 30min supply above, price target 200"
+    },
+    {
+      "ticker": "MSTR",
+      "direction": "long",
+      "entry_condition": "At 374 or 366 if BTC hits 80k",
+      "target": 400.0,
+      "reasoning": "Bouncing off 374, tied to BTC, calls to upside"
+    }
+  ],
+  "key_insights": [
+    "Banks declining credit at highest rate in history",
+    "Consumer credit at $1.4 trillion, auto delinquencies at ATH",
+    "Google Gemini 3 threatening Nvidia - why NVDA/AMD sold off",
+    "META approached Google for chips - could buy from GOOGL not NVDA",
+    "Trade in 'black space' - buyers below, sellers above, open field between",
+    "Chart gaps on daily timeframe only",
+    "As holidays near, volume drops - technicals become erratic",
+    "Size down positions near Christmas",
+    "Retailers doing better than expected (Kohls, TJ Maxx)"
+  ],
+  "earnings_this_week": [
+    {
+      "ticker": "DLTR",
+      "notes": "Dollar Tree - retailers doing well"
+    },
+    {
+      "ticker": "M",
+      "notes": "Macy's - potential play"
+    },
+    {
+      "ticker": "CRM",
+      "notes": "Salesforce"
+    },
+    {
+      "ticker": "KR",
+      "notes": "Kroger - listen for inflation/tariff food comments"
+    },
+    {
+      "ticker": "DOCU",
+      "notes": "DocuSign"
+    },
+    {
+      "ticker": "ULTA",
+      "notes": "Favorite that got beaten down and recovered"
+    }
+  ]
+}

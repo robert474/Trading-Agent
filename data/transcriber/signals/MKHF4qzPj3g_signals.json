@@ -1,0 +1,460 @@
+{
+  "video_id": "MKHF4qzPj3g",
+  "title": "Weekly Watchlist 12 08 25",
+  "date": "2025-12-08",
+  "duration_minutes": 22,
+  "extracted_at": "2025-12-20T20:29:55.657193",
+  "market_context": {
+    "overall_trend": "approaching all time highs",
+    "key_events": [
+      "FOMC rate decision Wednesday 2pm ET - 90% expect rate cut",
+      "Job openings Tuesday",
+      "Initial jobless claims Thursday",
+      "Do NOT trade Wednesday morning - premiums 2-3x normal"
+    ],
+    "volatility_note": "FOMC week - volatility picks up, options premiums expensive"
+  },
+  "zone_levels": [
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 684.0,
+      "timeframe": "daily",
+      "notes": "Did not want to close below - two bounces"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "resistance",
+      "price": 686.0,
+      "timeframe": "daily",
+      "notes": "Need to break for higher"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "resistance",
+      "price": 689.0,
+      "timeframe": "daily",
+      "notes": "All time high"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "support",
+      "price": 624.0,
+      "timeframe": "daily",
+      "notes": "Channel low - puts below"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "resistance",
+      "price": 626.0,
+      "timeframe": "daily",
+      "notes": "Channel high - calls above"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "support",
+      "price": 620.0,
+      "timeframe": "daily",
+      "notes": "Lose this go to 618"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "support",
+      "price": 618.0,
+      "timeframe": "daily",
+      "notes": "Key support"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "resistance",
+      "price": 637.0,
+      "timeframe": "daily",
+      "notes": "All time high"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "resistance",
+      "price": 288.0,
+      "timeframe": "daily",
+      "notes": "Made new ATH here"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 280.0,
+      "timeframe": "daily",
+      "notes": "Current consolidation"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 277.0,
+      "timeframe": "daily",
+      "notes": "Calls here - lots of buyers below"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 276.0,
+      "timeframe": "4h",
+      "notes": "Interim level - held tight"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "fib_618",
+      "price": 278.0,
+      "timeframe": "4h",
+      "notes": "Rejected 618 fib"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "resistance",
+      "price": 239.0,
+      "timeframe": "daily",
+      "notes": "Recent highs"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 229.0,
+      "timeframe": "daily",
+      "notes": "Consolidation low"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 228.76,
+      "timeframe": "daily",
+      "notes": "Break for lower"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "fib_55",
+      "price": 230.0,
+      "timeframe": "4h",
+      "notes": "Bounced at 55 fib - expect higher"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "resistance",
+      "price": 555.0,
+      "timeframe": "daily",
+      "notes": "Double top area"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "support",
+      "price": 480.0,
+      "timeframe": "daily",
+      "notes": "Closed above - watch for gap fill reject"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "gap_above",
+      "price": 485.0,
+      "timeframe": "daily",
+      "notes": "Small gap on daily"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "gap_below",
+      "price": 310.0,
+      "timeframe": "daily",
+      "notes": "Gap fill below"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "support",
+      "price": 313.0,
+      "timeframe": "4h",
+      "notes": "Better buy zone if pullback"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "bias",
+      "price": 320.0,
+      "timeframe": "daily",
+      "notes": "Calls to ATH - relative strength"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "support",
+      "price": 452.0,
+      "timeframe": "daily",
+      "notes": "Holding price level - calls here"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "resistance",
+      "price": 466.0,
+      "timeframe": "daily",
+      "notes": "Target - sells off hard each time"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "gap_below",
+      "price": 640.0,
+      "timeframe": "daily",
+      "notes": "Bounced at top of gap multiple times"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "gap_above",
+      "price": 680.0,
+      "timeframe": "daily",
+      "notes": "Big gap above"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "bias",
+      "price": 650.0,
+      "timeframe": "daily",
+      "notes": "Long term push higher"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 179.0,
+      "timeframe": "4h",
+      "notes": "Range low"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "resistance",
+      "price": 184.0,
+      "timeframe": "4h",
+      "notes": "Range high"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 181.0,
+      "timeframe": "1h",
+      "notes": "Friday kept pulling this level"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "resistance",
+      "price": 183.0,
+      "timeframe": "1h",
+      "notes": "Narrow range"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "support",
+      "price": 214.0,
+      "timeframe": "daily",
+      "notes": "Holding level - calls here"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "gap_top",
+      "price": 195.0,
+      "timeframe": "daily",
+      "notes": "Bouncing off gap top since Oct 3"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "fib_50",
+      "price": 175.0,
+      "timeframe": "4h",
+      "notes": "Above 50 fib - bullish"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "fib_618",
+      "price": 184.61,
+      "timeframe": "4h",
+      "notes": "Top of golden zone - watch for reject"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "bias",
+      "price": 190.0,
+      "timeframe": "daily",
+      "notes": "Calls not puts - buying all week"
+    },
+    {
+      "ticker": "LULU",
+      "zone_type": "gap_bottom",
+      "price": 380.0,
+      "timeframe": "4h",
+      "notes": "Pull back here to go long"
+    },
+    {
+      "ticker": "LULU",
+      "zone_type": "fib_618",
+      "price": 395.0,
+      "timeframe": "4h",
+      "notes": "Sitting above 618 - bullish"
+    },
+    {
+      "ticker": "COST",
+      "zone_type": "support",
+      "price": 895.0,
+      "timeframe": "daily",
+      "notes": "Prior pivot - closed below"
+    },
+    {
+      "ticker": "COST",
+      "zone_type": "trendline",
+      "price": 880.0,
+      "timeframe": "4h",
+      "notes": "Strong 4H trendline - don't break"
+    },
+    {
+      "ticker": "COST",
+      "zone_type": "gap_above",
+      "price": 920.0,
+      "timeframe": "daily",
+      "notes": "Gap fill above"
+    },
+    {
+      "ticker": "COST",
+      "zone_type": "bias",
+      "price": 890.0,
+      "timeframe": "daily",
+      "notes": "Longs vs puts - like Walmart strength"
+    },
+    {
+      "ticker": "RH",
+      "zone_type": "support",
+      "price": 139.0,
+      "timeframe": "daily",
+      "notes": "Found base here"
+    },
+    {
+      "ticker": "RH",
+      "zone_type": "resistance",
+      "price": 166.0,
+      "timeframe": "daily",
+      "notes": "Break above for longs to 207"
+    },
+    {
+      "ticker": "RH",
+      "zone_type": "target",
+      "price": 207.0,
+      "timeframe": "daily",
+      "notes": "Target if above 166"
+    },
+    {
+      "ticker": "ORCL",
+      "zone_type": "resistance",
+      "price": 345.0,
+      "timeframe": "daily",
+      "notes": "Prior earnings spike high"
+    },
+    {
+      "ticker": "ORCL",
+      "zone_type": "gap_bottom",
+      "price": 220.0,
+      "timeframe": "daily",
+      "notes": "Lower gap - bouncing at top"
+    },
+    {
+      "ticker": "ORCL",
+      "zone_type": "resistance",
+      "price": 256.0,
+      "timeframe": "daily",
+      "notes": "Key pivot level - was support now resistance"
+    },
+    {
+      "ticker": "ORCL",
+      "zone_type": "resistance",
+      "price": 257.0,
+      "timeframe": "daily",
+      "notes": "Lost this level - held for days before"
+    }
+  ],
+  "trade_signals": [
+    {
+      "ticker": "SPY",
+      "direction": "long",
+      "entry_condition": "Above 686",
+      "target": 689.0,
+      "reasoning": "90% expect rate cut, approaching ATH, don't like puts"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "long",
+      "entry_condition": "Above 626",
+      "target": 637.0,
+      "reasoning": "Gap fill above, more trajectory to ATH than SPY"
+    },
+    {
+      "ticker": "AAPL",
+      "direction": "long",
+      "entry_condition": "At 277",
+      "target": 288.0,
+      "reasoning": "Lots of buyers below, rejected 618 fib consolidating"
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "long",
+      "entry_condition": "Holding above 228.76",
+      "target": 239.0,
+      "reasoning": "Bounced at 55 fib, expect higher before lower"
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "long",
+      "entry_condition": "Pullback to 452",
+      "target": 466.0,
+      "reasoning": "Holding price level, relative strength"
+    },
+    {
+      "ticker": "PLTR",
+      "direction": "long",
+      "entry_condition": "Above 184.61 (618 fib)",
+      "target": 195.0,
+      "reasoning": "In golden zone, no reject, buying all week Tue-Fri"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "long",
+      "entry_condition": "At 214",
+      "target": 225.0,
+      "reasoning": "Holding level, relative weakness but bouncing"
+    },
+    {
+      "ticker": "RH",
+      "direction": "long",
+      "entry_condition": "Above 166",
+      "target": 207.0,
+      "reasoning": "Earnings Thursday - moves 5-20%, positive catalyst expected"
+    }
+  ],
+  "key_insights": [
+    "FOMC week: Do NOT trade Wednesday morning - premiums 2-3x normal",
+    "Wait for press conference to end before trading Wednesday",
+    "90% of analysts expect quarter point rate cut",
+    "If no rate cut - market sells off hard and fast",
+    "Market broadening - Mag 7 no longer leading",
+    "Only GOOGL and NVDA beating S&P YTD",
+    "Trade the charts, don't trade your emotions",
+    "Gap fills only on daily timeframe",
+    "Oracle debt concerns - unsustainable growth projections"
+  ],
+  "earnings_this_week": [
+    {
+      "ticker": "LULU",
+      "date": "Thursday",
+      "notes": "In gap fill, above 618 fib bullish"
+    },
+    {
+      "ticker": "COST",
+      "date": "This week",
+      "notes": "Suing govt over tariffs, longs vs puts"
+    },
+    {
+      "ticker": "RH",
+      "date": "Thursday",
+      "notes": "Wild card, moves 5-20%"
+    },
+    {
+      "ticker": "ORCL",
+      "date": "This week",
+      "notes": "Debt concerns, sold off hard after last earnings"
+    }
+  ]
+}

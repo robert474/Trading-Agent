@@ -1,0 +1,112 @@
+# Trading Agent API Integrations Configuration
+# =============================================
+
+# Market Data Provider
+polygon:
+  api_key: ${POLYGON_API_KEY}
+  websocket_url: wss://socket.polygon.io/stocks
+  rest_url: https://api.polygon.io
+  features:
+    - real_time_quotes
+    - trades
+    - aggregates
+    - options_quotes
+
+# Brokerage
+tradier:
+  account_id: ${TRADIER_ACCOUNT_ID}
+  access_token: ${TRADIER_ACCESS_TOKEN}
+  sandbox: ${TRADIER_SANDBOX:true}
+  sandbox_url: https://sandbox.tradier.com/v1
+  live_url: https://api.tradier.com/v1
+  features:
+    - equity_orders
+    - option_orders
+    - oco_orders
+    - bracket_orders
+    - streaming
+
+# LLM Provider
+anthropic:
+  api_key: ${ANTHROPIC_API_KEY}
+  model: claude-sonnet-4-5-20250929
+  max_tokens: 4096
+
+# Database
+database:
+  host: ${DB_HOST:localhost}
+  port: ${DB_PORT:5432}
+  name: ${DB_NAME:trading_bot}
+  user: ${DB_USER:postgres}
+  password: ${DB_PASSWORD}
+
+# Redis
+redis:
+  host: ${REDIS_HOST:localhost}
+  port: ${REDIS_PORT:6379}
+
+# Monitoring
+discord:
+  webhook_url: ${DISCORD_WEBHOOK_URL}
+  alerts:
+    - trade_signal
+    - trade_executed
+    - stop_loss_hit
+    - target_reached
+    - daily_summary
+    - risk_warning
+    - system_status
+
+# Trading Configuration
+trading:
+  mode: ${TRADING_MODE:paper}
+  timezone: America/New_York
+  market_hours:
+    start: "09:30"
+    end: "16:00"
+  pre_market_start: "04:00"
+  after_hours_end: "20:00"
+
+# Default Watchlist
+watchlist:
+  - AAPL
+  - MSFT
+  - NVDA
+  - AMD
+  - TSLA
+  - SPY
+  - QQQ
+  - META
+  - GOOGL
+  - AMZN
+
+# Risk Management Defaults
+risk:
+  max_position_size_pct: 0.05
+  max_daily_loss_pct: 0.02
+  max_total_exposure_pct: 0.25
+  max_positions: 5
+  max_loss_per_trade_pct: 0.01
+  min_risk_reward: 2.0
+  max_options_dte: 14
+  min_options_dte: 3
+
+# Zone Detection Parameters
+zone_detection:
+  min_departure_candles: 2
+  min_departure_percent: 0.5
+  max_candles_in_zone: 4
+  min_body_percent: 0.5
+  timeframes:
+    - 5m
+    - 15m
+    - 1h
+    - 4h
+
+# Options Selection Criteria
+options:
+  target_delta: 0.55
+  min_delta: 0.45
+  max_delta: 0.70
+  min_open_interest: 500
+  max_spread_percent: 0.10

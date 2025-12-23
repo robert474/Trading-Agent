@@ -1,0 +1,411 @@
+{
+  "video_id": "VrlH-k_ivfE",
+  "title": "Weekly Watchlist 10 20 25",
+  "date": "2025-10-20",
+  "duration_minutes": 20,
+  "extracted_at": "2025-12-20T20:45:47.764243",
+  "market_context": {
+    "overall_trend": "consolidation near ATH with bank credit scare creating volatility",
+    "key_events": [
+      "Regional bank credit delinquencies/fraud in auto industry",
+      "Average car now $50k+ with 8-9% loan rates, $800-1200/mo payments",
+      "VIX above 20 - more volatility than normal",
+      "Government shutdown - no economic data until reopens",
+      "Big tech earnings next week will move needle"
+    ],
+    "volatility_note": "Whipsaw price action - big wicks up and down - dangerous for trading"
+  },
+  "zone_levels": [
+    {
+      "ticker": "NQ",
+      "zone_type": "support",
+      "price": 20500.0,
+      "timeframe": "daily",
+      "notes": "Market observing liquidity zones"
+    },
+    {
+      "ticker": "NQ",
+      "zone_type": "interim",
+      "price": 20400.0,
+      "timeframe": "daily",
+      "notes": "Pushed down, reverted higher"
+    },
+    {
+      "ticker": "ES",
+      "zone_type": "range_high",
+      "price": 6715.0,
+      "timeframe": "daily",
+      "notes": "Candle bodies stuck here"
+    },
+    {
+      "ticker": "ES",
+      "zone_type": "range_low",
+      "price": 6659.0,
+      "timeframe": "daily",
+      "notes": "Can't get below - multiple tests"
+    },
+    {
+      "ticker": "ES",
+      "zone_type": "bias",
+      "price": 6680.0,
+      "timeframe": "daily",
+      "notes": "Buy calls at bottom, puts at top of range"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 660.0,
+      "timeframe": "1h",
+      "notes": "Holding fairly steady"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "resistance",
+      "price": 673.0,
+      "timeframe": "daily",
+      "notes": "ATH only 10 points away"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "bias",
+      "price": 665.0,
+      "timeframe": "1h",
+      "notes": "Recovered 80% of Thursday selloff overnight"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "resistance",
+      "price": 607.0,
+      "timeframe": "daily",
+      "notes": "Can't get above - failed Wed/Thu"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "pattern",
+      "price": 600.0,
+      "timeframe": "1h",
+      "notes": "Watch for HH-HL-LH-LL pattern"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 244.0,
+      "timeframe": "daily",
+      "notes": "Holding level was good"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "resistance",
+      "price": 250.0,
+      "timeframe": "daily",
+      "notes": "Sellers here - favor puts over calls"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "bias",
+      "price": 247.0,
+      "timeframe": "daily",
+      "notes": "iPhone sellout in China ran it up"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 209.0,
+      "timeframe": "daily",
+      "notes": "Lots of buyers here and 210"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "pattern",
+      "price": 215.0,
+      "timeframe": "1h",
+      "notes": "Downtrend: high-low-lower high pattern"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "trendline",
+      "price": 212.0,
+      "timeframe": "1h",
+      "notes": "Wedge forming - calls on break above"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "range",
+      "price": 520.0,
+      "timeframe": "1h",
+      "notes": "Moving about $5 (1%) - buyers/sellers balanced"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "bias",
+      "price": 518.0,
+      "timeframe": "1h",
+      "notes": "Would not trade - no black space"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "resistance",
+      "price": 310.0,
+      "timeframe": "daily",
+      "notes": "Back to ATH - risk/reward not in favor"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "bias",
+      "price": 305.0,
+      "timeframe": "daily",
+      "notes": "Google at ATH won't drag up whole ETF"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "resistance",
+      "price": 195.0,
+      "timeframe": "daily",
+      "notes": "Was here last Friday"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 180.0,
+      "timeframe": "1h",
+      "notes": "Want to buy calls here"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "pattern",
+      "price": 185.0,
+      "timeframe": "1h",
+      "notes": "Downtrend: lower highs, holding lows"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "pivot",
+      "price": 188.0,
+      "timeframe": "1h",
+      "notes": "Watch this pivot for reversal"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "resistance",
+      "price": 280.0,
+      "timeframe": "daily",
+      "notes": "ATH - would not touch, premiums expensive"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "bias",
+      "price": 275.0,
+      "timeframe": "daily",
+      "notes": "Was $40 a year ago - great run but overextended"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "support",
+      "price": 693.0,
+      "timeframe": "1h",
+      "notes": "Really solid during week"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "resistance",
+      "price": 705.0,
+      "timeframe": "daily",
+      "notes": "Holding this level"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "resistance",
+      "price": 723.0,
+      "timeframe": "daily",
+      "notes": "Top of consolidation range"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "target",
+      "price": 900.0,
+      "timeframe": "daily",
+      "notes": "Analyst upgrade price target"
+    },
+    {
+      "ticker": "JPM",
+      "zone_type": "support",
+      "price": 296.0,
+      "timeframe": "daily",
+      "notes": "Into demand zone"
+    },
+    {
+      "ticker": "JPM",
+      "zone_type": "support",
+      "price": 292.0,
+      "timeframe": "daily",
+      "notes": "Pushed lower then recovered"
+    },
+    {
+      "ticker": "JPM",
+      "zone_type": "bias",
+      "price": 300.0,
+      "timeframe": "daily",
+      "notes": "If banks recover, SPY moves higher"
+    },
+    {
+      "ticker": "BAC",
+      "zone_type": "support",
+      "price": 46.0,
+      "timeframe": "daily",
+      "notes": "Overdone bounce"
+    },
+    {
+      "ticker": "BAC",
+      "zone_type": "bias",
+      "price": 48.0,
+      "timeframe": "daily",
+      "notes": "Wide range - watch for catalyst"
+    },
+    {
+      "ticker": "WFC",
+      "zone_type": "fib_golden",
+      "price": 82.39,
+      "timeframe": "daily",
+      "notes": "Bouncing exactly at golden zone"
+    },
+    {
+      "ticker": "WFC",
+      "zone_type": "support",
+      "price": 81.2,
+      "timeframe": "daily",
+      "notes": "Buy calls here"
+    },
+    {
+      "ticker": "WFC",
+      "zone_type": "support",
+      "price": 80.97,
+      "timeframe": "daily",
+      "notes": "Price level for calls"
+    },
+    {
+      "ticker": "WFC",
+      "zone_type": "interim",
+      "price": 83.0,
+      "timeframe": "1h",
+      "notes": "Watch this level - pivot area"
+    },
+    {
+      "ticker": "DPST",
+      "zone_type": "support",
+      "price": 81.57,
+      "timeframe": "daily",
+      "notes": "Bill bought equity here"
+    },
+    {
+      "ticker": "DPST",
+      "zone_type": "support",
+      "price": 70.0,
+      "timeframe": "daily",
+      "notes": "Credit scare low - oversold"
+    },
+    {
+      "ticker": "DPST",
+      "zone_type": "fib_50",
+      "price": 86.3,
+      "timeframe": "daily",
+      "notes": "Price target for 50% retrace"
+    },
+    {
+      "ticker": "DPST",
+      "zone_type": "target",
+      "price": 90.0,
+      "timeframe": "daily",
+      "notes": "Reclaim target"
+    },
+    {
+      "ticker": "DPST",
+      "zone_type": "resistance",
+      "price": 118.0,
+      "timeframe": "daily",
+      "notes": "Was here Sept 5 - 35-40% upside"
+    }
+  ],
+  "trade_signals": [
+    {
+      "ticker": "ES",
+      "direction": "range",
+      "entry_condition": "Calls at 6659, puts at 6715",
+      "target": "Opposite end of range",
+      "reasoning": "Tight consolidation - buy bottom sell top"
+    },
+    {
+      "ticker": "AAPL",
+      "direction": "short",
+      "entry_condition": "At sellers near 250",
+      "target": 244.0,
+      "reasoning": "More in favor of puts than calls - sold into strength"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "long",
+      "entry_condition": "At 180 support",
+      "target": 195.0,
+      "reasoning": "Downtrend but holding lows - buy at bottom of range"
+    },
+    {
+      "ticker": "WFC",
+      "direction": "long",
+      "entry_condition": "At 81.20 or 80.97",
+      "target": 86.0,
+      "reasoning": "Bouncing at golden zone fib - safe buy if holds"
+    },
+    {
+      "ticker": "DPST",
+      "direction": "long",
+      "entry_condition": "At 70-82 (Bill has equity)",
+      "target": 86.3,
+      "reasoning": "Overdone selloff on credit scare - fire sale on banks"
+    }
+  ],
+  "key_insights": [
+    "Whipsaw candles (big wicks up and down) = dangerous trading conditions",
+    "VIX above 20 = more volatility than normal",
+    "When banks scared, they 'throw out baby with bath water' - don't ask questions",
+    "Banks need to stabilize for SPY to move higher",
+    "Stick with same basket of stocks - don't chase unfamiliar names",
+    "Stock characteristics matter - TSLA trades different than AAPL",
+    "Buy calls at bottom of range, puts at top - don't chase middle",
+    "Watch for HH-HL-LH-LL patterns to identify trends",
+    "Bank stocks move slowly - use fibs for entries",
+    "Buy bank stocks on fire sales - they recover fast"
+  ],
+  "earnings_this_week": [
+    {
+      "ticker": "NFLX",
+      "notes": "Hovering in consolidation - depends on outlook"
+    },
+    {
+      "ticker": "TSLA",
+      "notes": "Stuck in range - market heavily anticipating"
+    },
+    {
+      "ticker": "INTC",
+      "notes": "Capital infusion news"
+    },
+    {
+      "ticker": "AAL",
+      "notes": "American Airlines"
+    },
+    {
+      "ticker": "LUV",
+      "notes": "Southwest"
+    },
+    {
+      "ticker": "GM",
+      "notes": "EV credit expired Sept 30 - pull forward"
+    },
+    {
+      "ticker": "F",
+      "notes": "Ford"
+    },
+    {
+      "ticker": "Regional banks",
+      "notes": "Credit delinquency concerns"
+    }
+  ]
+}

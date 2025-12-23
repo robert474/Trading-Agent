@@ -1,0 +1,517 @@
+{
+  "video_id": "lPVmk3gfkac",
+  "title": "Weekly Watchlist 11 03 25",
+  "date": "2025-11-03",
+  "duration_minutes": 28,
+  "extracted_at": "2025-12-20T20:44:26.331667",
+  "market_context": {
+    "overall_trend": "not making new ATH after big tech earnings - buy rumor sell news",
+    "key_events": [
+      "Government shutdown - delayed economic data",
+      "PMI/ISM manufacturing Monday 9:45-10:00",
+      "ADP employment Wednesday",
+      "Consumer spending/credit Friday Nov 7",
+      "Powell: December rate cut not slam dunk"
+    ],
+    "volatility_note": "Volume declining into Nov/Dec - fund managers protecting YTD gains"
+  },
+  "zone_levels": [
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 621.28,
+      "timeframe": "daily",
+      "notes": "Must hold - below go short into gap"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "gap_top",
+      "price": 679.25,
+      "timeframe": "daily",
+      "notes": "Revised gap - only 75bps"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "demand",
+      "price": 666.0,
+      "timeframe": "4h",
+      "notes": "Heavy buyers here"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "resistance",
+      "price": 629.28,
+      "timeframe": "daily",
+      "notes": "Below this level - puts relevant"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "gap_below",
+      "price": 615.0,
+      "timeframe": "daily",
+      "notes": "Huge gap below if tech weakens"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 269.0,
+      "timeframe": "daily",
+      "notes": "Call trade worked here to 272"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "resistance",
+      "price": 275.0,
+      "timeframe": "daily",
+      "notes": "Ran up 4% on earnings then sold"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "bias",
+      "price": 270.0,
+      "timeframe": "daily",
+      "notes": "Berkshire sold 30M shares - peaked out?"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "gap_below",
+      "price": 285.0,
+      "timeframe": "daily",
+      "notes": "Gap fill to downside"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "bias",
+      "price": 290.0,
+      "timeframe": "daily",
+      "notes": "Buy rumor sell news - pullback coming"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "support",
+      "price": 517.0,
+      "timeframe": "daily",
+      "notes": "Watch this level"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "support",
+      "price": 513.0,
+      "timeframe": "daily",
+      "notes": "Next level down"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "support",
+      "price": 506.0,
+      "timeframe": "daily",
+      "notes": "Ultimate support"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "gap_above",
+      "price": 800.0,
+      "timeframe": "daily",
+      "notes": "Huge gap created above"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "fib_golden",
+      "price": 622.0,
+      "timeframe": "daily",
+      "notes": "Call trade area - golden zone"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "gap_top",
+      "price": 610.0,
+      "timeframe": "daily",
+      "notes": "Top of gap fill"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "support",
+      "price": 600.0,
+      "timeframe": "daily",
+      "notes": "Pick up shares here - 8-9% lower"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "bias",
+      "price": 615.0,
+      "timeframe": "daily",
+      "notes": "AI spend spooked market - lowest RSI valuation ever"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "resistance",
+      "price": 450.0,
+      "timeframe": "daily",
+      "notes": "Lots of chop above this"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "support",
+      "price": 444.0,
+      "timeframe": "daily",
+      "notes": "Good bounce level"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "support",
+      "price": 439.0,
+      "timeframe": "daily",
+      "notes": "Tested twice"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "target",
+      "price": 400.0,
+      "timeframe": "daily",
+      "notes": "Like to see here - 10% lower"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "gap_below",
+      "price": 420.0,
+      "timeframe": "daily",
+      "notes": "Gap to close for higher"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "resistance",
+      "price": 212.0,
+      "timeframe": "daily",
+      "notes": "All time high area"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 202.0,
+      "timeframe": "daily",
+      "notes": "Break for weakness to 195"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 200.0,
+      "timeframe": "daily",
+      "notes": "No buyers below this"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 195.0,
+      "timeframe": "daily",
+      "notes": "Target if 202 breaks"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 188.0,
+      "timeframe": "daily",
+      "notes": "Ultimate support"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "resistance",
+      "price": 260.0,
+      "timeframe": "daily",
+      "notes": "Puts here"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "support",
+      "price": 253.0,
+      "timeframe": "daily",
+      "notes": "Calls here"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "fib_golden",
+      "price": 256.0,
+      "timeframe": "daily",
+      "notes": "Rejected in golden zone Friday"
+    },
+    {
+      "ticker": "INTC",
+      "zone_type": "gap_below",
+      "price": 38.0,
+      "timeframe": "daily",
+      "notes": "Nice gap above"
+    },
+    {
+      "ticker": "INTC",
+      "zone_type": "support",
+      "price": 39.35,
+      "timeframe": "daily",
+      "notes": "Bounce area - below use puts"
+    },
+    {
+      "ticker": "SMCI",
+      "zone_type": "support",
+      "price": 50.2,
+      "timeframe": "4h",
+      "notes": "Holding all week - multiple bounces"
+    },
+    {
+      "ticker": "SMCI",
+      "zone_type": "resistance",
+      "price": 62.36,
+      "timeframe": "4h",
+      "notes": "Break above for longs"
+    },
+    {
+      "ticker": "SMCI",
+      "zone_type": "resistance",
+      "price": 59.01,
+      "timeframe": "4h",
+      "notes": "Top of trend where breakdown started"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "resistance",
+      "price": 200.0,
+      "timeframe": "daily",
+      "notes": "ATH - NVDA partnership catalyst"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "bias",
+      "price": 195.0,
+      "timeframe": "daily",
+      "notes": "Wait for earnings - gambling either way"
+    },
+    {
+      "ticker": "PYPL",
+      "zone_type": "support",
+      "price": 67.92,
+      "timeframe": "daily",
+      "notes": "Pullback for longs"
+    },
+    {
+      "ticker": "PYPL",
+      "zone_type": "support",
+      "price": 66.5,
+      "timeframe": "daily",
+      "notes": "Below this consider puts"
+    },
+    {
+      "ticker": "DKNG",
+      "zone_type": "support",
+      "price": 32.0,
+      "timeframe": "daily",
+      "notes": "Holding solid - exit if below"
+    },
+    {
+      "ticker": "DKNG",
+      "zone_type": "resistance",
+      "price": 50.0,
+      "timeframe": "daily",
+      "notes": "Was here Sept 25 - predictions market fear"
+    },
+    {
+      "ticker": "DKNG",
+      "zone_type": "pattern",
+      "price": 40.0,
+      "timeframe": "weekly",
+      "notes": "Head and shoulders pattern - channel 30-50"
+    },
+    {
+      "ticker": "SHOP",
+      "zone_type": "resistance",
+      "price": 173.0,
+      "timeframe": "monthly",
+      "notes": "Double top from Nov 2021"
+    },
+    {
+      "ticker": "SHOP",
+      "zone_type": "support",
+      "price": 100.0,
+      "timeframe": "monthly",
+      "notes": "Was at 40 after COVID crash"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "support",
+      "price": 137.0,
+      "timeframe": "daily",
+      "notes": "Huge day Friday with BTC"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "resistance",
+      "price": 150.0,
+      "timeframe": "daily",
+      "notes": "Recent high"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "target",
+      "price": 200.0,
+      "timeframe": "daily",
+      "notes": "Price target"
+    },
+    {
+      "ticker": "HOOD",
+      "zone_type": "support",
+      "price": 137.13,
+      "timeframe": "daily",
+      "notes": "Balance/bounce level"
+    },
+    {
+      "ticker": "COIN",
+      "zone_type": "support",
+      "price": 334.43,
+      "timeframe": "daily",
+      "notes": "Calls here if weakening"
+    },
+    {
+      "ticker": "COIN",
+      "zone_type": "support",
+      "price": 333.0,
+      "timeframe": "daily",
+      "notes": "Consolidation level"
+    },
+    {
+      "ticker": "COIN",
+      "zone_type": "support",
+      "price": 300.0,
+      "timeframe": "daily",
+      "notes": "Psychological - puts below"
+    },
+    {
+      "ticker": "COIN",
+      "zone_type": "support",
+      "price": 290.0,
+      "timeframe": "daily",
+      "notes": "Lots of buyers - puts below"
+    },
+    {
+      "ticker": "MCD",
+      "zone_type": "support",
+      "price": 297.15,
+      "timeframe": "daily",
+      "notes": "Break for puts"
+    },
+    {
+      "ticker": "MCD",
+      "zone_type": "resistance",
+      "price": 311.0,
+      "timeframe": "daily",
+      "notes": "Sell upside call spread here"
+    },
+    {
+      "ticker": "MCD",
+      "zone_type": "resistance",
+      "price": 319.0,
+      "timeframe": "daily",
+      "notes": "Pivot high for spread"
+    },
+    {
+      "ticker": "MCD",
+      "zone_type": "trendline",
+      "price": 305.0,
+      "timeframe": "daily",
+      "notes": "Running on trendline"
+    }
+  ],
+  "trade_signals": [
+    {
+      "ticker": "SPY",
+      "direction": "short",
+      "entry_condition": "Below 621.28",
+      "target": 666.0,
+      "reasoning": "Not making new ATH after tech earnings, gap below"
+    },
+    {
+      "ticker": "META",
+      "direction": "long",
+      "entry_condition": "At 622 (golden zone) or 600 (gap fill)",
+      "target": 680.0,
+      "reasoning": "Trading at lowest RSI valuation ever, AI spend fear overdone"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "short",
+      "entry_condition": "Below 202 with market weakness",
+      "target": 195.0,
+      "reasoning": "Down 5% from ATH, no buyers below 200"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "short",
+      "entry_condition": "At 260",
+      "target": 253.0,
+      "reasoning": "Rejected in golden zone Friday"
+    },
+    {
+      "ticker": "COIN",
+      "direction": "long",
+      "entry_condition": "At 334.43 on weakness",
+      "target": 360.0,
+      "reasoning": "Don't short into strength - lots of buyers"
+    },
+    {
+      "ticker": "MCD",
+      "direction": "short",
+      "entry_condition": "Put spread: sell 311 call, buy 319 call",
+      "target": "Collect premium",
+      "reasoning": "Restaurants struggling - Chipotle decimated, people eating at home"
+    }
+  ],
+  "key_insights": [
+    "Buy the rumor, sell the news - all big tech did this pattern",
+    "Top 10 names control 40% of market - breadth getting exhausted",
+    "Warren Buffett indicator: Market more overvalued than .com bubble and pre-COVID",
+    "Berkshire sold 30M Apple shares Q3 - largest cash pile in history",
+    "AI spend concern: Will ROI materialize? Market skeptical",
+    "Don't fight strength - when everything green and one red, unlikely to continue",
+    "Volume declining Nov/Dec - size down positions",
+    "Fund managers protecting YTD gains - not risking at year end",
+    "Wait for earnings to announce, then trade the reaction",
+    "Government shutdown delaying economic data"
+  ],
+  "earnings_this_week": [
+    {
+      "ticker": "PLTR",
+      "day": "Monday after close",
+      "notes": "At ATH - gambling either way"
+    },
+    {
+      "ticker": "AMD",
+      "day": "This week",
+      "notes": "Chips"
+    },
+    {
+      "ticker": "SMCI",
+      "day": "This week",
+      "notes": "Wedge pattern forming"
+    },
+    {
+      "ticker": "UBER",
+      "day": "This week",
+      "notes": "Retail"
+    },
+    {
+      "ticker": "SHOP",
+      "day": "Tuesday AM",
+      "notes": "Double top monthly chart"
+    },
+    {
+      "ticker": "MCD",
+      "day": "Wednesday",
+      "notes": "Restaurants struggling"
+    },
+    {
+      "ticker": "HOOD",
+      "day": "This week",
+      "notes": "Rocket ship with BTC"
+    },
+    {
+      "ticker": "SNAP",
+      "day": "This week",
+      "notes": "Outlier"
+    }
+  ]
+}

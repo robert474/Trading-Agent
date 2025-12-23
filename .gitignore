@@ -1,0 +1,91 @@
+# Environment
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit these!)
+secrets/
+*.pem
+*.key
+credentials.json
+
+# Data files (can be large)
+data/charts/
+data/paper_trading/
+data/*.csv
+data/*.parquet
+*.csv
+*.parquet
+
+# Keep these config/level files
+!data/bill_fanter_levels.json
+!data/vision_levels.json
+
+# Jupyter
+.ipynb_checkpoints/
+node_modules/
+.next/
+data/transcriber/audio/
+data/backtest/

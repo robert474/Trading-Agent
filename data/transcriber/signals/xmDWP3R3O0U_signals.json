@@ -1,0 +1,464 @@
+{
+  "video_id": "xmDWP3R3O0U",
+  "title": "Weekly Watchlist Reupload - 11/24 - Thanksgiving Thoughts, Nvidia Earnings Winners and Losers",
+  "date": "2025-11-24",
+  "duration_minutes": 25,
+  "extracted_at": "2025-12-20T20:36:17.989972",
+  "market_context": {
+    "overall_trend": "structural damage - downtrend after NVDA earnings sell-off",
+    "key_events": [
+      "Thanksgiving week - markets closed Thursday, early close Friday 1pm ET",
+      "Retail sales Tuesday",
+      "PPI Tuesday - inflation still north of 2%",
+      "Home prices dropping - cheaper than new construction",
+      "Consumer confidence dropping lower and lower",
+      "Jobless claims Wednesday",
+      "$1.2 trillion liquidated from Bitcoin - leverage cascade"
+    ],
+    "volatility_note": "Do NOT trade Friday - low volume, choppy, more risk less reward"
+  },
+  "zone_levels": [
+    {
+      "ticker": "BTC",
+      "zone_type": "support",
+      "price": 107000.0,
+      "timeframe": "daily",
+      "notes": "Key support lost - triggered leverage liquidations"
+    },
+    {
+      "ticker": "BTC",
+      "zone_type": "support",
+      "price": 99000.0,
+      "timeframe": "daily",
+      "notes": "Lost this - lights out to downside"
+    },
+    {
+      "ticker": "BTC",
+      "zone_type": "support",
+      "price": 92000.0,
+      "timeframe": "daily",
+      "notes": "Price level"
+    },
+    {
+      "ticker": "BTC",
+      "zone_type": "support",
+      "price": 83000.0,
+      "timeframe": "daily",
+      "notes": "Break below goes to 74k"
+    },
+    {
+      "ticker": "BTC",
+      "zone_type": "target",
+      "price": 74000.0,
+      "timeframe": "daily",
+      "notes": "Bill thinks coming here"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "fib_golden",
+      "price": 675.0,
+      "timeframe": "2h",
+      "notes": "Rejected in golden zone with price level - take puts"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "fib_55",
+      "price": 670.0,
+      "timeframe": "2h",
+      "notes": "Lost this on way down - indication for puts"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "bias",
+      "price": 665.0,
+      "timeframe": "daily",
+      "notes": "Held better than QQQ due to banks/airlines/oil/pharma"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "fib_50",
+      "price": 595.0,
+      "timeframe": "2h",
+      "notes": "Fell short of 55 fib - weaker than SPY"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "bias",
+      "price": 590.0,
+      "timeframe": "daily",
+      "notes": "Tech weaker - money rotating to safety"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 270.0,
+      "timeframe": "daily",
+      "notes": "Holding - still bullish structure"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 270.8,
+      "timeframe": "daily",
+      "notes": "Calls if market shows strength"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 269.0,
+      "timeframe": "daily",
+      "notes": "Better entry"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 265.0,
+      "timeframe": "daily",
+      "notes": "Optimal entry"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "bias",
+      "price": 275.0,
+      "timeframe": "daily",
+      "notes": "Held up really good - immune to chip selloff"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "gap_closed",
+      "price": 215.0,
+      "timeframe": "daily",
+      "notes": "Prior earnings gap closed to downside"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "resistance",
+      "price": 222.35,
+      "timeframe": "daily",
+      "notes": "Get above for calls - more of a scalp"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "bias",
+      "price": 218.0,
+      "timeframe": "daily",
+      "notes": "Lot of price damage - don't get aggressively bullish"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "resistance",
+      "price": 473.34,
+      "timeframe": "daily",
+      "notes": "Prior consolidation - above for calls"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "bias",
+      "price": 465.0,
+      "timeframe": "daily",
+      "notes": "Structural damage - tied to NVDA/OpenAI"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "support",
+      "price": 591.71,
+      "timeframe": "daily",
+      "notes": "Good for calls"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "support",
+      "price": 586.0,
+      "timeframe": "daily",
+      "notes": "Really like calls here"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "gap_below",
+      "price": 570.0,
+      "timeframe": "daily",
+      "notes": "Ideal equity buy at gap fill"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "resistance",
+      "price": 606.0,
+      "timeframe": "45min",
+      "notes": "Resistance here"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "bias",
+      "price": 590.0,
+      "timeframe": "daily",
+      "notes": "PE at very low basis - like for Monday calls"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "resistance",
+      "price": 300.0,
+      "timeframe": "daily",
+      "notes": "Right at level Friday - super dad strength"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "resistance",
+      "price": 303.0,
+      "timeframe": "daily",
+      "notes": "Don't chase at 303"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "support",
+      "price": 270.0,
+      "timeframe": "daily",
+      "notes": "Real opportunity here"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "support",
+      "price": 275.0,
+      "timeframe": "daily",
+      "notes": "Good buy zone"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "support",
+      "price": 400.0,
+      "timeframe": "daily",
+      "notes": "Psychological level"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "support",
+      "price": 393.26,
+      "timeframe": "daily",
+      "notes": "Key level"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "demand",
+      "price": 366.0,
+      "timeframe": "daily",
+      "notes": "Next order block if break"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "demand",
+      "price": 350.0,
+      "timeframe": "daily",
+      "notes": "Order block"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "gap_below",
+      "price": 340.0,
+      "timeframe": "daily",
+      "notes": "Gap to downside"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "bias",
+      "price": 385.0,
+      "timeframe": "daily",
+      "notes": "Relative weakness - bias for puts"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "resistance",
+      "price": 179.38,
+      "timeframe": "daily",
+      "notes": "Price level - below take puts"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 173.0,
+      "timeframe": "daily",
+      "notes": "Friday low"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "support",
+      "price": 171.0,
+      "timeframe": "daily",
+      "notes": "Break order block target"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "demand",
+      "price": 150.0,
+      "timeframe": "daily",
+      "notes": "Much better buy zone 150-160"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "demand",
+      "price": 160.0,
+      "timeframe": "daily",
+      "notes": "Lots of buyers here"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "bias",
+      "price": 175.0,
+      "timeframe": "daily",
+      "notes": "Was up 6% post earnings, finished -3%"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "gap_below",
+      "price": 172.0,
+      "timeframe": "daily",
+      "notes": "Gap fill target - good equity buy"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "gap_top",
+      "price": 195.0,
+      "timeframe": "daily",
+      "notes": "Will bounce off top of gap"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "bias",
+      "price": 185.0,
+      "timeframe": "daily",
+      "notes": "Ripped in 2H year - let it come down"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "resistance",
+      "price": 200.0,
+      "timeframe": "daily",
+      "notes": "Can go higher but valuation bubble"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "support",
+      "price": 165.0,
+      "timeframe": "daily",
+      "notes": "Weakness - trade what market gives"
+    },
+    {
+      "ticker": "MSTR",
+      "zone_type": "resistance",
+      "price": 456.0,
+      "timeframe": "daily",
+      "notes": "People bought here - now bag holders"
+    },
+    {
+      "ticker": "MSTR",
+      "zone_type": "demand",
+      "price": 300.0,
+      "timeframe": "daily",
+      "notes": "Area of demand"
+    },
+    {
+      "ticker": "MSTR",
+      "zone_type": "bias",
+      "price": 280.0,
+      "timeframe": "daily",
+      "notes": "Getting pummeled - short it, fear > greed"
+    }
+  ],
+  "trade_signals": [
+    {
+      "ticker": "BTC",
+      "direction": "short",
+      "entry_condition": "Below 83k",
+      "target": 74000.0,
+      "reasoning": "$1.2T liquidated, leverage cascade, Bill thinks going to 74k"
+    },
+    {
+      "ticker": "AAPL",
+      "direction": "long",
+      "entry_condition": "At 270.80 with market strength",
+      "target": 280.0,
+      "reasoning": "Held up really good, still bullish structure, immune to chip selloff"
+    },
+    {
+      "ticker": "META",
+      "direction": "long",
+      "entry_condition": "At 591.71 or 586",
+      "target": 606.0,
+      "reasoning": "PE at very low basis, like for Monday calls"
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "short",
+      "entry_condition": "Below 393.26",
+      "target": 366.0,
+      "reasoning": "Relative weakness, not a lot of buyers, bias for puts"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "short",
+      "entry_condition": "Open below 179.38 with market weakness",
+      "target": 171.0,
+      "reasoning": "Was +6% post earnings, finished -3%, structural damage"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "long",
+      "entry_condition": "At 150-160",
+      "target": 175.0,
+      "reasoning": "Much better buy zone with lots of buyers"
+    },
+    {
+      "ticker": "MSTR",
+      "direction": "short",
+      "entry_condition": "Weakness continues",
+      "target": 250.0,
+      "reasoning": "Pummeled due to BTC, fear > greed, investors screwed"
+    }
+  ],
+  "key_insights": [
+    "Bitcoin leverage liquidations ($1.2T) caused equity selloff - people sold AAPL/GOOGL to cover BTC losses",
+    "Bitcoin 10-100X leverage means 1% drop = 10-100% account loss",
+    "Options advantage: Can't lose more than cost of trade (vs leverage margin calls)",
+    "NVDA: Fantastic earnings but massive sell - structural damage to market",
+    "Banks/airlines/oil/pharma bought as safety trade (why SPY held better than QQQ)",
+    "Fib + price level confluence = high probability trades",
+    "Don't chase GOOGL at 303 - wait for 270-275",
+    "Thanksgiving week: Trade Mon-Tue only, skip Wed-Fri",
+    "Valuations that don't make sense become bubbles (PLTR, quantum stocks)",
+    "Trade what market gives you, not what you think long term"
+  ],
+  "earnings_this_week": [
+    {
+      "ticker": "ZM",
+      "notes": "Zoom - tech space"
+    },
+    {
+      "ticker": "DELL",
+      "notes": "Dell"
+    },
+    {
+      "ticker": "BABA",
+      "notes": "Alibaba"
+    },
+    {
+      "ticker": "KSS",
+      "notes": "Kohls - private equity speculation"
+    },
+    {
+      "ticker": "BBY",
+      "notes": "Best Buy - tariffs impact imports"
+    }
+  ],
+  "avoid_list": [
+    {
+      "ticker": "IONQ",
+      "notes": "High flyer destroyed - $193 to $85"
+    },
+    {
+      "ticker": "QBTS",
+      "notes": "Quantum computing - halved from $46 to $20"
+    },
+    {
+      "ticker": "MSTR",
+      "notes": "Don't buy stock - trade options only"
+    }
+  ]
+}

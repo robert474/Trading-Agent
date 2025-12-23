@@ -1,0 +1,403 @@
+{
+  "video_id": "tXcXuUxrcKo",
+  "title": "Weekly Watchlist 10 06 25",
+  "date": "2025-10-06",
+  "duration_minutes": 16,
+  "extracted_at": "2025-12-20T20:48:01.609041",
+  "market_context": {
+    "overall_trend": "selling pressure - bearish engulfing candle Friday",
+    "key_events": [
+      "Government shutdown - no jobs data",
+      "ADP data exceptionally weak (actual payroll data vs govt surveys)",
+      "FOMC minutes Wednesday - don't trade late",
+      "Powell remarks Thursday conference",
+      "No jobless claims unless govt reopens"
+    ],
+    "volatility_note": "Trade deficit, jobs data delayed - waiting on bipartisan agreement"
+  },
+  "zone_levels": [
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 669.37,
+      "timeframe": "daily",
+      "notes": "If holds, could push higher - don't like calls"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 667.34,
+      "timeframe": "4h",
+      "notes": "Strong line in sand - 4H pushes couldn't break"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 664.89,
+      "timeframe": "daily",
+      "notes": "Target if 667 breaks"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "support",
+      "price": 663.0,
+      "timeframe": "daily",
+      "notes": "Next target down"
+    },
+    {
+      "ticker": "SPY",
+      "zone_type": "target",
+      "price": 654.0,
+      "timeframe": "daily",
+      "notes": "Would love retrace here"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "support",
+      "price": 602.87,
+      "timeframe": "daily",
+      "notes": "Below this target 601"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "support",
+      "price": 601.0,
+      "timeframe": "daily",
+      "notes": "Huge push down target"
+    },
+    {
+      "ticker": "QQQ",
+      "zone_type": "bias",
+      "price": 605.0,
+      "timeframe": "daily",
+      "notes": "Not many buyers here"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "support",
+      "price": 257.39,
+      "timeframe": "daily",
+      "notes": "If holds can go long into 260s"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "resistance",
+      "price": 260.0,
+      "timeframe": "daily",
+      "notes": "Target for calls"
+    },
+    {
+      "ticker": "AAPL",
+      "zone_type": "bias",
+      "price": 258.0,
+      "timeframe": "daily",
+      "notes": "Relative strength - trying to push ATH while mkt sells"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 218.0,
+      "timeframe": "daily",
+      "notes": "Potential bounce"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 217.06,
+      "timeframe": "2h",
+      "notes": "Lots of structure - stop loss below"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 215.0,
+      "timeframe": "daily",
+      "notes": "Target if 217 breaks"
+    },
+    {
+      "ticker": "AMZN",
+      "zone_type": "support",
+      "price": 213.0,
+      "timeframe": "daily",
+      "notes": "Next target"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "resistance",
+      "price": 562.0,
+      "timeframe": "daily",
+      "notes": "Prior high"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "resistance",
+      "price": 550.0,
+      "timeframe": "daily",
+      "notes": "Ran hard above here"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "resistance",
+      "price": 517.0,
+      "timeframe": "daily",
+      "notes": "Can't hold above"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "support",
+      "price": 511.0,
+      "timeframe": "daily",
+      "notes": "Higher risk call entry"
+    },
+    {
+      "ticker": "MSFT",
+      "zone_type": "support",
+      "price": 506.0,
+      "timeframe": "daily",
+      "notes": "Like calls long here - 9% off ATH"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "gap_below",
+      "price": 220.0,
+      "timeframe": "daily",
+      "notes": "Huge gap fill target on weakness"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "support",
+      "price": 243.0,
+      "timeframe": "daily",
+      "notes": "Calls here"
+    },
+    {
+      "ticker": "GOOGL",
+      "zone_type": "support",
+      "price": 238.0,
+      "timeframe": "daily",
+      "notes": "Ideal calls - held multiple times"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "support",
+      "price": 427.93,
+      "timeframe": "daily",
+      "notes": "Watch for bounce - below go short"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "gap_below",
+      "price": 400.0,
+      "timeframe": "daily",
+      "notes": "Gap target"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "demand",
+      "price": 415.0,
+      "timeframe": "daily",
+      "notes": "Demand zone if 427 breaks"
+    },
+    {
+      "ticker": "TSLA",
+      "zone_type": "bias",
+      "price": 420.0,
+      "timeframe": "daily",
+      "notes": "Buy rumor sell news on deliveries - EV credit expired"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "resistance",
+      "price": 200.0,
+      "timeframe": "daily",
+      "notes": "Possible run target"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "resistance",
+      "price": 191.0,
+      "timeframe": "daily",
+      "notes": "First resistance on bounce"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "fib_55",
+      "price": 188.14,
+      "timeframe": "daily",
+      "notes": "Watch for reject at 55 fib"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "fib_618",
+      "price": 188.22,
+      "timeframe": "daily",
+      "notes": "Aligns with 55 - key level"
+    },
+    {
+      "ticker": "NVDA",
+      "zone_type": "bias",
+      "price": 185.0,
+      "timeframe": "daily",
+      "notes": "Super strong all week - new ATH"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "support",
+      "price": 163.0,
+      "timeframe": "daily",
+      "notes": "Holding support"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "support",
+      "price": 162.11,
+      "timeframe": "daily",
+      "notes": "Ideal for calls"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "fib_50",
+      "price": 167.0,
+      "timeframe": "daily",
+      "notes": "Watch for reject on weakness"
+    },
+    {
+      "ticker": "AMD",
+      "zone_type": "bias",
+      "price": 165.0,
+      "timeframe": "daily",
+      "notes": "Bill caught put trade on level break"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "support",
+      "price": 172.0,
+      "timeframe": "daily",
+      "notes": "Watch for calls"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "support",
+      "price": 170.0,
+      "timeframe": "daily",
+      "notes": "Better call entry"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "demand",
+      "price": 168.0,
+      "timeframe": "daily",
+      "notes": "Fair amount of buyers"
+    },
+    {
+      "ticker": "PLTR",
+      "zone_type": "bias",
+      "price": 175.0,
+      "timeframe": "daily",
+      "notes": "Down 7-8% Friday - govt shutdown concern"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "gap_top",
+      "price": 710.0,
+      "timeframe": "daily",
+      "notes": "Gap essentially filled ($2 gap)"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "resistance",
+      "price": 705.0,
+      "timeframe": "daily",
+      "notes": "Using gap top as resistance"
+    },
+    {
+      "ticker": "META",
+      "zone_type": "support",
+      "price": 693.0,
+      "timeframe": "daily",
+      "notes": "Ideal call bounce"
+    },
+    {
+      "ticker": "NFLX",
+      "zone_type": "support",
+      "price": 1145.8,
+      "timeframe": "daily",
+      "notes": "Call trade area"
+    },
+    {
+      "ticker": "NFLX",
+      "zone_type": "resistance",
+      "price": 1179.9,
+      "timeframe": "daily",
+      "notes": "Put trade area"
+    },
+    {
+      "ticker": "NFLX",
+      "zone_type": "support",
+      "price": 1100.0,
+      "timeframe": "daily",
+      "notes": "August bounce level - look for calls not puts"
+    }
+  ],
+  "trade_signals": [
+    {
+      "ticker": "SPY",
+      "direction": "short",
+      "entry_condition": "Close below 667.34",
+      "target": 654.0,
+      "reasoning": "Bearish engulfing Friday - would love retrace of huge run up"
+    },
+    {
+      "ticker": "AAPL",
+      "direction": "long",
+      "entry_condition": "Hold 257.39",
+      "target": 260.0,
+      "reasoning": "Relative strength - trying to push ATH while market sells"
+    },
+    {
+      "ticker": "MSFT",
+      "direction": "long",
+      "entry_condition": "At 506",
+      "target": 520.0,
+      "reasoning": "9% off ATH - good risk/reward with market strength"
+    },
+    {
+      "ticker": "GOOGL",
+      "direction": "long",
+      "entry_condition": "At 238 (ideal) or 243",
+      "target": 255.0,
+      "reasoning": "Held multiple times - better bang for buck at 238"
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "short",
+      "entry_condition": "Below 427.93",
+      "target": 400.0,
+      "reasoning": "Buy rumor sell news on EV deliveries - gap below"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "long",
+      "entry_condition": "At 162.11",
+      "target": 170.0,
+      "reasoning": "Holding support - watch for buyers to step in"
+    }
+  ],
+  "key_insights": [
+    "ADP data (actual payrolls) more reliable than govt surveys",
+    "Govt job data is survey-based - only fraction respond, not reliable",
+    "Buy rumor sell news - TSLA deliveries example",
+    "EV tax credit expired Sept 30 - pull forward demand now gone",
+    "Bearish engulfing candle = significant reversal signal",
+    "FOMC minutes Wednesday = wonky day, don't trade late",
+    "Bank earnings in 1.5-2 weeks will give consumer intel",
+    "Palantir tied to govt contracts - shutdown hurts",
+    "If govt shutdown resolved, PLTR bounces hard",
+    "Elon asking subscribers to cancel Netflix - weight on stock"
+  ],
+  "methodology_notes": {
+    "fib_alignment": "Fib levels + price levels aligning = high probability zone",
+    "gap_rule": "$2 gap on META not worth tracking - consider filled",
+    "4h_pushes": "Multiple failed 4H pushes at level = strong support/resistance"
+  }
+}
