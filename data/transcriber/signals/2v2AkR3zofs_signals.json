@@ -1,0 +1,233 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "stock/options",
+      "strike": null,
+      "expiration": null,
+      "entry_price": 260.0,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 260.0,
+      "reasoning": "Fibonacci 55 level, strong buyers present, interim level at 262, safer level at 261",
+      "confidence": "medium",
+      "timestamp_hint": "During Apple chart analysis"
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 615.0,
+      "reasoning": "Bounce at top of gap and opening range breakout, Fibonacci 55 level confirmed entry",
+      "confidence": "high",
+      "timestamp_hint": "QQQ chart analysis - Bill mentions taking this trade successfully"
+    },
+    {
+      "symbol": "MSFT",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": 525.0,
+      "stop_loss": 522.0,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 522.0,
+      "reasoning": "Above 525 is good for calls, possible bounce at 522 where buyers keep entering",
+      "confidence": "medium",
+      "timestamp_hint": "Microsoft chart analysis"
+    },
+    {
+      "symbol": "GOOGL",
+      "direction": "long",
+      "entry_type": "stock/options",
+      "strike": null,
+      "expiration": null,
+      "entry_price": 261.68,
+      "stop_loss": 256.0,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 256.0,
+      "reasoning": "Making all-time highs, held 256 level, need to push above 261.68 for calls",
+      "confidence": "medium",
+      "timestamp_hint": "Google chart analysis"
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "long",
+      "entry_type": "stock/options",
+      "strike": null,
+      "expiration": null,
+      "entry_price": 398.0,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 398.0,
+      "reasoning": "Gap fill area, wants to see 10% pullback to ~490 before going long",
+      "confidence": "medium",
+      "timestamp_hint": "Tesla post-earnings analysis"
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "long",
+      "entry_type": "stock/options",
+      "strike": null,
+      "expiration": null,
+      "entry_price": 187.35,
+      "stop_loss": null,
+      "target": 195.0,
+      "zone_type": "supply",
+      "zone_level": 187.35,
+      "reasoning": "Need to break above 187.35-188 to move back to all-time highs of 195",
+      "confidence": "medium",
+      "timestamp_hint": "Nvidia chart analysis"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "demand",
+      "zone_high": 673.94,
+      "zone_low": 673.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Prior all-time high where market was consolidating, looking for pullback to this level or gap fill"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "demand",
+      "zone_high": 618.42,
+      "zone_low": 613.18,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Prior all-time high at 613.18, current resistance at 618.42, gap created on Friday after CPI"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "demand",
+      "zone_high": 262.0,
+      "zone_low": 260.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Interim level at 262 (pre-market high), safer level at 261, strong buying at 260 (Fibonacci 55)"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "supply",
+      "zone_high": 228.0,
+      "zone_low": 225.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Rejecting 225, sellers present at 228, well off all-time highs of 242"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "demand",
+      "zone_high": 525.0,
+      "zone_low": 522.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Buyers at 522, sellers at 525, all-time high at 562"
+    },
+    {
+      "symbol": "GOOGL",
+      "zone_type": "demand",
+      "zone_high": 261.68,
+      "zone_low": 256.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "All-time high at 261.68, held 256 level, better buy at 250"
+    },
+    {
+      "symbol": "TSLA",
+      "zone_type": "demand",
+      "zone_high": 398.0,
+      "zone_low": 390.0,
+      "timeframe": "4-hour",
+      "freshness": "fresh",
+      "context": "Gap fill area around 398, chopping in range, making higher lows"
+    },
+    {
+      "symbol": "NVDA",
+      "zone_type": "supply",
+      "zone_high": 188.0,
+      "zone_low": 187.35,
+      "timeframe": "4-hour",
+      "freshness": "tested",
+      "context": "Oscillating between 180-187, can't break through 187.35, all-time high at 195"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": 300.0,
+      "lessons": "Buy signal at liquidity level during stabilization. Mentioned trader 'SC Iceman' took this trade for 300% gain. Price moved from liquidity level to liquidity level."
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "long",
+      "entry_type": "call",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": null,
+      "lessons": "Successful call position on bounce at top of gap, aligned with opening range breakout and Fibonacci 55 level"
+    }
+  ],
+  "key_insights": [
+    "Don't trade FOMC mornings - statistically will lose 10x more money than you make over time",
+    "Use Fibonacci retracements when you don't have predetermined price levels to trade off of",
+    "Don't fight the trend - come down to support levels to buy calls",
+    "Wait for gaps to fill before entering positions",
+    "Opening Range Breakout (ORB) can align with other key levels for confirmation",
+    "One third of S&P 500 weighted index is due to Mag Seven (Microsoft, Meta, Amazon, Apple, Alphabet, Nvidia, Tesla)",
+    "Watch capital spend guidance on earnings, not just revenue",
+    "Liquidity moves from level to level - observe how price reacts at key zones",
+    "Patient entries at support levels yield better risk/reward",
+    "Big tech (Mag 7) not making new all-time highs despite market at highs indicates broadening market"
+  ],
+  "market_context": {
+    "overall_sentiment": "cautiously bullish",
+    "key_levels_mentioned": [
+      "SPY 673",
+      "QQQ 615-618",
+      "AAPL 260-262",
+      "AMZN 225",
+      "MSFT 525",
+      "GOOGL 261.68",
+      "TSLA 398",
+      "NVDA 187-195"
+    ],
+    "notable_events": [
+      "FOMC rate decision on Wednesday - expecting quarter point cut",
+      "CPI came in hotter than expected on Friday but market gapped up",
+      "Government shutdown affecting economic data releases",
+      "Major tech earnings week: Meta, Microsoft, Alphabet (Wed), Amazon, Apple, Coinbase (Thurs)",
+      "Tesla had poor earnings but stock bought back up after initial selloff",
+      "US-Canada tariff tensions escalating - additional 10% premium assessed",
+      "Mortgage rates around 6% but most homeowners locked in at 2-4%",
+      "Coffee, beef, vegetables, fruits prices dramatically higher due to inflation"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides a comprehensive weekly watchlist focusing on major tech stocks ahead of FOMC meeting and big tech earnings. He emphasizes using Fibonacci levels, opening range breakouts, and liquidity zones for entries. Key teaching point: avoid trading FOMC mornings due to statistical long-term losses, and wait patiently for price to come to predetermined support levels rather than chasing. He notes the Mag 7 stocks are not making new highs despite market strength, suggesting potential correction risk.",
+  "video_id": "2v2AkR3zofs",
+  "video_info": {
+    "title": "Bill Fanter Video 2v2AkR3zofs",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:01:10.310230"
+}

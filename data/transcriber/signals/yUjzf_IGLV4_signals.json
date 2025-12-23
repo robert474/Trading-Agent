@@ -1,0 +1,36 @@
+{
+  "trade_signals": [],
+  "zone_levels": [],
+  "trade_outcomes": [],
+  "key_insights": [
+    "Support and resistance levels are stronger on higher timeframes (daily, 4-hour, 1-hour) compared to lower timeframes like 1-minute",
+    "Use moving averages to confirm horizontal support/resistance levels - when they align, it creates stronger zones",
+    "ATR (Average True Range) helps determine logical stop loss placement to avoid getting stopped out prematurely",
+    "Always establish CEST before entering a trade: Conditions, Entry, Stop loss, and Target",
+    "Draw support/resistance levels first, then turn on moving averages to see if they align for confluence",
+    "Psychological round numbers are important levels where the market tends to react",
+    "Multiple touches with rejections indicate stronger support/resistance levels",
+    "High volume zones combined with pivot highs/lows create more reliable levels",
+    "Use ATR to determine if price movement from support to resistance is reasonable within your trading timeframe",
+    "Don't overload charts with too many indicators trying to get excessive confirmation - this can cause you to miss entries",
+    "If you don't know where you'll exit before entering a trade, you shouldn't take the trade",
+    "Market behavior follows patterns similar to human psychology - we are creatures of habit",
+    "When looking for building zones with large distances, use Fibonacci to identify middle areas if ATR shows smaller typical moves"
+  ],
+  "market_context": {
+    "overall_sentiment": "neutral",
+    "key_levels_mentioned": [],
+    "notable_events": [
+      "FOMC day - options premiums make zero sense and create more losers than winners"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "This is an educational webinar by Bill Fanter and Alberto focused on teaching how to combine support/resistance zones with ATR (Average True Range) for better trade planning and risk management. The presentation emphasizes the importance of identifying strong horizontal support/resistance levels on higher timeframes, using ATR to set logical stop losses, and always having a complete CEST (Conditions, Entry, Stop, Target) plan before entering any trade. The content is conceptual and educational rather than providing specific trade calls.",
+  "video_id": "yUjzf_IGLV4",
+  "video_info": {
+    "title": "Bill Fanter Video yUjzf_IGLV4",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:09:39.627501"
+}

@@ -1,0 +1,205 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "ORCL",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 304.6,
+      "reasoning": "Stock overextended after earnings pop, reality setting in on unrealistic AI revenue projections. Looking for pullback to 55% or 61.8% retracement levels",
+      "confidence": "high",
+      "timestamp_hint": "Oracle discussion section"
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": 393.26,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 393.26,
+      "reasoning": "Well overextended after rip higher, MACD curling, only 30-minute demand support. Looking for weakness if breaks below 393.26",
+      "confidence": "medium",
+      "timestamp_hint": "Tesla discussion"
+    },
+    {
+      "symbol": "CBRL",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": 51.36,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 51.36,
+      "reasoning": "Earnings Wednesday, weakness after social media marketing debacle. Not buying calls, looking at puts if can't get above 51.36",
+      "confidence": "medium",
+      "timestamp_hint": "Cracker Barrel section"
+    },
+    {
+      "symbol": "FDX",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": 229.0,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 229.0,
+      "reasoning": "Earnings Thursday, downgraded, weak market with tariff impacts (Minimus Exemption Removal affecting shipments under $800). UPS had horrific earnings last time",
+      "confidence": "medium",
+      "timestamp_hint": "FedEx discussion"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "supply",
+      "zone_high": 658.0,
+      "zone_low": 654.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "New all-time high, market fully valued on forward earnings, anticipating Fed rate cuts"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "support",
+      "zone_high": 230.0,
+      "zone_low": 230.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Very solid support level, once above pushes to 234, then 237, then 240"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "resistance",
+      "zone_high": 234.0,
+      "zone_low": 234.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Key resistance level before 237 and 240"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "support",
+      "zone_high": 506.0,
+      "zone_low": 505.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Current bounce level, watching if it holds before move to 513"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "resistance",
+      "zone_high": 513.0,
+      "zone_low": 513.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Key resistance level to clear"
+    },
+    {
+      "symbol": "NVDA",
+      "zone_type": "support",
+      "zone_high": 177.0,
+      "zone_low": 177.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Prior all-time high acting as strong support, bouncing multiple times, holding and pushing higher"
+    },
+    {
+      "symbol": "LULU",
+      "zone_type": "support",
+      "zone_high": 155.0,
+      "zone_low": 155.0,
+      "timeframe": "weekly",
+      "freshness": "fresh",
+      "context": "Next major support level from 2020 COVID lows, body low at 155, wick at 128"
+    },
+    {
+      "symbol": "NKE",
+      "zone_type": "support",
+      "zone_high": 73.0,
+      "zone_low": 73.0,
+      "timeframe": "weekly",
+      "freshness": "tested",
+      "context": "Holding level for 5 weeks, pattern of rallying to 80 then selling to 73, good long-term buy zone"
+    },
+    {
+      "symbol": "NKE",
+      "zone_type": "gap",
+      "zone_high": 62.73,
+      "zone_low": 62.73,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Open gap below, created on gap higher"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "ORCL",
+      "direction": "short",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "active",
+      "pnl_percent": null,
+      "lessons": "Had short trade Friday once it broke below 304.60. Stock ran up 40% after earnings on AI narrative despite missing both metrics, then reality set in"
+    }
+  ],
+  "key_insights": [
+    "Market is forward-looking and pricing in Fed rate cuts, but is fully valued on forward earnings basis",
+    "Rate cuts are a sign of slowing economy and rising unemployment - Fed balancing two mandates: stable employment and inflation control",
+    "Minimus Exemption Removal (tariffs on imports under $800) now affecting small companies and transport stocks",
+    "When consolidation patterns form, watch for clear breaks above or below before entering",
+    "Prior all-time highs often act as strong support once broken and retested",
+    "Stock likes to consolidate before major moves - wait for the consolidation to break",
+    "Beware of earnings pops based on narrative vs actual numbers - reality eventually sets in",
+    "Market can remain irrational at all-time highs from exuberance perspective",
+    "Unemployed people taking longer to find jobs and earning less when they do - concerning for economy"
+  ],
+  "market_context": {
+    "overall_sentiment": "cautiously_bearish",
+    "key_levels_mentioned": [
+      "SPY 654-658",
+      "AAPL 230, 234, 237, 240",
+      "MSFT 505-506, 513",
+      "NVDA 177",
+      "TSLA 393.26",
+      "ORCL 304.60",
+      "LULU 155",
+      "NKE 73, 80",
+      "FDX 229"
+    ],
+    "notable_events": [
+      "FOMC Wednesday September 15th - rate decision (25, 50, or 75 basis points expected)",
+      "Retail sales, import prices, business inventories Tuesday",
+      "Jobless claims Thursday",
+      "CBRL earnings Wednesday",
+      "FDX earnings Thursday",
+      "Fake outs vs breakouts webinar Wednesday morning",
+      "Consumer confidence came in lower than expected",
+      "Jobs numbers slowing",
+      "Inflation going up - possible stagflation environment",
+      "New iPhone launch (thinnest ever)",
+      "Minimus Exemption Removal affecting tariffs on shipments under $800"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides watchlist for September 15th week ahead of FOMC rate decision. He discusses bearish setups on ORCL, TSLA, CBRL, FDX, and LULU while highlighting key support levels on NVDA (177) and potential turnaround on NKE. He emphasizes market is fully valued despite pricing in rate cuts, and warns of tariff impacts on small companies and retailers. Not trading Wednesday morning due to FOMC, hosting webinar on fake outs vs breakouts instead.",
+  "video_id": "05IXX9hDGA4",
+  "video_info": {
+    "title": "Bill Fanter Video 05IXX9hDGA4",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T08:59:53.865193"
+}

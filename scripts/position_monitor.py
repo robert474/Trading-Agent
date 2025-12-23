@@ -24,6 +24,8 @@ from vision_chart_analyzer import (
 )
 
 DATA_DIR = Path(__file__).parent.parent / "data"
+CHARTS_DIR = DATA_DIR / "charts"
+CHARTS_DIR.mkdir(exist_ok=True)
 PAPER_TRADING_STATE = DATA_DIR / "paper_trading" / "paper_trading_state.json"
 
 
@@ -81,8 +83,14 @@ async def monitor_position(position: dict) -> dict:
             "current_price": current_price,
             "pnl_pct": pnl_pct,
             "recommendation": "HOLD",
-            "reason": "No chart available for analysis"
+            "reason": "No chart available for analysis",
+            "chart_5min": None
         }
+
+    # Save 5-min chart for dashboard display
+    chart_5min_path = CHARTS_DIR / f"{symbol}_5min.png"
+    with open(chart_5min_path, "wb") as f:
+        f.write(chart_bytes)
 
     # Analyze with vision
     analysis = await analyze_5min_chart_for_exit(chart_bytes, symbol, position)
@@ -93,6 +101,7 @@ async def monitor_position(position: dict) -> dict:
     analysis["pnl_pct"] = pnl_pct
     analysis["entry_price"] = entry_price
     analysis["direction"] = direction
+    analysis["chart_5min"] = f"{symbol}_5min.png"
 
     # Print recommendation
     rec = analysis.get("recommendation", "HOLD")

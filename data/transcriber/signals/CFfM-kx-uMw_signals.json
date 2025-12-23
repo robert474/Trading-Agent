@@ -1,0 +1,279 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 277.0,
+      "reasoning": "Lots of buyers at this level, consolidation zone holding, good support area",
+      "confidence": "high",
+      "timestamp_hint": "Apple chart analysis"
+    },
+    {
+      "symbol": "GOOGL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 313.0,
+      "reasoning": "Relative strength, not pulling back with market, bullish structure on higher timeframes, pushing to all-time highs",
+      "confidence": "high",
+      "timestamp_hint": "Google chart analysis"
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 466.0,
+      "zone_type": "demand",
+      "zone_level": 452.0,
+      "reasoning": "Holding price level, relative strength, trending up on higher timeframes",
+      "confidence": "medium",
+      "timestamp_hint": "Tesla chart analysis"
+    },
+    {
+      "symbol": "META",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": null,
+      "reasoning": "Bounced at top of gap after pre-market selloff, big gap above to fill, long term push higher",
+      "confidence": "medium",
+      "timestamp_hint": "Meta chart analysis"
+    },
+    {
+      "symbol": "PLTR",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": null,
+      "reasoning": "Past 618 Fib (bullish), consolidating in golden zone, no reject at 50%, lots of buying pressure all week, relative strength",
+      "confidence": "high",
+      "timestamp_hint": "Palantir chart analysis"
+    },
+    {
+      "symbol": "LULU",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": "Thursday earnings",
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": null,
+      "reasoning": "Entered gap fill, holding above 618 Fib (bullish), potential to close gap before earnings",
+      "confidence": "medium",
+      "timestamp_hint": "Lulu earnings preview"
+    },
+    {
+      "symbol": "AMD",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": 214.0,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 214.0,
+      "reasoning": "Holding 214 level, historical bounce area since October 3rd, not closing gap to downside",
+      "confidence": "medium",
+      "timestamp_hint": "AMD chart analysis"
+    },
+    {
+      "symbol": "AMD",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 214.0,
+      "reasoning": "Break below 214 with weakness, if overall market weakness occurs",
+      "confidence": "low",
+      "timestamp_hint": "AMD chart analysis"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "supply",
+      "zone_high": 689.0,
+      "zone_low": 686.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "All-time high at 689, resistance at 686, currently at 685"
+    },
+    {
+      "symbol": "SPY",
+      "zone_type": "demand",
+      "zone_high": 684.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Did not want to close below 684 on Friday, two strong bounces"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "supply",
+      "zone_high": 637.0,
+      "zone_low": 626.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "All-time high at 637, resistance at 626, gap fill above needed"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "demand",
+      "zone_high": 624.0,
+      "zone_low": 618.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Support channel, levels holding, puts below 624"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "supply",
+      "zone_high": 288.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "New all-time high this week, rejected 618 fib"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "demand",
+      "zone_high": 277.0,
+      "zone_low": 276.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Consolidation zone, interim level around 276, lots of buyers"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "supply",
+      "zone_high": 239.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Recent high before selloff"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "demand",
+      "zone_high": 229.0,
+      "zone_low": 228.76,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Consolidation support, break below 228.76 would trigger puts, bounced at 55% fib on 4-hour"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "supply",
+      "zone_high": 555.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Double top, relative weakness, downward trend"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "demand",
+      "zone_high": 480.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Closed above 480, gap fill above, potential reject at top of golden zone"
+    },
+    {
+      "symbol": "NVDA",
+      "zone_type": "supply",
+      "zone_high": 184.0,
+      "zone_low": null,
+      "timeframe": "1-hour",
+      "freshness": "tested",
+      "context": "Consolidating chop between 179-184, narrow margin"
+    },
+    {
+      "symbol": "NVDA",
+      "zone_type": "demand",
+      "zone_high": 181.0,
+      "zone_low": 179.0,
+      "timeframe": "1-hour",
+      "freshness": "tested",
+      "context": "Support level in consolidation range"
+    }
+  ],
+  "trade_outcomes": [],
+  "key_insights": [
+    "Don't trade Wednesday morning before FOMC - options premiums are 2-3x more expensive",
+    "Wait for FOMC rate decision at 2pm Eastern Wednesday before trading",
+    "90% of market pricing in a rate cut, if they don't deliver, market will sell off hard",
+    "Trade the charts, don't trade your emotions",
+    "Only do gap fills on daily basis",
+    "Once past 618 Fib, asset is bullish",
+    "Fresh zones are stronger - use pivot highs to pivot lows for fib retracements",
+    "Small to mid-size companies slowing hiring due to tariff uncertainty",
+    "Large corporations can absorb tariff costs, smaller companies struggle",
+    "Only Google and Nvidia beating S&P on year-to-date performance basis from Mag 7",
+    "Market broadening - Mag 7 no longer leading, not making new all-time highs"
+  ],
+  "market_context": {
+    "overall_sentiment": "bullish",
+    "key_levels_mentioned": [
+      "SPY 689 (ATH)",
+      "SPY 686 (resistance)",
+      "SPY 684 (support)",
+      "QQQ 637 (ATH)",
+      "QQQ 626 (resistance)",
+      "QQQ 624 (support)"
+    ],
+    "notable_events": [
+      "FOMC rate decision Wednesday 2pm EST",
+      "Tuesday job openings data",
+      "Thursday jobless claims and trade deficit",
+      "Friday wholesale inventories",
+      "Lululemon earnings Thursday",
+      "Costco earnings (suing government over tariffs)",
+      "Restoration Hardware earnings",
+      "Oracle earnings",
+      "90% chance of quarter percent rate cut priced in"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides a comprehensive weekly watchlist for December 8th week, emphasizing the critical FOMC rate decision on Wednesday and advising traders to sit out due to inflated options premiums. He conducts detailed technical analysis on major indices (SPY, QQQ) and individual stocks (AAPL, GOOGL, TSLA, META, NVDA, AMD, PLTR) using fibonacci retracements, gap fills, and supply/demand zones. The analysis highlights relative strength in select names while noting market broadening beyond Mag 7 stocks, with specific entry levels and directional bias for multiple trading opportunities.",
+  "video_id": "CFfM-kx-uMw",
+  "video_info": {
+    "title": "Bill Fanter Video CFfM-kx-uMw",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:01:52.290802"
+}

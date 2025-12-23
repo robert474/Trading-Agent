@@ -1,0 +1,152 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "QQQ",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 592.86,
+      "reasoning": "Positive PCE inflation data, consumer spending higher than expected, price touched demand level at 592.96 (10 cents from target), volatility dropping, 200 SMA support, bullish futures structure",
+      "confidence": "high",
+      "timestamp_hint": "Market open Friday, September 29th"
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": null,
+      "reasoning": "Fibonacci retracement reject in golden zone (50-61.8%), rejection off VWAP, targeting liquidity level already on charts",
+      "confidence": "high",
+      "timestamp_hint": "Second trade Friday after first trade"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "supply",
+      "zone_high": 566.04,
+      "zone_low": null,
+      "timeframe": "daily/4hr/1hr",
+      "freshness": "tested",
+      "context": "Pre-market resistance level where price stopped after positive PCE data at 5:30am"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "demand",
+      "zone_high": 592.86,
+      "zone_low": null,
+      "timeframe": "1 minute",
+      "freshness": "tested",
+      "context": "Key demand level tested at market open, candle low was 592.96, missed by 10 cents"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "supply",
+      "zone_high": 594.54,
+      "zone_low": null,
+      "timeframe": "1 minute",
+      "freshness": "tested",
+      "context": "Liquidity level tested multiple times throughout the session"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "supply",
+      "zone_high": 596.2,
+      "zone_low": null,
+      "timeframe": "1 hour",
+      "freshness": "tested",
+      "context": "Pre-market high level showing resistance, multiple candle wicks struggling at this level"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "supply",
+      "zone_high": 257.39,
+      "zone_low": null,
+      "timeframe": "intraday",
+      "freshness": "tested",
+      "context": "Interim resistance level, candle high 257.38, missed by a penny"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "demand",
+      "zone_high": 253.0,
+      "zone_low": null,
+      "timeframe": "intraday",
+      "freshness": "fresh",
+      "context": "Potential long entry level for calls if price reaches"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "QQQ",
+      "direction": "long",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": 100,
+      "pnl_dollar": 13500,
+      "lessons": "Trade went up over 100% in less than two minutes. Took profits at consolidation after 7 minutes at liquidity level. Could have had better ROI with SPY which went to prior liquidity level."
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "short",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": null,
+      "pnl_dollar": 1700,
+      "lessons": "Classic textbook Fib reject in golden zone between 50-61.8%, rejection off VWAP, targeted back to liquidity level"
+    }
+  ],
+  "key_insights": [
+    "Trade level to level using daily, 4-hour, and 1-hour timeframes for liquidity levels",
+    "Watch futures data on 5-minute timeframe while taking entries on 1-minute for sniper entries",
+    "Chart VIX just like individual names to watch volatility structure",
+    "Don't trade against positive fundamental news - PCE inflation flat and consumer spending higher than expected is bullish",
+    "Watch where volume is decreasing as market approaches open - indicates lack of conviction",
+    "Pre-market levels are marked as interim (blue lines) vs confirmed levels (yellow) due to lighter volume",
+    "Market makers don't buy/sell SPY and QQQ options in pre-market, so watch volume flow in futures",
+    "Be patient and wait for price to come to your levels rather than chasing",
+    "Use supply and demand indicator to identify buying and selling pools",
+    "Multiple timeframe confirmation: 5-minute futures for structure, 1-minute for entry timing",
+    "Fibonacci retracements in golden zone (50-61.8%) combined with VWAP rejection is strong signal"
+  ],
+  "market_context": {
+    "overall_sentiment": "bullish",
+    "key_levels_mentioned": [
+      "SPY 566.04",
+      "QQQ 592.86",
+      "QQQ 594.54",
+      "QQQ 596.20",
+      "AAPL 257.39",
+      "AAPL 253.00"
+    ],
+    "notable_events": [
+      "PCE inflation data for August released at 5:30am - same level as prior month",
+      "Personal spending higher than expected",
+      "Government shutdown potential and massive layoffs news pending within next few days",
+      "Federal Reserve watching inflation and unemployment as two mandates",
+      "Tariffs not having negative impact on consumer spending"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides detailed trade recap of Friday's 100%+ winning QQQ call trade in under 2 minutes, explaining how he used positive PCE data, multi-timeframe analysis (1-min entries with 5-min futures confirmation), VIX structure, and pre-identified liquidity levels. He also took a second winning put trade using Fibonacci golden zone rejection. Emphasizes patience, waiting for price to come to levels, and not trading against positive fundamental catalysts.",
+  "video_id": "j2OkyEIVxsA",
+  "video_info": {
+    "title": "Bill Fanter Video j2OkyEIVxsA",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:08:32.381292"
+}

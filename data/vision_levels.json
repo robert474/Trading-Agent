@@ -1,3078 +1,1111 @@
 {
-  "scan_time": "2025-12-22T12:26:53.336821",
-  "symbols_scanned": 34,
-  "levels_found": 45,
+  "scan_time": "2025-12-23T06:56:45.045502",
+  "symbols_scanned": 35,
+  "levels_found": 69,
   "levels": [
+    {
+      "symbol": "SPY",
+      "direction": "LONG",
+      "entry": 690.0,
+      "stop": 675.0,
+      "target": 735.0,
+      "current_price": 684.83,
+      "distance_pct": 0.75,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 80,
+      "notes": "Fresh all-time high resistance around 690 level. Clean breakout above this zone with strong trend momentum would target measured move higher. Stop below recent swing low maintains good R:R.",
+      "source": "Vision AI",
+      "chart_image": "SPY_daily.png",
+      "detected_at": "2025-12-23T06:50:41.490233"
+    },
+    {
+      "symbol": "SPY",
+      "direction": "SHORT",
+      "entry": 675.0,
+      "stop": 690.0,
+      "target": 630.0,
+      "current_price": 684.83,
+      "distance_pct": 1.44,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakdown below recent support around 675 would break the uptrend structure. However, going against such a strong trend requires caution. Target would be gap fill area around 630.",
+      "source": "Vision AI",
+      "chart_image": "SPY_daily.png",
+      "detected_at": "2025-12-23T06:50:41.490293"
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "LONG",
+      "entry": 630.0,
+      "stop": 610.0,
+      "target": 690.0,
+      "current_price": 619.21,
+      "distance_pct": 1.74,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 85,
+      "notes": "Break above fresh all-time high resistance around 630 level. Strong uptrend with minimal overhead resistance. Entry is 1.7% from current price.",
+      "source": "Vision AI",
+      "chart_image": "QQQ_daily.png",
+      "detected_at": "2025-12-23T06:50:50.454473"
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "SHORT",
+      "entry": 595.0,
+      "stop": 615.0,
+      "target": 535.0,
+      "current_price": 619.21,
+      "distance_pct": 3.91,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 70,
+      "notes": "Break below rising trendline support and 200 SMA confluence around 595. Would signal potential trend change. Entry is 3.9% from current price.",
+      "source": "Vision AI",
+      "chart_image": "QQQ_daily.png",
+      "detected_at": "2025-12-23T06:50:50.454588"
+    },
     {
       "symbol": "AAPL",
       "direction": "LONG",
       "entry": 280.5,
-      "stop": 273.62,
-      "target": 301.12,
-      "current_price": 270.85,
-      "zone_low": 275.0,
-      "zone_high": 280.5,
-      "distance_pct": 3.56,
+      "stop": 270.0,
+      "target": 312.0,
+      "current_price": 270.97,
+      "distance_pct": 3.52,
       "status": "PENDING",
       "rr_ratio": 3.0,
       "quality": 85,
-      "fresh": false,
-      "notes": "Vision: Strong supply zone where price consolidated at all-time highs before sharp rejection. High volume selling pressure visible, multiple wicks show rejection at these levels.",
+      "notes": "Breakout above all-time high resistance zone around $280. This is a fresh resistance level that has capped recent moves. Strong uptrend channel support below provides good risk/reward.",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:19:37.131644",
-      "chart_image": "AAPL_daily.png"
+      "chart_image": "AAPL_daily.png",
+      "detected_at": "2025-12-23T06:51:00.221532"
     },
     {
       "symbol": "AAPL",
       "direction": "SHORT",
-      "entry": 260.0,
-      "stop": 266.32,
-      "target": 241.03,
-      "current_price": 270.85,
-      "zone_low": 260.0,
-      "zone_high": 265.0,
-      "distance_pct": 4.01,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 75,
-      "fresh": true,
-      "notes": "Vision: Fresh demand zone that launched the recent rally from November lows. Strong departure with good volume, sitting above the 50-day SMA support.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:19:37.131683",
-      "chart_image": "AAPL_daily.png"
-    },
-    {
-      "symbol": "MSFT",
-      "direction": "SHORT",
-      "entry": 470.0,
-      "stop": 482.4,
-      "target": 432.8,
-      "current_price": 486.02,
-      "zone_low": 470.0,
-      "zone_high": 480.0,
-      "distance_pct": 3.3,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 85,
-      "fresh": true,
-      "notes": "Vision: Recent demand zone where price found support and bounced sharply. Current price testing upper boundary of this zone with good volume confirmation.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:19:50.396893",
-      "chart_image": "MSFT_daily.png"
-    },
-    {
-      "symbol": "NVDA",
-      "direction": "LONG",
-      "entry": 190.0,
-      "stop": 184.07,
-      "target": 207.78,
-      "current_price": 183.2,
-      "zone_low": 185.0,
-      "zone_high": 190.0,
-      "distance_pct": 3.71,
+      "entry": 259.5,
+      "stop": 272.0,
+      "target": 222.0,
+      "current_price": 270.97,
+      "distance_pct": 4.23,
       "status": "PENDING",
       "rr_ratio": 3.0,
       "quality": 70,
-      "fresh": false,
-      "notes": "Vision: Minor supply zone showing recent resistance. Price currently testing this level with multiple rejections visible in recent sessions.",
+      "notes": "Breakdown below 20-day SMA and rising channel support around $260. This would signal potential end of uptrend, but quality is lower due to strong overall trend structure.",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:20:04.066749",
-      "chart_image": "NVDA_daily.png"
+      "chart_image": "AAPL_daily.png",
+      "detected_at": "2025-12-23T06:51:00.221563"
     },
     {
-      "symbol": "TSLA",
+      "symbol": "AMZN",
       "direction": "LONG",
-      "entry": 500,
-      "stop": 485.56,
-      "target": 543.32,
-      "current_price": 493.23,
-      "zone_low": 488,
-      "zone_high": 500,
-      "distance_pct": 1.37,
+      "entry": 235.0,
+      "stop": 225.0,
+      "target": 265.0,
+      "current_price": 228.43,
+      "distance_pct": 2.88,
       "status": "PENDING",
       "rr_ratio": 3.0,
-      "quality": 75,
-      "fresh": true,
-      "notes": "Vision: Current resistance zone at all-time highs. Price showing some consolidation at these levels with multiple tests of 490-500 area.",
+      "quality": 78,
+      "notes": "Break above recent consolidation resistance around 235 level. This area has acted as resistance multiple times in December. Target aims for retest of November highs around 260-265.",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:20:32.707058",
-      "chart_image": "TSLA_daily.png"
-    },
-    {
-      "symbol": "META",
-      "direction": "LONG",
-      "entry": 675,
-      "stop": 661.67,
-      "target": 714.98,
-      "current_price": 658.59,
-      "zone_low": 665,
-      "zone_high": 675,
-      "distance_pct": 2.49,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 75,
-      "fresh": false,
-      "notes": "Vision: Strong supply zone from Sept highs where price consolidated around 670-675 before major sell-off. Price has retested this area multiple times in Dec, showing seller interest.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:20:47.567687",
-      "chart_image": "META_daily.png"
-    },
-    {
-      "symbol": "META",
-      "direction": "SHORT",
-      "entry": 630,
-      "stop": 648.22,
-      "target": 575.33,
-      "current_price": 658.59,
-      "zone_low": 630,
-      "zone_high": 645,
-      "distance_pct": 4.34,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": false,
-      "notes": "Vision: Recent demand zone from late November where price found support around 635-640. Price consolidated here before current rally attempt. Multiple touches have weakened it slightly.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:20:47.567727",
-      "chart_image": "META_daily.png"
-    },
-    {
-      "symbol": "GOOGL",
-      "direction": "LONG",
-      "entry": 320.0,
-      "stop": 313.43,
-      "target": 339.72,
-      "current_price": 308.72,
-      "zone_low": 315.0,
-      "zone_high": 320.0,
-      "distance_pct": 3.65,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": true,
-      "notes": "Vision: Current resistance area where price has stalled in December. Multiple wicks and rejection candles suggest supply presence. Close to all-time highs creating natural resistance.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:21:01.378222",
-      "chart_image": "GOOGL_daily.png"
+      "chart_image": "AMZN_daily.png",
+      "detected_at": "2025-12-23T06:51:09.190427"
     },
     {
       "symbol": "AMZN",
       "direction": "SHORT",
       "entry": 220.0,
-      "stop": 225.12,
-      "target": 204.64,
-      "current_price": 227.84,
-      "zone_low": 220.0,
-      "zone_high": 224.0,
-      "distance_pct": 3.44,
+      "stop": 230.0,
+      "target": 190.0,
+      "current_price": 228.43,
+      "distance_pct": 3.69,
       "status": "PENDING",
       "rr_ratio": 3.0,
-      "quality": 65,
-      "fresh": false,
-      "notes": "Vision: Emerging demand zone where price has found support multiple times in December. Blue trendline support confluences with this area.",
+      "quality": 72,
+      "notes": "Break below key support zone around 220 which aligns with the blue moving average support. This level has provided support multiple times. Target aims for next major support around 190.",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:21:13.711167",
-      "chart_image": "AMZN_daily.png"
+      "chart_image": "AMZN_daily.png",
+      "detected_at": "2025-12-23T06:51:09.190477"
+    },
+    {
+      "symbol": "GOOGL",
+      "direction": "LONG",
+      "entry": 320.0,
+      "stop": 305.0,
+      "target": 365.0,
+      "current_price": 309.78,
+      "distance_pct": 3.3,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 80,
+      "notes": "Break above recent consolidation highs around 320. This level has acted as resistance multiple times in the recent trading sessions. Entry at 3.3% above current price with strong uptrend support.",
+      "source": "Vision AI",
+      "chart_image": "GOOGL_daily.png",
+      "detected_at": "2025-12-23T06:51:18.499019"
+    },
+    {
+      "symbol": "GOOGL",
+      "direction": "SHORT",
+      "entry": 295.0,
+      "stop": 310.0,
+      "target": 250.0,
+      "current_price": 309.78,
+      "distance_pct": 4.77,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 60,
+      "notes": "Breakdown below the ascending trendline support and 20-period SMA confluence around 295. Would signal potential trend change, but goes against the dominant uptrend making it lower probability.",
+      "source": "Vision AI",
+      "chart_image": "GOOGL_daily.png",
+      "detected_at": "2025-12-23T06:51:18.499051"
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "LONG",
+      "entry": 495.0,
+      "stop": 475.0,
+      "target": 555.0,
+      "current_price": 488.73,
+      "distance_pct": 1.28,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 85,
+      "notes": "Breaking above recent consolidation highs with multiple tests creating strong resistance. Clean breakout above $495 targets new highs with strong momentum",
+      "source": "Vision AI",
+      "chart_image": "TSLA_daily.png",
+      "detected_at": "2025-12-23T06:51:27.764177"
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "SHORT",
+      "entry": 464.99,
+      "stop": 480.0,
+      "target": 419.97,
+      "current_price": 488.73,
+      "distance_pct": 4.86,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 70,
+      "notes": "Breaking below key support zone around $465 that has held multiple bounces. Failure here could trigger deeper correction to $420 area",
+      "source": "Vision AI",
+      "chart_image": "TSLA_daily.png",
+      "detected_at": "2025-12-23T06:51:27.764209"
+    },
+    {
+      "symbol": "META",
+      "direction": "LONG",
+      "entry": 670.0,
+      "stop": 650.0,
+      "target": 730.0,
+      "current_price": 661.5,
+      "distance_pct": 1.28,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 80,
+      "notes": "Break above August highs resistance zone. Clean level that's been tested multiple times. Entry at 1.3% above current price.",
+      "source": "Vision AI",
+      "chart_image": "META_daily.png",
+      "detected_at": "2025-12-23T06:51:36.753126"
+    },
+    {
+      "symbol": "META",
+      "direction": "SHORT",
+      "entry": 649.0,
+      "stop": 670.0,
+      "target": 586.0,
+      "current_price": 661.5,
+      "distance_pct": 1.89,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 70,
+      "notes": "Break below key support that's held multiple times and the rising trendline from October lows. Entry at 1.9% below current price.",
+      "source": "Vision AI",
+      "chart_image": "META_daily.png",
+      "detected_at": "2025-12-23T06:51:36.753198"
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "LONG",
+      "entry": 186.5,
+      "stop": 180.0,
+      "target": 206.0,
+      "current_price": 183.69,
+      "distance_pct": 1.53,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 78,
+      "notes": "Break above well-tested resistance zone around $184-$186. Multiple touches make this a significant level. Target based on measured move to previous highs around $205-$210.",
+      "source": "Vision AI",
+      "chart_image": "NVDA_daily.png",
+      "detected_at": "2025-12-23T06:51:45.962533"
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "SHORT",
+      "entry": 179.5,
+      "stop": 186.0,
+      "target": 160.0,
+      "current_price": 183.69,
+      "distance_pct": 2.28,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 72,
+      "notes": "Breakdown below recent support confluence around $180-$182. This area has provided support multiple times. Break below could signal move toward SMA 200 support around $160.",
+      "source": "Vision AI",
+      "chart_image": "NVDA_daily.png",
+      "detected_at": "2025-12-23T06:51:45.962570"
+    },
+    {
+      "symbol": "AMD",
+      "direction": "LONG",
+      "entry": 220.0,
+      "stop": 210.0,
+      "target": 250.0,
+      "current_price": 214.95,
+      "distance_pct": 2.35,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 72,
+      "notes": "Breakout above recent consolidation highs and 20-day SMA resistance. Multiple tests of 220 level make it a significant resistance zone to break.",
+      "source": "Vision AI",
+      "chart_image": "AMD_daily.png",
+      "detected_at": "2025-12-23T06:51:54.558650"
+    },
+    {
+      "symbol": "AMD",
+      "direction": "SHORT",
+      "entry": 209.5,
+      "stop": 217.0,
+      "target": 187.0,
+      "current_price": 214.95,
+      "distance_pct": 2.54,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 68,
+      "notes": "Breakdown below recent consolidation lows and 50-day SMA support. Would target the gap fill area from the August rally around 187.",
+      "source": "Vision AI",
+      "chart_image": "AMD_daily.png",
+      "detected_at": "2025-12-23T06:51:54.558677"
     },
     {
       "symbol": "AVGO",
       "direction": "LONG",
-      "entry": 350,
-      "stop": 338.3,
-      "target": 385.1,
-      "current_price": 341.36,
-      "zone_low": 340,
-      "zone_high": 350,
-      "distance_pct": 2.53,
+      "entry": 355.0,
+      "stop": 340.0,
+      "target": 400.0,
+      "current_price": 341.45,
+      "distance_pct": 3.97,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 85,
+      "notes": "Breaking above all-time high resistance zone around 350-355. Fresh resistance level that hasn't been heavily tested. Strong uptrend structure supports continuation above this level.",
+      "source": "Vision AI",
+      "chart_image": "AVGO_daily.png",
+      "detected_at": "2025-12-23T06:52:04.113619"
+    },
+    {
+      "symbol": "AVGO",
+      "direction": "SHORT",
+      "entry": 335.0,
+      "stop": 350.0,
+      "target": 290.0,
+      "current_price": 341.45,
+      "distance_pct": 1.89,
       "status": "PENDING",
       "rr_ratio": 3.0,
       "quality": 70,
-      "fresh": false,
-      "notes": "Vision: Recent supply zone around current highs where price has struggled multiple times in November-December",
+      "notes": "Breaking below recent consolidation support and 20 SMA around 335-340 area. Could signal end of consolidation and deeper pullback in the uptrend. Multiple touches in this support zone.",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:21:25.162265",
-      "chart_image": "AVGO_daily.png"
+      "chart_image": "AVGO_daily.png",
+      "detected_at": "2025-12-23T06:52:04.113676"
     },
     {
       "symbol": "ORCL",
       "direction": "SHORT",
-      "entry": 190,
-      "stop": 201.0,
-      "target": 157.0,
-      "current_price": 198.12,
-      "zone_low": 190,
-      "zone_high": 200,
-      "distance_pct": 4.1,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 85,
-      "fresh": true,
-      "notes": "Vision: Strong demand zone at current price area - recent consolidation before potential breakout above 200 level, supported by increased volume",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:21:38.509673",
-      "chart_image": "ORCL_daily.png"
-    },
-    {
-      "symbol": "CRM",
-      "direction": "LONG",
-      "entry": 275.0,
-      "stop": 266.66,
-      "target": 300.02,
-      "current_price": 263.56,
-      "zone_low": 268.0,
-      "zone_high": 275.0,
-      "distance_pct": 4.34,
+      "entry": 188.5,
+      "stop": 195.0,
+      "target": 169.0,
+      "current_price": 198.38,
+      "distance_pct": 4.98,
       "status": "PENDING",
       "rr_ratio": 3.0,
       "quality": 78,
-      "fresh": true,
-      "notes": "Vision: Supply zone from May-June period where price consolidated before significant decline. Purple downtrend line also acts as dynamic resistance in this area",
+      "notes": "Breakdown below key support zone around 190-192 level that has been tested multiple times. This area represents a significant floor that if broken could lead to further selling toward the 170 area.",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:21:51.804032",
-      "chart_image": "CRM_daily.png"
+      "chart_image": "ORCL_daily.png",
+      "detected_at": "2025-12-23T06:52:14.209212"
     },
     {
-      "symbol": "ADBE",
+      "symbol": "ORCL",
       "direction": "LONG",
-      "entry": 375,
-      "stop": 366.16,
-      "target": 401.52,
-      "current_price": 358.4,
-      "zone_low": 368,
-      "zone_high": 375,
-      "distance_pct": 4.63,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": true,
-      "notes": "Vision: Recent supply zone from November high - price consolidated then dropped. Fresh but weaker due to proximity to current price and shorter departure move",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:22:03.261505",
-      "chart_image": "ADBE_daily.png"
-    },
-    {
-      "symbol": "INTC",
-      "direction": "LONG",
-      "entry": 38.0,
-      "stop": 37.01,
-      "target": 40.96,
-      "current_price": 36.51,
-      "zone_low": 37.2,
-      "zone_high": 38.0,
-      "distance_pct": 4.08,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": false,
-      "notes": "Vision: Intermediate supply zone from recent December highs. Price consolidated and rejected from this level with decent volume, creating resistance.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:22:17.028176",
-      "chart_image": "INTC_daily.png"
-    },
-    {
-      "symbol": "QCOM",
-      "direction": "LONG",
-      "entry": 180.0,
-      "stop": 176.12,
-      "target": 191.65,
-      "current_price": 174.55,
-      "zone_low": 177.0,
-      "zone_high": 180.0,
-      "distance_pct": 3.12,
+      "entry": 205.0,
+      "stop": 195.0,
+      "target": 235.0,
+      "current_price": 198.38,
+      "distance_pct": 3.34,
       "status": "PENDING",
       "rr_ratio": 3.0,
       "quality": 65,
-      "fresh": false,
-      "notes": "Vision: Minor supply zone from recent highs in December. Price showing some resistance here but zone quality moderate due to choppy price action.",
+      "notes": "Breakout above recent resistance around 200-205 level with declining volume concern. Would need strong volume confirmation to validate the move higher toward the next resistance zone.",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:22:30.046296",
-      "chart_image": "QCOM_daily.png"
+      "chart_image": "ORCL_daily.png",
+      "detected_at": "2025-12-23T06:52:14.209251"
     },
     {
-      "symbol": "MU",
+      "symbol": "PLTR",
       "direction": "LONG",
-      "entry": 272,
-      "stop": 263.68,
-      "target": 296.97,
-      "current_price": 273.32,
-      "zone_low": 265,
-      "zone_high": 272,
-      "distance_pct": 0.48,
-      "status": "MISSED",
+      "entry": 195.0,
+      "stop": 187.5,
+      "target": 217.5,
+      "current_price": 193.98,
+      "distance_pct": 0.53,
+      "status": "PENDING",
       "rr_ratio": 3.0,
-      "quality": 85,
-      "fresh": false,
-      "notes": "Vision: Strong supply zone where price consolidated before the recent sharp decline. High volume rejection and quick departure from this level indicates institutional selling.",
+      "quality": 82,
+      "notes": "Breaking above recent consolidation highs around $194-195 level. This is a fresh resistance zone that's been tested 2-3 times recently. Volume has been declining during consolidation, setting up for potential breakout.",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:22:43.104726",
-      "chart_image": "MU_daily.png"
+      "chart_image": "PLTR_daily.png",
+      "detected_at": "2025-12-23T06:52:24.044175"
     },
     {
-      "symbol": "JPM",
+      "symbol": "PLTR",
       "direction": "SHORT",
-      "entry": 310.0,
-      "stop": 316.57,
-      "target": 290.28,
-      "current_price": 322.28,
-      "zone_low": 310.0,
-      "zone_high": 315.0,
-      "distance_pct": 3.81,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 75,
-      "fresh": true,
-      "notes": "Vision: Recent demand zone from mid-December where price found support and launched higher. Good volume spike and quick rejection from this level.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:23:09.653244",
-      "chart_image": "JPM_daily.png"
-    },
-    {
-      "symbol": "JPM",
-      "direction": "LONG",
-      "entry": 330.0,
-      "stop": 323.38,
-      "target": 349.88,
-      "current_price": 322.28,
-      "zone_low": 325.0,
-      "zone_high": 330.0,
-      "distance_pct": 2.4,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": true,
-      "notes": "Vision: Potential supply zone forming at current highs around all-time high levels. Price showing some consolidation and resistance near these levels.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:23:09.653303",
-      "chart_image": "JPM_daily.png"
-    },
-    {
-      "symbol": "BAC",
-      "direction": "LONG",
-      "entry": 58.0,
-      "stop": 56.71,
-      "target": 61.86,
-      "current_price": 56.05,
-      "zone_low": 57.0,
-      "zone_high": 58.0,
-      "distance_pct": 3.47,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": true,
-      "notes": "Vision: Current resistance area around all-time highs. Price showing some hesitation and consolidation at these levels",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:23:23.677293",
-      "chart_image": "BAC_daily.png"
-    },
-    {
-      "symbol": "V",
-      "direction": "LONG",
-      "entry": 370.0,
-      "stop": 363.18,
-      "target": 390.47,
-      "current_price": 352.62,
-      "zone_low": 365.0,
-      "zone_high": 370.0,
-      "distance_pct": 4.93,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 75,
-      "fresh": false,
-      "notes": "Vision: Supply zone from June highs around 368-370 area. Price consolidated here before the major sell-off. Has been tested once but still relevant as resistance.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:23:49.472246",
-      "chart_image": "V_daily.png"
-    },
-    {
-      "symbol": "V",
-      "direction": "SHORT",
-      "entry": 340.0,
-      "stop": 346.72,
-      "target": 319.83,
-      "current_price": 352.62,
-      "zone_low": 340.0,
-      "zone_high": 345.0,
-      "distance_pct": 3.58,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": false,
-      "notes": "Vision: Secondary demand zone from recent consolidation in early December. Multiple bounces from this area but weakened by retests.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:23:49.472332",
-      "chart_image": "V_daily.png"
-    },
-    {
-      "symbol": "V",
-      "direction": "LONG",
-      "entry": 362.0,
-      "stop": 356.21,
-      "target": 379.37,
-      "current_price": 352.62,
-      "zone_low": 358.0,
-      "zone_high": 362.0,
-      "distance_pct": 2.66,
+      "entry": 189.5,
+      "stop": 196.0,
+      "target": 170.0,
+      "current_price": 193.98,
+      "distance_pct": 2.31,
       "status": "PENDING",
       "rr_ratio": 3.0,
       "quality": 65,
-      "fresh": true,
-      "notes": "Vision: Fresh supply zone from recent highs where price consolidated briefly before current pullback. Relatively weak due to shallow base formation.",
+      "notes": "Breakdown below recent consolidation support around $190 level. However, this goes against the strong uptrend, so quality is lower. Would need to see volume expansion and break of 20 SMA support around $187 for confirmation.",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:23:49.472338",
-      "chart_image": "V_daily.png"
-    },
-    {
-      "symbol": "MA",
-      "direction": "LONG",
-      "entry": 605,
-      "stop": 592.02,
-      "target": 643.93,
-      "current_price": 578.65,
-      "zone_low": 595,
-      "zone_high": 605,
-      "distance_pct": 4.55,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 85,
-      "fresh": false,
-      "notes": "Vision: Strong supply zone from August highs where price consolidated before major selloff. Multiple retests weaken it slightly but still significant resistance.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:24:02.151431",
-      "chart_image": "MA_daily.png"
-    },
-    {
-      "symbol": "MA",
-      "direction": "LONG",
-      "entry": 580,
-      "stop": 567.15,
-      "target": 618.55,
-      "current_price": 578.65,
-      "zone_low": 570,
-      "zone_high": 580,
-      "distance_pct": 0.23,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": false,
-      "notes": "Vision: Recent supply zone from September where price rejected and sold off. Currently testing this area as current price trades within zone.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:24:02.151479",
-      "chart_image": "MA_daily.png"
+      "chart_image": "PLTR_daily.png",
+      "detected_at": "2025-12-23T06:52:24.044218"
     },
     {
       "symbol": "NKE",
       "direction": "SHORT",
       "entry": 55.5,
-      "stop": 57.79,
-      "target": 48.64,
-      "current_price": 57.42,
-      "zone_low": 55.5,
-      "zone_high": 57.5,
-      "distance_pct": 3.35,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 95,
-      "fresh": true,
-      "notes": "Vision: Fresh demand zone at current levels. Price appears to be holding above the rising blue trendline support. Strong volume spike suggests institutional buying interest.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:24:15.425610",
-      "chart_image": "NKE_daily.png"
-    },
-    {
-      "symbol": "SBUX",
-      "direction": "LONG",
-      "entry": 90.5,
-      "stop": 88.06,
-      "target": 97.83,
-      "current_price": 87.22,
-      "zone_low": 88.5,
-      "zone_high": 90.5,
-      "distance_pct": 3.76,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": true,
-      "notes": "Vision: Recent supply zone from November-December consolidation. Price is currently testing this area with declining momentum and volume.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:24:28.984221",
-      "chart_image": "SBUX_daily.png"
-    },
-    {
-      "symbol": "SBUX",
-      "direction": "SHORT",
-      "entry": 83.5,
-      "stop": 85.42,
-      "target": 77.73,
-      "current_price": 87.22,
-      "zone_low": 83.5,
-      "zone_high": 85.0,
-      "distance_pct": 4.27,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 75,
-      "fresh": false,
-      "notes": "Vision: November demand zone that launched the rally to current levels. Good base formation with decent volume participation.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:24:28.984273",
-      "chart_image": "SBUX_daily.png"
-    },
-    {
-      "symbol": "MCD",
-      "direction": "LONG",
-      "entry": 322.0,
-      "stop": 316.41,
-      "target": 338.77,
-      "current_price": 317.13,
-      "zone_low": 318.0,
-      "zone_high": 322.0,
-      "distance_pct": 1.54,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": true,
-      "notes": "Vision: Recent supply zone near all-time highs where price consolidated before current pullback. Downward sloping trendline resistance confluence.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:24:41.293568",
-      "chart_image": "MCD_daily.png"
-    },
-    {
-      "symbol": "MCD",
-      "direction": "LONG",
-      "entry": 316.0,
-      "stop": 311.44,
-      "target": 329.69,
-      "current_price": 317.13,
-      "zone_low": 313.0,
-      "zone_high": 316.0,
-      "distance_pct": 0.36,
-      "status": "MISSED",
-      "rr_ratio": 3.0,
-      "quality": 60,
-      "fresh": false,
-      "notes": "Vision: Minor supply zone from recent consolidation. Already tested multiple times, weakening its effectiveness.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:24:41.293721",
-      "chart_image": "MCD_daily.png"
-    },
-    {
-      "symbol": "HD",
-      "direction": "SHORT",
-      "entry": 330.0,
-      "stop": 341.7,
-      "target": 294.9,
-      "current_price": 347.33,
-      "zone_low": 330.0,
-      "zone_high": 340.0,
-      "distance_pct": 4.99,
+      "stop": 58.25,
+      "target": 47.25,
+      "current_price": 57.22,
+      "distance_pct": 3.01,
       "status": "PENDING",
       "rr_ratio": 3.0,
       "quality": 80,
-      "fresh": false,
-      "notes": "Vision: Strong demand zone around 330-340. Price found support here in November and rallied sharply. Currently testing this zone again with recent bounce.",
+      "notes": "Breakdown below strong support zone that held multiple times. Clean break would target channel projection and prior lows",
       "source": "Vision AI",
-      "detected_at": "2025-12-22T12:24:55.544685",
-      "chart_image": "HD_daily.png"
-    },
-    {
-      "symbol": "COST",
-      "direction": "LONG",
-      "entry": 885,
-      "stop": 865.65,
-      "target": 943.05,
-      "current_price": 849.7,
-      "zone_low": 870,
-      "zone_high": 885,
-      "distance_pct": 4.15,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 85,
-      "fresh": false,
-      "notes": "Vision: Strong supply zone from Nov consolidation before sharp decline. Multiple rejections at this level with high volume",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:25:07.378800",
-      "chart_image": "COST_daily.png"
-    },
-    {
-      "symbol": "COST",
-      "direction": "SHORT",
-      "entry": 840,
-      "stop": 854.25,
-      "target": 797.25,
-      "current_price": 849.7,
-      "zone_low": 840,
-      "zone_high": 850,
-      "distance_pct": 1.14,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": false,
-      "notes": "Vision: Current demand area showing some buying interest, but price is struggling to hold above",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:25:07.378947",
-      "chart_image": "COST_daily.png"
-    },
-    {
-      "symbol": "COST",
-      "direction": "SHORT",
-      "entry": 810,
-      "stop": 829.12,
-      "target": 752.63,
-      "current_price": 849.7,
-      "zone_low": 810,
-      "zone_high": 825,
-      "distance_pct": 4.67,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 80,
-      "fresh": true,
-      "notes": "Vision: Fresh demand zone from late September rally base. Strong departure with good volume, never retested",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:25:07.378955",
-      "chart_image": "COST_daily.png"
-    },
-    {
-      "symbol": "UNH",
-      "direction": "SHORT",
-      "entry": 310.0,
-      "stop": 321.6,
-      "target": 275.2,
-      "current_price": 325.99,
-      "zone_low": 310.0,
-      "zone_high": 320.0,
-      "distance_pct": 4.91,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 75,
-      "fresh": true,
-      "notes": "Vision: Recent demand zone from November-December consolidation area. Price has been finding support in this zone with some buying interest emerging.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:25:19.958998",
-      "chart_image": "UNH_daily.png"
-    },
-    {
-      "symbol": "LLY",
-      "direction": "SHORT",
-      "entry": 1020,
-      "stop": 1045.2,
-      "target": 944.4,
-      "current_price": 1067.76,
-      "zone_low": 1020,
-      "zone_high": 1040,
-      "distance_pct": 4.47,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 85,
-      "fresh": true,
-      "notes": "Vision: Strong demand zone formed in early December after consolidation, followed by sharp rally to new highs. Never retested, high volume confirmation visible.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:25:34.029080",
-      "chart_image": "LLY_daily.png"
-    },
-    {
-      "symbol": "MRNA",
-      "direction": "LONG",
-      "entry": 35.0,
-      "stop": 33.33,
-      "target": 40.0,
-      "current_price": 35.76,
-      "zone_low": 33.5,
-      "zone_high": 35.0,
-      "distance_pct": 2.13,
-      "status": "MISSED",
-      "rr_ratio": 3.0,
-      "quality": 60,
-      "fresh": false,
-      "notes": "Vision: Previous resistance area from July highs that was broken during the current rally. Could act as support on any pullback but quality is reduced due to break above.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:25:48.239525",
-      "chart_image": "MRNA_daily.png"
-    },
-    {
-      "symbol": "XOM",
-      "direction": "LONG",
-      "entry": 121.0,
-      "stop": 118.9,
-      "target": 127.29,
-      "current_price": 118.17,
-      "zone_low": 119.5,
-      "zone_high": 121.0,
-      "distance_pct": 2.39,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": true,
-      "notes": "Vision: Recent supply zone from November highs where price consolidated then dropped. Fresh zone with rejection candles",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:26:01.096128",
-      "chart_image": "XOM_daily.png"
-    },
-    {
-      "symbol": "XOM",
-      "direction": "SHORT",
-      "entry": 115.0,
-      "stop": 117.08,
-      "target": 108.75,
-      "current_price": 118.17,
-      "zone_low": 115.0,
-      "zone_high": 116.5,
-      "distance_pct": 2.68,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 65,
-      "fresh": false,
-      "notes": "Vision: Multiple demand area that has provided support, but weakened by several touches. Still holding as support",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:26:01.096176",
-      "chart_image": "XOM_daily.png"
-    },
-    {
-      "symbol": "CVX",
-      "direction": "SHORT",
-      "entry": 145.0,
-      "stop": 148.74,
-      "target": 133.78,
-      "current_price": 150.08,
-      "zone_low": 145.0,
-      "zone_high": 148.0,
-      "distance_pct": 3.38,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 70,
-      "fresh": false,
-      "notes": "Vision: Demand zone where price found support and bounced in recent sessions. Blue trendline support confluence adds strength to this area.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:26:14.841941",
-      "chart_image": "CVX_daily.png"
-    },
-    {
-      "symbol": "SPY",
-      "direction": "SHORT",
-      "entry": 656,
-      "stop": 667.32,
-      "target": 622.04,
-      "current_price": 684.57,
-      "zone_low": 656,
-      "zone_high": 664,
-      "distance_pct": 4.17,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 85,
-      "fresh": true,
-      "notes": "Vision: Strong demand zone from late November consolidation before sharp rally to new highs. High volume base with rapid departure upward. Never retested since breakout.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:26:28.678529",
-      "chart_image": "SPY_daily.png"
-    },
-    {
-      "symbol": "SPY",
-      "direction": "LONG",
-      "entry": 686,
-      "stop": 674.61,
-      "target": 720.17,
-      "current_price": 684.57,
-      "zone_low": 678,
-      "zone_high": 686,
-      "distance_pct": 0.21,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 65,
-      "fresh": false,
-      "notes": "Vision: Recent resistance zone from December highs around 684-686 area. Price has touched this level multiple times, showing some selling pressure but zone is weakening with multiple tests.",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:26:28.678575",
-      "chart_image": "SPY_daily.png"
-    },
-    {
-      "symbol": "QQQ",
-      "direction": "SHORT",
-      "entry": 590,
-      "stop": 603.0,
-      "target": 551.0,
-      "current_price": 619.19,
-      "zone_low": 590,
-      "zone_high": 600,
-      "distance_pct": 4.71,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 85,
-      "fresh": true,
-      "notes": "Vision: Strong demand zone from November consolidation that launched the rally to current highs. Never retested, high volume base with sharp departure",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:26:40.318233",
-      "chart_image": "QQQ_daily.png"
-    },
-    {
-      "symbol": "QQQ",
-      "direction": "LONG",
-      "entry": 630,
-      "stop": 616.9,
-      "target": 669.3,
-      "current_price": 619.19,
-      "zone_low": 620,
-      "zone_high": 630,
-      "distance_pct": 1.75,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 60,
-      "fresh": false,
-      "notes": "Vision: Recent highs area showing some resistance. Multiple touches visible but not a strong supply zone yet due to limited selling pressure",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:26:40.318277",
-      "chart_image": "QQQ_daily.png"
-    },
-    {
-      "symbol": "IWM",
-      "direction": "SHORT",
-      "entry": 244.0,
-      "stop": 249.24,
-      "target": 228.28,
-      "current_price": 254.32,
-      "zone_low": 244.0,
-      "zone_high": 248.0,
-      "distance_pct": 4.06,
-      "status": "PENDING",
-      "rr_ratio": 3.0,
-      "quality": 75,
-      "fresh": true,
-      "notes": "Vision: Recent demand zone from November pullback that sparked the move to new highs. Quick reversal with decent volume",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:26:52.329955",
-      "chart_image": "IWM_daily.png"
-    },
-    {
-      "symbol": "IWM",
-      "direction": "LONG",
-      "entry": 252.0,
-      "stop": 246.76,
-      "target": 267.72,
-      "current_price": 254.32,
-      "zone_low": 248.0,
-      "zone_high": 252.0,
-      "distance_pct": 0.91,
-      "status": "MISSED",
-      "rr_ratio": 3.0,
-      "quality": 65,
-      "fresh": false,
-      "notes": "Vision: Supply zone from late November where price consolidated before the brief pullback. Already tested multiple times, weakening quality",
-      "source": "Vision AI",
-      "detected_at": "2025-12-22T12:26:52.330021",
-      "chart_image": "IWM_daily.png"
-    }
-  ],
-  "detailed_results": [
-    {
-      "symbol": "AAPL",
-      "current_price": 270.85,
-      "analysis_time": "2025-12-22T12:19:25.595426",
-      "overall_bias": "BEARISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 275.0,
-          "zone_high": 280.5,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone where price consolidated at all-time highs before sharp rejection. High volume selling pressure visible, multiple wicks show rejection at these levels."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 260.0,
-          "zone_high": 265.0,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Fresh demand zone that launched the recent rally from November lows. Strong departure with good volume, sitting above the 50-day SMA support."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 210.0,
-          "zone_high": 215.0,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major demand zone from August consolidation that launched massive rally. Extremely strong departure with high volume. Price has never retested this level."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 197.0,
-          "zone_high": 202.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Historical supply zone from April-May consolidation before summer correction. Less relevant now due to distance from current price but shows major resistance turned support."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          280.0,
-          275.0
-        ],
-        "support": [
-          265.0,
-          260.0,
-          250.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "SHORT",
-        "entry_zone": 275.0,
-        "target": 260.0,
-        "stop": 282.0,
-        "rationale": "Price rejected strongly from 275-280 supply zone with bearish momentum. Look for retest of this zone for short entry targeting the 260-265 demand zone below."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/AAPL_daily.png"
-    },
-    {
-      "symbol": "MSFT",
-      "current_price": 486.02,
-      "analysis_time": "2025-12-22T12:19:39.180920",
-      "overall_bias": "BEARISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 535.0,
-          "zone_high": 545.0,
-          "quality": 95,
-          "fresh": false,
-          "notes": "Strong supply zone where price consolidated before sharp rejection and double top formation. High volume sell-off from this level with fast departure speed."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 470.0,
-          "zone_high": 480.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Recent demand zone where price found support and bounced sharply. Current price testing upper boundary of this zone with good volume confirmation."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 520.0,
-          "zone_high": 530.0,
-          "quality": 75,
-          "fresh": false,
-          "notes": "Secondary supply zone created during the decline from the major top. Price consolidated briefly before continuing lower."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 440.0,
-          "zone_high": 450.0,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Lower demand zone visible on left side of chart where price consolidated before major rally. Fresh zone that hasn't been retested."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          500.0,
-          520.0,
-          540.0
-        ],
-        "support": [
-          475.0,
-          460.0,
-          445.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price is currently within demand zone 470-480 but showing weakness. Wait for clear break below 470 to short toward 445, or reclaim above 500 for long continuation. Current position lacks clear directional bias."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/MSFT_daily.png"
-    },
-    {
-      "symbol": "NVDA",
-      "current_price": 183.2,
-      "analysis_time": "2025-12-22T12:19:52.250081",
-      "overall_bias": "NEUTRAL",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 195.0,
-          "zone_high": 205.0,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone where price consolidated at highs before sharp decline in November. Multiple rejections from this area indicate heavy selling pressure."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 170.0,
-          "zone_high": 177.0,
-          "quality": 75,
-          "fresh": false,
-          "notes": "Demand zone from early December where price found support and launched higher. Recent retest held, showing buyers stepping in at this level."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 125.0,
-          "zone_high": 135.0,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major demand zone from August consolidation that launched the strong rally to highs. Fresh zone with strong volume, represents institutional accumulation area."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 185.0,
-          "zone_high": 190.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Minor supply zone showing recent resistance. Price currently testing this level with multiple rejections visible in recent sessions."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          190.0,
-          200.0,
-          205.0
-        ],
-        "support": [
-          175.0,
-          170.0,
-          135.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price is currently in no-man's land between key demand (170-177) and supply (185-190) zones. Wait for clear break and retest of either zone for higher probability setup."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/NVDA_daily.png"
-    },
-    {
-      "symbol": "AMD",
-      "current_price": 214.31,
-      "analysis_time": "2025-12-22T12:20:05.818604",
-      "overall_bias": "BEARISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 220.0,
-          "zone_high": 227.0,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone where price consolidated at highs before sharp decline. High volume rejection area with multiple retests showing weakness. Price currently below this zone."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 200.0,
-          "zone_high": 207.0,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Recent demand zone where price found support and bounced. Fresh zone with good volume, but needs to hold on any retest to confirm strength."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 245.0,
-          "zone_high": 255.0,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major fresh supply zone at recent highs. Strong rejection with high volume and sharp decline. This is the primary resistance area that triggered the recent sell-off."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 175.0,
-          "zone_high": 185.0,
-          "quality": 80,
-          "fresh": true,
-          "notes": "Strong demand zone from the major rally launch pad. Price consolidated here before the big move up to highs. Fresh zone that could provide strong support if retested."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          227.0,
-          250.0
-        ],
-        "support": [
-          200.0,
-          180.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price is currently in no-man's land between supply at 220-227 and demand at 200-207. Wait for price to reach one of these zones for a higher probability setup. If price rallies to 220-227 supply zone, look for SHORT. If price drops to 200-207 demand zone, look for LONG."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/AMD_daily.png"
-    },
-    {
-      "symbol": "TSLA",
-      "current_price": 493.23,
-      "analysis_time": "2025-12-22T12:20:19.644708",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 240,
-          "zone_high": 265,
-          "quality": 95,
-          "fresh": false,
-          "notes": "Strong demand zone from April/May - major base before explosive rally to $270+. Multiple bounces confirm strength but zone has been tested."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 350,
-          "zone_high": 375,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Significant demand zone from October - price consolidated here before breaking higher. Clean bounce off this level shows institutional buying."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 415,
-          "zone_high": 435,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Previous resistance zone from November where price stalled and pulled back. Already broken above but could act as support on retests."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 460,
-          "zone_high": 475,
-          "quality": 80,
-          "fresh": true,
-          "notes": "Fresh demand zone from recent pullback in early December. Price consolidated briefly then rallied to new highs. Untested since break higher."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 488,
-          "zone_high": 500,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Current resistance zone at all-time highs. Price showing some consolidation at these levels with multiple tests of 490-500 area."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          500,
-          520
-        ],
-        "support": [
-          475,
-          435,
-          375,
-          350
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 465,
-        "target": 520,
-        "stop": 445,
-        "rationale": "Strong uptrend intact with price making new highs. Look for pullback to fresh demand zone around 460-475 for long entry targeting breakout above 500 resistance."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/TSLA_daily.png"
-    },
-    {
-      "symbol": "META",
-      "current_price": 658.59,
-      "analysis_time": "2025-12-22T12:20:34.696264",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 665,
-          "zone_high": 675,
-          "quality": 75,
-          "fresh": false,
-          "notes": "Strong supply zone from Sept highs where price consolidated around 670-675 before major sell-off. Price has retested this area multiple times in Dec, showing seller interest."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 560,
-          "zone_high": 580,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Major demand zone created in October where price consolidated around 570-580 before explosive rally to 730+. This zone held perfectly during Nov retest and launched another strong move."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 630,
-          "zone_high": 645,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Recent demand zone from late November where price found support around 635-640. Price consolidated here before current rally attempt. Multiple touches have weakened it slightly."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 720,
-          "zone_high": 735,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Fresh major supply zone from September peak around 730. Price made brief consolidation before massive sell-off to 560s. Never retested - highest quality supply zone on chart."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          670,
-          685,
-          730
-        ],
-        "support": [
-          640,
-          580,
-          570
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 640,
-        "target": 685,
-        "stop": 625,
-        "rationale": "Price is showing strength above 640 demand zone with bullish momentum. Blue trendline support intact. Target the 685 level which is midpoint to major supply at 720-735. Risk/reward favorable with stop below recent demand zone."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/META_daily.png"
-    },
-    {
-      "symbol": "GOOGL",
-      "current_price": 308.72,
-      "analysis_time": "2025-12-22T12:20:49.417661",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 290.0,
-          "zone_high": 295.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone from late November consolidation before sharp rally to current highs. Price compressed here for several days then exploded higher with strong volume. Never retested since breakout."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 270.0,
-          "zone_high": 275.0,
-          "quality": 75,
-          "fresh": true,
-          "notes": "October demand zone where price consolidated before major rally phase began. Good volume spike and quick departure. Confluence with 20 SMA during that period."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 315.0,
-          "zone_high": 320.0,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Current resistance area where price has stalled in December. Multiple wicks and rejection candles suggest supply presence. Close to all-time highs creating natural resistance."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 245.0,
-          "zone_high": 250.0,
-          "quality": 65,
-          "fresh": true,
-          "notes": "September demand zone where price found support and launched higher. Good base formation before continuation of uptrend. Confluence with rising trend line support."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          315.0,
-          320.0,
-          325.0
-        ],
-        "support": [
-          295.0,
-          290.0,
-          275.0,
-          250.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price is at resistance near all-time highs. Wait for either breakout above 320 for continuation long, or pullback to 290-295 demand zone for better risk/reward long entry. Avoid chasing at current levels."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/GOOGL_daily.png"
-    },
-    {
-      "symbol": "AMZN",
-      "current_price": 227.84,
-      "analysis_time": "2025-12-22T12:21:03.144539",
-      "overall_bias": "NEUTRAL",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 254.0,
-          "zone_high": 262.0,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone from November highs with consolidation before sharp decline. High volume rejection area that led to significant sell-off to 210 area."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 208.0,
-          "zone_high": 215.0,
-          "quality": 80,
-          "fresh": false,
-          "notes": "Major demand zone from November lows where price consolidated briefly before explosive rally back above 220. Strong volume spike visible during formation."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 238.0,
-          "zone_high": 242.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Recent supply zone from mid-December highs. Price consolidated in this area before declining to current levels. Multiple touches have weakened this zone."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 220.0,
-          "zone_high": 224.0,
-          "quality": 65,
-          "fresh": false,
-          "notes": "Emerging demand zone where price has found support multiple times in December. Blue trendline support confluences with this area."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          230.0,
-          238.0,
-          242.0,
-          254.0
-        ],
-        "support": [
-          220.0,
-          215.0,
-          208.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price is currently between major zones. Wait for clear break above 230 resistance for long bias toward 238-242 supply zone, or break below 220 support for short bias toward 208-215 demand zone."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/AMZN_daily.png"
-    },
-    {
-      "symbol": "AVGO",
-      "current_price": 341.36,
-      "analysis_time": "2025-12-22T12:21:15.589185",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 150,
-          "zone_high": 175,
-          "quality": 95,
-          "fresh": true,
-          "notes": "Major demand zone from April consolidation before massive rally to 280+. Never retested, extremely strong departure with high volume"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 280,
-          "zone_high": 295,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong demand zone from July-August consolidation before rally to 340+. Has been lightly tested but held well"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 340,
-          "zone_high": 350,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Recent supply zone around current highs where price has struggled multiple times in November-December"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 315,
-          "zone_high": 325,
-          "quality": 75,
-          "fresh": false,
-          "notes": "Recent demand zone from November consolidation before push to current highs. Multiple successful tests"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          350,
-          375,
-          400
-        ],
-        "support": [
-          325,
-          295,
-          280
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price at resistance zone around 340-350. Wait for either rejection from supply zone for SHORT setup or break above 350 with volume for continuation LONG"
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/AVGO_daily.png"
-    },
-    {
-      "symbol": "ORCL",
-      "current_price": 198.12,
-      "analysis_time": "2025-12-22T12:21:27.146310",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 190,
-          "zone_high": 200,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone at current price area - recent consolidation before potential breakout above 200 level, supported by increased volume"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 330,
-          "zone_high": 345,
-          "quality": 90,
-          "fresh": false,
-          "notes": "Major supply zone from September highs - clear distribution pattern before the massive sell-off, multiple retests showing strong resistance"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 175,
-          "zone_high": 185,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Recent demand zone from December lows - consolidation area before current bounce, good volume on departure"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 280,
-          "zone_high": 290,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Secondary supply zone from October - consolidation before continued decline, weakened by multiple touches"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 95,
-          "zone_high": 105,
-          "quality": 80,
-          "fresh": false,
-          "notes": "Historical demand zone from April lows - strong base that launched the major rally to 330+ levels"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          200,
-          220,
-          280,
-          330
-        ],
-        "support": [
-          190,
-          175,
-          95
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 192,
-        "target": 220,
-        "stop": 175,
-        "rationale": "Price holding above key 190-200 demand zone with bullish momentum. First target at 220 resistance level with stop below recent demand zone at 175."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/ORCL_daily.png"
-    },
-    {
-      "symbol": "CRM",
-      "current_price": 263.56,
-      "analysis_time": "2025-12-22T12:21:40.415343",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 214.0,
-          "zone_high": 222.0,
-          "quality": 92,
-          "fresh": true,
-          "notes": "Strong fresh demand zone - price consolidated in this range in late October/early November before explosive rally to current levels. High volume base with rapid departure, never retested"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 268.0,
-          "zone_high": 275.0,
-          "quality": 78,
-          "fresh": true,
-          "notes": "Supply zone from May-June period where price consolidated before significant decline. Purple downtrend line also acts as dynamic resistance in this area"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 240.0,
-          "zone_high": 245.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Secondary demand zone from mid-November consolidation before recent breakout. Has been tested once but held, showing some strength"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 280.0,
-          "zone_high": 285.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Major supply zone from April highs where price peaked and reversed sharply. Confluence with purple downtrend resistance"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          268.0,
-          275.0,
-          280.0
-        ],
-        "support": [
-          245.0,
-          240.0,
-          222.0,
-          214.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 245.0,
-        "target": 275.0,
-        "stop": 238.0,
-        "rationale": "Bullish momentum from strong demand zone at 214-222. Current breakout above 260 shows strength. Look for pullback to 240-245 demand zone for long entry targeting supply zone resistance at 275"
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/CRM_daily.png"
-    },
-    {
-      "symbol": "ADBE",
-      "current_price": 358.4,
-      "analysis_time": "2025-12-22T12:21:53.491124",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 415,
-          "zone_high": 425,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong supply zone from May peak - price consolidated briefly then sold off sharply. Fresh zone never retested, high volume departure"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 315,
-          "zone_high": 325,
-          "quality": 90,
-          "fresh": false,
-          "notes": "Very strong demand zone from October low - price based here then exploded higher with strong volume. Recently retested in November and held perfectly"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 368,
-          "zone_high": 375,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Recent supply zone from November high - price consolidated then dropped. Fresh but weaker due to proximity to current price and shorter departure move"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 340,
-          "zone_high": 348,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Fresh demand zone from recent December low - price based briefly then rallied strongly back above previous resistance"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          375,
-          390,
-          415
-        ],
-        "support": [
-          340,
-          320,
-          315
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 348,
-        "target": 375,
-        "stop": 338,
-        "rationale": "Price broke above downtrend resistance and is holding above fresh demand zone. Bullish momentum with recent volume increase suggests continuation to next supply zone"
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/ADBE_daily.png"
-    },
-    {
-      "symbol": "INTC",
-      "current_price": 36.51,
-      "analysis_time": "2025-12-22T12:22:05.043277",
-      "overall_bias": "BEARISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 38.8,
-          "zone_high": 40.2,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone from November highs where price consolidated before sharp rejection. Price failed to break above this level and sold off aggressively with volume."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 34.5,
-          "zone_high": 35.5,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Recent demand zone from December low where price found support and bounced. Price consolidated briefly before rallying, showing buying interest."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 37.2,
-          "zone_high": 38.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Intermediate supply zone from recent December highs. Price consolidated and rejected from this level with decent volume, creating resistance."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 19.5,
-          "zone_high": 21.0,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major demand zone from August lows where price consolidated and launched the strong rally to current levels. High quality zone with sharp departure and strong volume."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          37.5,
-          38.8,
-          40.2
-        ],
-        "support": [
-          35.0,
-          34.5,
-          21.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "SHORT",
-        "entry_zone": 37.2,
-        "target": 35.0,
-        "stop": 38.5,
-        "rationale": "Price is approaching intermediate supply zone resistance around 37.20-38.00. Recent rejection from higher supply zone and bearish momentum suggest potential move down to demand zone support around 35.00."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/INTC_daily.png"
-    },
-    {
-      "symbol": "QCOM",
-      "current_price": 174.55,
-      "analysis_time": "2025-12-22T12:22:18.720614",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 160.0,
-          "zone_high": 165.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone formed in late October with quick rejection and rally. High volume area that launched price to new highs. Never properly retested."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 185.0,
-          "zone_high": 189.0,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Fresh supply zone formed in mid-November where price consolidated briefly before sharp decline. High volume rejection area that caused significant selloff."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 145.0,
-          "zone_high": 150.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "August consolidation zone that launched strong rally. Multiple minor touches but still holding as key support level. Shows institutional accumulation."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 177.0,
-          "zone_high": 180.0,
-          "quality": 65,
-          "fresh": false,
-          "notes": "Minor supply zone from recent highs in December. Price showing some resistance here but zone quality moderate due to choppy price action."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          180.0,
-          185.0,
-          189.0
-        ],
-        "support": [
-          165.0,
-          160.0,
-          150.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 165.0,
-        "target": 185.0,
-        "stop": 158.0,
-        "rationale": "Strong uptrend intact with price above key moving averages. Fresh demand zone at 160-165 offers high probability long entry on any pullback. Target fresh supply zone at 185."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/QCOM_daily.png"
-    },
-    {
-      "symbol": "MU",
-      "current_price": 273.32,
-      "analysis_time": "2025-12-22T12:22:32.120983",
-      "overall_bias": "BEARISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 265,
-          "zone_high": 272,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone where price consolidated before the recent sharp decline. High volume rejection and quick departure from this level indicates institutional selling."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 200,
-          "zone_high": 210,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Significant demand zone from the October consolidation area that launched the strong rally to highs. This zone has not been retested since the breakout."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 155,
-          "zone_high": 165,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Major demand zone from September consolidation that preceded the powerful uptrend. Strong volume accumulation visible at this level."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 245,
-          "zone_high": 252,
-          "quality": 60,
-          "fresh": false,
-          "notes": "Previous resistance area that has been tested multiple times. Weakened by multiple touches but still relevant as overhead supply."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          272,
-          252,
-          280
-        ],
-        "support": [
-          255,
-          210,
-          165
-        ]
-      },
-      "trade_idea": {
-        "bias": "SHORT",
-        "entry_zone": 268,
-        "target": 210,
-        "stop": 275,
-        "rationale": "Price is showing weakness after rejecting from major supply zone around 270. Breaking below current support could trigger move back to demand zone around 210. Risk/reward favors short bias."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/MU_daily.png"
-    },
-    {
-      "symbol": "PLTR",
-      "current_price": 193.29,
-      "analysis_time": "2025-12-22T12:22:44.835023",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 160.0,
-          "zone_high": 170.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone from November consolidation before sharp rally to highs. High volume base with rapid departure upward. Never retested since breakout."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 208.0,
-          "zone_high": 218.0,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Supply zone at all-time highs where price peaked and sold off sharply in November. Distribution area before the decline back to 170s."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 145.0,
-          "zone_high": 155.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Secondary demand zone from late October consolidation. Previously tested and held, but quality reduced due to multiple touches."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 80.0,
-          "zone_high": 90.0,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major demand zone from March-April base that launched the entire uptrend. Extremely strong zone with high volume and never retested."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          208.0,
-          218.0,
-          200.0
-        ],
-        "support": [
-          170.0,
-          160.0,
-          150.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 165.0,
-        "target": 210.0,
-        "stop": 155.0,
-        "rationale": "Strong uptrend intact above all major moving averages. Any pullback to the 160-170 demand zone offers excellent risk/reward for continuation higher toward supply zone resistance."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/PLTR_daily.png"
-    },
-    {
-      "symbol": "JPM",
-      "current_price": 322.28,
-      "analysis_time": "2025-12-22T12:22:57.898525",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 295.0,
-          "zone_high": 302.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone formed in October where price consolidated briefly before sharp rally to new highs. High volume confirmation and speed of departure indicates institutional buying."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 310.0,
-          "zone_high": 315.0,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Recent demand zone from mid-December where price found support and launched higher. Good volume spike and quick rejection from this level."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 325.0,
-          "zone_high": 330.0,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Potential supply zone forming at current highs around all-time high levels. Price showing some consolidation and resistance near these levels."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 280.0,
-          "zone_high": 288.0,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major demand zone from September where price consolidated in a tight range before explosive move higher. This was a key institutional accumulation area with very high volume."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          325.0,
-          330.0
-        ],
-        "support": [
-          315.0,
-          300.0,
-          285.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price is at/near all-time highs with potential supply forming. Wait for either a pullback to 310-315 demand zone for long entry, or a break above 330 with volume for continuation play."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/JPM_daily.png"
-    },
-    {
-      "symbol": "BAC",
-      "current_price": 56.055,
-      "analysis_time": "2025-12-22T12:23:11.551534",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 52.5,
-          "zone_high": 53.2,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone from November consolidation that launched the current rally to highs. Fresh zone with good volume and sharp departure"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 49.8,
-          "zone_high": 50.5,
-          "quality": 80,
-          "fresh": true,
-          "notes": "October demand zone that produced strong rally. Multiple consolidation periods before breakout higher with volume confirmation"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 57.0,
-          "zone_high": 58.0,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Current resistance area around all-time highs. Price showing some hesitation and consolidation at these levels"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 46.5,
-          "zone_high": 47.5,
-          "quality": 75,
-          "fresh": true,
-          "notes": "September demand zone that held during pullback and launched strong rally. Good base formation with volume"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 39.5,
-          "zone_high": 41.0,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major demand zone from March-April base. Massive accumulation area that launched entire uptrend. Very high quality zone"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          58.0,
-          57.5,
-          56.5
-        ],
-        "support": [
-          53.0,
-          50.0,
-          47.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 53.0,
-        "target": 60.0,
-        "stop": 52.0,
-        "rationale": "Strong uptrend with multiple fresh demand zones below. Any pullback to 52.50-53.20 demand zone offers high probability long entry with excellent risk/reward"
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/BAC_daily.png"
-    },
-    {
-      "symbol": "GS",
-      "current_price": 902.525,
-      "analysis_time": "2025-12-22T12:23:25.743673",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 465,
-          "zone_high": 495,
-          "quality": 95,
-          "fresh": true,
-          "notes": "Strong base formation in May with explosive breakout. Fresh zone never retested with high volume departure"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 730,
-          "zone_high": 770,
-          "quality": 85,
-          "fresh": false,
-          "notes": "August consolidation zone that launched the rally to current highs. Multiple touches but held strongly each time"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 810,
-          "zone_high": 840,
-          "quality": 70,
-          "fresh": false,
-          "notes": "September-October resistance area where price consolidated before breaking higher. Weakened by multiple breaks above"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 850,
-          "zone_high": 880,
-          "quality": 80,
-          "fresh": true,
-          "notes": "Recent November pullback support zone. Price consolidated here before final push to highs. Fresh and untested on any major decline"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          920,
-          950
-        ],
-        "support": [
-          850,
-          770,
-          730
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 860,
-        "target": 950,
-        "stop": 830,
-        "rationale": "Strong uptrend intact above 200 SMA. Any pullback to 850-880 demand zone offers high-probability long entry with momentum continuation expected"
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/GS_daily.png"
-    },
-    {
-      "symbol": "V",
-      "current_price": 352.62,
-      "analysis_time": "2025-12-22T12:23:37.679943",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 324.0,
-          "zone_high": 330.0,
-          "quality": 92,
-          "fresh": true,
-          "notes": "Strong demand zone from November consolidation base before sharp rally. Fresh zone with high volume and clean departure. Multiple wicks respected this level."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 365.0,
-          "zone_high": 370.0,
-          "quality": 75,
-          "fresh": false,
-          "notes": "Supply zone from June highs around 368-370 area. Price consolidated here before the major sell-off. Has been tested once but still relevant as resistance."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 340.0,
-          "zone_high": 345.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Secondary demand zone from recent consolidation in early December. Multiple bounces from this area but weakened by retests."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 358.0,
-          "zone_high": 362.0,
-          "quality": 65,
-          "fresh": true,
-          "notes": "Fresh supply zone from recent highs where price consolidated briefly before current pullback. Relatively weak due to shallow base formation."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          362.0,
-          370.0
-        ],
-        "support": [
-          345.0,
-          330.0,
-          324.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 345.0,
-        "target": 365.0,
-        "stop": 340.0,
-        "rationale": "Strong uptrend with price above major moving averages. Looking for pullback to 345 demand zone for long entry targeting previous resistance at 365. High-quality demand zone at 324-330 provides strong support backdrop."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/V_daily.png"
-    },
-    {
-      "symbol": "MA",
-      "current_price": 578.65,
-      "analysis_time": "2025-12-22T12:23:51.430990",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 595,
-          "zone_high": 605,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone from August highs where price consolidated before major selloff. Multiple retests weaken it slightly but still significant resistance."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 540,
-          "zone_high": 550,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Fresh demand zone from November consolidation that launched current rally. Strong volume and sharp departure make this high quality support."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 520,
-          "zone_high": 535,
-          "quality": 80,
-          "fresh": true,
-          "notes": "October demand zone that provided strong bounce. Blue trend line confluence adds strength. Fresh zone with good volume."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 570,
-          "zone_high": 580,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Recent supply zone from September where price rejected and sold off. Currently testing this area as current price trades within zone."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          580,
-          600
-        ],
-        "support": [
-          545,
-          525
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 545,
-        "target": 600,
-        "stop": 535,
-        "rationale": "Overall uptrend intact with price above key moving averages. Fresh demand zone at 540-550 offers good risk/reward for longs on any pullback. Current price near resistance suggests waiting for better entry."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/MA_daily.png"
+      "chart_image": "NKE_daily.png",
+      "detected_at": "2025-12-23T06:52:32.939599"
     },
     {
       "symbol": "NKE",
-      "current_price": 57.425,
-      "analysis_time": "2025-12-22T12:24:04.022265",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 78.5,
-          "zone_high": 80.0,
-          "quality": 90,
-          "fresh": false,
-          "notes": "Strong supply zone around all-time highs. Price consolidated briefly before sharp decline. Multiple rejections from this area confirm strong selling pressure."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 75.0,
-          "zone_high": 77.0,
-          "quality": 75,
-          "fresh": false,
-          "notes": "Secondary supply zone where price paused during the major decline from highs. Acted as resistance on recent bounce attempts."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 60.5,
-          "zone_high": 62.5,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong demand zone that provided significant support in November. Price bounced sharply from this area with good volume. Recent test and hold confirms strength."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 55.5,
-          "zone_high": 57.5,
-          "quality": 95,
-          "fresh": true,
-          "notes": "Fresh demand zone at current levels. Price appears to be holding above the rising blue trendline support. Strong volume spike suggests institutional buying interest."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          62.5,
-          67.0,
-          75.0,
-          78.5
-        ],
-        "support": [
-          57.5,
-          55.5,
-          61.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 56.5,
-        "target": 65.0,
-        "stop": 54.5,
-        "rationale": "Price is holding at a fresh demand zone with trendline support confluence. Recent volume spike suggests buying interest. Risk/reward favorable for long position targeting next resistance level."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/NKE_daily.png"
+      "direction": "LONG",
+      "entry": 59.5,
+      "stop": 56.75,
+      "target": 67.75,
+      "current_price": 57.22,
+      "distance_pct": 3.98,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Reclaim of broken support as new support with move back toward channel resistance. Lower quality due to overall downtrend structure",
+      "source": "Vision AI",
+      "chart_image": "NKE_daily.png",
+      "detected_at": "2025-12-23T06:52:32.939610"
     },
     {
       "symbol": "SBUX",
-      "current_price": 87.22,
-      "analysis_time": "2025-12-22T12:24:17.267246",
-      "overall_bias": "NEUTRAL",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 96.5,
-          "zone_high": 98.5,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone from July-August consolidation before sharp drop to $78. Price rejected here multiple times, showing institutional selling interest."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 78.0,
-          "zone_high": 80.0,
-          "quality": 90,
-          "fresh": false,
-          "notes": "Powerful demand zone from October lows. Price consolidated briefly then exploded higher with strong volume. Multiple successful retests confirm buying interest."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 88.5,
-          "zone_high": 90.5,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Recent supply zone from November-December consolidation. Price is currently testing this area with declining momentum and volume."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 83.5,
-          "zone_high": 85.0,
-          "quality": 75,
-          "fresh": false,
-          "notes": "November demand zone that launched the rally to current levels. Good base formation with decent volume participation."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          89.0,
-          97.0,
-          100.0
-        ],
-        "support": [
-          85.0,
-          80.0,
-          78.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price is trapped between supply at 88.50-90.50 and demand at 83.50-85.00. Wait for a clear break and retest of either zone for higher probability entry."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/SBUX_daily.png"
+      "direction": "LONG",
+      "entry": 89.0,
+      "stop": 85.5,
+      "target": 99.5,
+      "current_price": 86.17,
+      "distance_pct": 3.28,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 78,
+      "notes": "Break above recent highs and descending trendline resistance from August peaks. Multiple touch resistance around $88-89 level makes this a quality breakout zone.",
+      "source": "Vision AI",
+      "chart_image": "SBUX_daily.png",
+      "detected_at": "2025-12-23T06:52:42.424660"
     },
     {
-      "symbol": "MCD",
-      "current_price": 317.13,
-      "analysis_time": "2025-12-22T12:24:30.706619",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 295.0,
-          "zone_high": 301.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone from October consolidation that launched sharp rally to current highs. High volume accumulation visible, never retested since breakout."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 318.0,
-          "zone_high": 322.0,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Recent supply zone near all-time highs where price consolidated before current pullback. Downward sloping trendline resistance confluence."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 285.0,
-          "zone_high": 290.0,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Major demand zone from July-August where price based before significant rally. Strong volume spike and rapid departure upward."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 313.0,
-          "zone_high": 316.0,
-          "quality": 60,
-          "fresh": false,
-          "notes": "Minor supply zone from recent consolidation. Already tested multiple times, weakening its effectiveness."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          320.0,
-          318.0,
-          315.0
-        ],
-        "support": [
-          310.0,
-          301.0,
-          295.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 301.0,
-        "target": 325.0,
-        "stop": 294.0,
-        "rationale": "Bullish trend with strong upward momentum. Look for pullback to 295-301 demand zone for long entry with target at new highs above 320 level."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/MCD_daily.png"
+      "symbol": "SBUX",
+      "direction": "SHORT",
+      "entry": 82.5,
+      "stop": 85.0,
+      "target": 75.0,
+      "current_price": 86.17,
+      "distance_pct": 4.26,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakdown below 50-day MA support and October lows. Lower quality due to strong long-term uptrend, but recent weakness and volume patterns suggest potential for deeper correction.",
+      "source": "Vision AI",
+      "chart_image": "SBUX_daily.png",
+      "detected_at": "2025-12-23T06:52:42.424692"
     },
     {
       "symbol": "HD",
-      "current_price": 347.33,
-      "analysis_time": "2025-12-22T12:24:43.156220",
-      "overall_bias": "BEARISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 420.0,
-          "zone_high": 430.0,
-          "quality": 95,
-          "fresh": false,
-          "notes": "Major supply zone at all-time highs around 425-430. Price consolidated briefly then dropped sharply with high volume. This zone has been retested and held as resistance multiple times."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 390.0,
-          "zone_high": 400.0,
-          "quality": 75,
-          "fresh": false,
-          "notes": "Secondary supply zone around 390-400. Price consolidated in this range before recent decline. Has been tested multiple times as resistance."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 330.0,
-          "zone_high": 340.0,
-          "quality": 80,
-          "fresh": false,
-          "notes": "Strong demand zone around 330-340. Price found support here in November and rallied sharply. Currently testing this zone again with recent bounce."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 315.0,
-          "zone_high": 325.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Fresh demand zone around 315-325. Price wicked down to this area in November and reversed sharply with high volume. Never been retested, making it a high-quality zone."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 360.0,
-          "zone_high": 370.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Minor supply zone around 360-370. Price consolidated here before breaking down. Currently acting as resistance on any bounces."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          370.0,
-          395.0,
-          425.0
-        ],
-        "support": [
-          335.0,
-          320.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 335.0,
-        "target": 365.0,
-        "stop": 320.0,
-        "rationale": "Price is currently testing the 330-340 demand zone. If it holds with confirmation, expect bounce toward 365-370 supply zone. Risk/reward favors long from current demand zone with stop below 320 fresh demand."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/HD_daily.png"
+      "direction": "LONG",
+      "entry": 365.0,
+      "stop": 346.0,
+      "target": 422.0,
+      "current_price": 346.39,
+      "distance_pct": 5.37,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 70,
+      "notes": "Break above recent consolidation resistance around 360-365 level. This was previous support that turned resistance. Entry at 5.4% above current price.",
+      "source": "Vision AI",
+      "chart_image": "HD_daily.png",
+      "detected_at": "2025-12-23T06:52:51.909216"
+    },
+    {
+      "symbol": "HD",
+      "direction": "SHORT",
+      "entry": 329.0,
+      "stop": 346.0,
+      "target": 278.0,
+      "current_price": 346.39,
+      "distance_pct": 5.02,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 85,
+      "notes": "Break below key support around 330 level that has held multiple times. Fresh support level not heavily tested. Would target extension of downtrend to next major support.",
+      "source": "Vision AI",
+      "chart_image": "HD_daily.png",
+      "detected_at": "2025-12-23T06:52:51.909300"
+    },
+    {
+      "symbol": "MSFT",
+      "direction": "SHORT",
+      "entry": 475.0,
+      "stop": 490.0,
+      "target": 430.0,
+      "current_price": 484.92,
+      "distance_pct": 2.05,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 80,
+      "notes": "Break below 200-day MA support and recent consolidation lows. Clean breakdown with multiple tests of this level showing weakness.",
+      "source": "Vision AI",
+      "chart_image": "MSFT_daily.png",
+      "detected_at": "2025-12-23T06:53:01.594094"
+    },
+    {
+      "symbol": "MSFT",
+      "direction": "LONG",
+      "entry": 505.0,
+      "stop": 490.0,
+      "target": 550.0,
+      "current_price": 484.92,
+      "distance_pct": 4.14,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Reclaim above recent resistance/consolidation highs and 20-day MA. Would signal potential reversal of recent downtrend, though lower quality given overall bearish structure.",
+      "source": "Vision AI",
+      "chart_image": "MSFT_daily.png",
+      "detected_at": "2025-12-23T06:53:01.594129"
+    },
+    {
+      "symbol": "CRM",
+      "direction": "LONG",
+      "entry": 270.0,
+      "stop": 258.0,
+      "target": 306.0,
+      "current_price": 264.63,
+      "distance_pct": 2.03,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 85,
+      "notes": "Breaking above the purple downtrend line resistance that has capped rallies since June. This is a major technical level with strong breakout potential.",
+      "source": "Vision AI",
+      "chart_image": "CRM_daily.png",
+      "detected_at": "2025-12-23T06:53:10.346219"
+    },
+    {
+      "symbol": "CRM",
+      "direction": "SHORT",
+      "entry": 252.0,
+      "stop": 260.0,
+      "target": 228.0,
+      "current_price": 264.63,
+      "distance_pct": 4.77,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breaking below recent swing low support and 50-day SMA. Would signal failure of current recovery attempt and potential retest of November lows.",
+      "source": "Vision AI",
+      "chart_image": "CRM_daily.png",
+      "detected_at": "2025-12-23T06:53:10.346260"
+    },
+    {
+      "symbol": "INTC",
+      "direction": "LONG",
+      "entry": 38.1,
+      "stop": 35.5,
+      "target": 46.0,
+      "current_price": 36.37,
+      "distance_pct": 4.76,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakout above 20 SMA and prior resistance zone around $38. Would need strong volume confirmation as this area has been tested multiple times recently.",
+      "source": "Vision AI",
+      "chart_image": "INTC_daily.png",
+      "detected_at": "2025-12-23T06:53:20.631540"
+    },
+    {
+      "symbol": "INTC",
+      "direction": "SHORT",
+      "entry": 34.9,
+      "stop": 36.5,
+      "target": 30.1,
+      "current_price": 36.37,
+      "distance_pct": 4.04,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 78,
+      "notes": "Breakdown below key support around $35 level which appears to be a significant swing low from recent action. Clean break would target lower support zones.",
+      "source": "Vision AI",
+      "chart_image": "INTC_daily.png",
+      "detected_at": "2025-12-23T06:53:20.631571"
+    },
+    {
+      "symbol": "MU",
+      "direction": "LONG",
+      "entry": 280.5,
+      "stop": 265.0,
+      "target": 327.0,
+      "current_price": 276.59,
+      "distance_pct": 1.41,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 72,
+      "notes": "Break above recent resistance zone around $280. This level has been tested multiple times in December, making it a significant breakout point if cleared with volume.",
+      "source": "Vision AI",
+      "chart_image": "MU_daily.png",
+      "detected_at": "2025-12-23T06:53:30.757553"
+    },
+    {
+      "symbol": "MU",
+      "direction": "SHORT",
+      "entry": 264.0,
+      "stop": 275.0,
+      "target": 231.0,
+      "current_price": 276.59,
+      "distance_pct": 4.55,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 68,
+      "notes": "Breakdown below recent support and the rising trendline. This would signal potential trend reversal or deeper pullback from extended levels.",
+      "source": "Vision AI",
+      "chart_image": "MU_daily.png",
+      "detected_at": "2025-12-23T06:53:30.757638"
+    },
+    {
+      "symbol": "ADBE",
+      "direction": "LONG",
+      "entry": 365.0,
+      "stop": 350.0,
+      "target": 410.0,
+      "current_price": 357.53,
+      "distance_pct": 2.09,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 82,
+      "notes": "Break above resistance zone and downtrend line with good volume. Multiple tests at this level make it significant resistance turned support",
+      "source": "Vision AI",
+      "chart_image": "ADBE_daily.png",
+      "detected_at": "2025-12-23T06:53:43.504648"
+    },
+    {
+      "symbol": "ADBE",
+      "direction": "SHORT",
+      "entry": 345.0,
+      "stop": 360.0,
+      "target": 300.0,
+      "current_price": 357.53,
+      "distance_pct": 3.5,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 68,
+      "notes": "Breakdown below recent consolidation support. Lower quality as trend has been up recently, but significant support level",
+      "source": "Vision AI",
+      "chart_image": "ADBE_daily.png",
+      "detected_at": "2025-12-23T06:53:43.504722"
+    },
+    {
+      "symbol": "JPM",
+      "direction": "LONG",
+      "entry": 325.5,
+      "stop": 315.0,
+      "target": 357.0,
+      "current_price": 323.09,
+      "distance_pct": 0.75,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 85,
+      "notes": "Breakout above all-time high resistance around $325. Fresh breakout level with strong uptrend momentum. Clean break above this level would target measured move higher.",
+      "source": "Vision AI",
+      "chart_image": "JPM_daily.png",
+      "detected_at": "2025-12-23T06:53:54.847331"
+    },
+    {
+      "symbol": "JPM",
+      "direction": "SHORT",
+      "entry": 314.5,
+      "stop": 325.0,
+      "target": 283.0,
+      "current_price": 323.09,
+      "distance_pct": 2.66,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakdown below recent consolidation support around $315. However, going against strong uptrend reduces quality. Would need decisive break with volume confirmation.",
+      "source": "Vision AI",
+      "chart_image": "JPM_daily.png",
+      "detected_at": "2025-12-23T06:53:54.847356"
+    },
+    {
+      "symbol": "GS",
+      "direction": "LONG",
+      "entry": 905.0,
+      "stop": 885.0,
+      "target": 965.0,
+      "current_price": 899.0,
+      "distance_pct": 0.67,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Break above $900 psychological resistance level with potential gap-up momentum. However, quality is moderate due to lack of significant technical resistance at these new highs.",
+      "source": "Vision AI",
+      "chart_image": "GS_daily.png",
+      "detected_at": "2025-12-23T06:54:08.357063"
+    },
+    {
+      "symbol": "GS",
+      "direction": "SHORT",
+      "entry": 875.0,
+      "stop": 895.0,
+      "target": 815.0,
+      "current_price": 899.0,
+      "distance_pct": 2.67,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 70,
+      "notes": "Breakdown below recent consolidation support around $875-880 area. This level has provided support during recent pullbacks and a break below could signal profit-taking at these elevated levels.",
+      "source": "Vision AI",
+      "chart_image": "GS_daily.png",
+      "detected_at": "2025-12-23T06:54:08.357094"
+    },
+    {
+      "symbol": "BAC",
+      "direction": "LONG",
+      "entry": 56.1,
+      "stop": 54.8,
+      "target": 60.0,
+      "current_price": 55.88,
+      "distance_pct": 0.39,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 78,
+      "notes": "Breaking above upper channel resistance and recent consolidation highs. Clean breakout above $56 psychological level with room to run to next major resistance.",
+      "source": "Vision AI",
+      "chart_image": "BAC_daily.png",
+      "detected_at": "2025-12-23T06:54:18.920035"
+    },
+    {
+      "symbol": "BAC",
+      "direction": "SHORT",
+      "entry": 53.2,
+      "stop": 54.6,
+      "target": 49.0,
+      "current_price": 55.88,
+      "distance_pct": 4.8,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakdown below rising channel support and 20 SMA. Would signal potential correction from overbought levels, targeting lower channel support around $49.",
+      "source": "Vision AI",
+      "chart_image": "BAC_daily.png",
+      "detected_at": "2025-12-23T06:54:18.920120"
     },
     {
       "symbol": "COST",
-      "current_price": 849.7,
-      "analysis_time": "2025-12-22T12:24:57.472456",
-      "overall_bias": "BEARISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 870,
-          "zone_high": 885,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone from Nov consolidation before sharp decline. Multiple rejections at this level with high volume"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 920,
-          "zone_high": 935,
-          "quality": 75,
-          "fresh": true,
-          "notes": "October supply zone where price consolidated before breakdown. Still fresh and untested from below"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 840,
-          "zone_high": 850,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Current demand area showing some buying interest, but price is struggling to hold above"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 810,
-          "zone_high": 825,
-          "quality": 80,
-          "fresh": true,
-          "notes": "Fresh demand zone from late September rally base. Strong departure with good volume, never retested"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          877.5,
-          920,
-          960
-        ],
-        "support": [
-          845,
-          815,
-          780
-        ]
-      },
-      "trade_idea": {
-        "bias": "SHORT",
-        "entry_zone": 875,
-        "target": 815,
-        "stop": 890,
-        "rationale": "Strong downtrend with price below all major moving averages. Any bounce to 870-885 supply zone offers high-probability short opportunity targeting lower demand zone"
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/COST_daily.png"
+      "direction": "SHORT",
+      "entry": 847.0,
+      "stop": 865.0,
+      "target": 793.0,
+      "current_price": 850.0,
+      "distance_pct": 0.35,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 85,
+      "notes": "Break below major support zone at 850 that has been tested multiple times. Clean breakdown with volume would confirm continuation of downtrend toward next support around 790-800 area.",
+      "source": "Vision AI",
+      "chart_image": "COST_daily.png",
+      "detected_at": "2025-12-23T06:54:30.615981"
     },
     {
-      "symbol": "UNH",
-      "current_price": 325.99,
-      "analysis_time": "2025-12-22T12:25:09.165986",
-      "overall_bias": "NEUTRAL",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 560.0,
-          "zone_high": 585.0,
-          "quality": 95,
-          "fresh": true,
-          "notes": "Strong fresh supply zone where price consolidated briefly before massive sell-off in April. Never retested, high volume departure, classic supply zone characteristics."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 240.0,
-          "zone_high": 265.0,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Major demand zone from August low where price found strong support and launched higher. Some retesting occurred but held well, showing institutional buying interest."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 380.0,
-          "zone_high": 395.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Secondary supply zone from October highs where price stalled and reversed. Has been tested multiple times, reducing its strength but still relevant as resistance."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 310.0,
-          "zone_high": 320.0,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Recent demand zone from November-December consolidation area. Price has been finding support in this zone with some buying interest emerging."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          395.0,
-          380.0,
-          350.0
-        ],
-        "support": [
-          320.0,
-          310.0,
-          265.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price is currently in middle ground between key zones. Wait for either a break below 310 demand zone for short opportunity or a clear break above 350 resistance for long continuation."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/UNH_daily.png"
+      "symbol": "WMT",
+      "direction": "LONG",
+      "entry": 116.0,
+      "stop": 110.5,
+      "target": 132.5,
+      "current_price": 112.6,
+      "distance_pct": 3.02,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 80,
+      "notes": "Breaking above all-time high resistance around 115-116 area. Fresh resistance level that has been tested recently. Strong uptrend structure supports continuation.",
+      "source": "Vision AI",
+      "chart_image": "WMT_daily.png",
+      "detected_at": "2025-12-23T06:54:44.135557"
     },
     {
-      "symbol": "LLY",
-      "current_price": 1067.76,
-      "analysis_time": "2025-12-22T12:25:21.863321",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 1020,
-          "zone_high": 1040,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone formed in early December after consolidation, followed by sharp rally to new highs. Never retested, high volume confirmation visible."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 940,
-          "zone_high": 970,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Major demand zone from late October consolidation that launched the massive November rally. Fresh zone with explosive departure."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 1100,
-          "zone_high": 1130,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Recent supply zone formed at all-time highs in December. Price has tested this area multiple times with rejection, showing distribution."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 700,
-          "zone_high": 730,
-          "quality": 60,
-          "fresh": true,
-          "notes": "Major demand zone from September consolidation that preceded the strong October rally. Significant base formation with volume."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 780,
-          "zone_high": 810,
-          "quality": 50,
-          "fresh": false,
-          "notes": "Supply zone from August highs that caused September decline. Has been broken and retested, reducing quality but still relevant as old resistance."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          1130,
-          1100,
-          810
-        ],
-        "support": [
-          1040,
-          970,
-          730
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 1030,
-        "target": 1150,
-        "stop": 1000,
-        "rationale": "Strong uptrend intact with multiple fresh demand zones below. Current pullback approaching high-quality demand zone at 1020-1040. Risk/reward favors longs on any dip to demand."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/LLY_daily.png"
+      "symbol": "WMT",
+      "direction": "SHORT",
+      "entry": 109.5,
+      "stop": 113.0,
+      "target": 99.0,
+      "current_price": 112.6,
+      "distance_pct": 2.75,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breaking below rising trend line support and 110 horizontal support. However, going against strong uptrend reduces quality. Would need to see breakdown of trend line around 109-110 area.",
+      "source": "Vision AI",
+      "chart_image": "WMT_daily.png",
+      "detected_at": "2025-12-23T06:54:44.135601"
     },
     {
-      "symbol": "MRNA",
-      "current_price": 35.76,
-      "analysis_time": "2025-12-22T12:25:35.953591",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 22.5,
-          "zone_high": 24.0,
-          "quality": 95,
-          "fresh": true,
-          "notes": "Strong demand zone from November lows - price consolidated briefly then launched aggressively higher with massive volume. This is the origin of the current rally and remains untested."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 36.5,
-          "zone_high": 38.0,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Potential supply zone forming at recent highs around $37-38 area. Price is currently testing this level after the strong rally from November lows."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 28.5,
-          "zone_high": 30.0,
-          "quality": 75,
-          "fresh": false,
-          "notes": "Secondary demand zone from late November - price found support here multiple times before the final breakout. Has been tested but still holding as support."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 33.5,
-          "zone_high": 35.0,
-          "quality": 60,
-          "fresh": false,
-          "notes": "Previous resistance area from July highs that was broken during the current rally. Could act as support on any pullback but quality is reduced due to break above."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          37.0,
-          40.0
-        ],
-        "support": [
-          30.0,
-          24.0,
-          22.5
-        ]
-      },
-      "trade_idea": {
-        "bias": "WAIT",
-        "entry_zone": null,
-        "target": null,
-        "stop": null,
-        "rationale": "Price is currently at potential supply zone around $36-38. Wait for either rejection from this area for SHORT opportunity, or break above $38 with volume for continuation LONG. Avoid chasing at current levels."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/MRNA_daily.png"
+      "symbol": "MCD",
+      "direction": "LONG",
+      "entry": 320.5,
+      "stop": 312.0,
+      "target": 346.0,
+      "current_price": 316.22,
+      "distance_pct": 1.35,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 78,
+      "notes": "Breakout above purple descending resistance and previous swing highs around 318-320. This resistance has been tested multiple times, making a break significant. Entry just above the resistance cluster.",
+      "source": "Vision AI",
+      "chart_image": "MCD_daily.png",
+      "detected_at": "2025-12-23T06:54:56.215587"
     },
     {
-      "symbol": "XOM",
-      "current_price": 118.17,
-      "analysis_time": "2025-12-22T12:25:50.390004",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 103.5,
-          "zone_high": 105.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone from May consolidation base before sharp rally to 108+. Never retested, high volume launch pad"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 107.0,
-          "zone_high": 108.5,
-          "quality": 75,
-          "fresh": false,
-          "notes": "August demand zone that provided strong bounce, retested once but held. Good volume and quick departure"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 119.5,
-          "zone_high": 121.0,
-          "quality": 70,
-          "fresh": true,
-          "notes": "Recent supply zone from November highs where price consolidated then dropped. Fresh zone with rejection candles"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 115.0,
-          "zone_high": 116.5,
-          "quality": 65,
-          "fresh": false,
-          "notes": "Multiple demand area that has provided support, but weakened by several touches. Still holding as support"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          119.5,
-          121.0,
-          122.0
-        ],
-        "support": [
-          115.0,
-          107.0,
-          103.5
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 116.0,
-        "target": 119.5,
-        "stop": 114.5,
-        "rationale": "Price at demand zone confluence with uptrend intact. Long bias supported by strong trend and fresh higher zones available. Risk/reward favorable to nearby supply zone."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/XOM_daily.png"
+      "symbol": "MCD",
+      "direction": "SHORT",
+      "entry": 300.0,
+      "stop": 308.0,
+      "target": 276.0,
+      "current_price": 316.22,
+      "distance_pct": 5.13,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 72,
+      "notes": "Breakdown below rising blue support trendline and psychological round number at 300. This trendline has provided support since August lows, so a break would signal weakness and potential trend change.",
+      "source": "Vision AI",
+      "chart_image": "MCD_daily.png",
+      "detected_at": "2025-12-23T06:54:56.215659"
     },
     {
-      "symbol": "CVX",
-      "current_price": 150.08,
-      "analysis_time": "2025-12-22T12:26:02.863181",
-      "overall_bias": "BEARISH",
-      "zones": [
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 158.5,
-          "zone_high": 162.0,
-          "quality": 85,
-          "fresh": false,
-          "notes": "Strong supply zone where price consolidated in September-October before sharp decline. Multiple touches but still showing resistance. High volume rejection area."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 155.0,
-          "zone_high": 158.0,
-          "quality": 75,
-          "fresh": false,
-          "notes": "Secondary supply zone with multiple rejections in November. Price has tested this area several times with selling pressure evident."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 145.0,
-          "zone_high": 148.0,
-          "quality": 70,
-          "fresh": false,
-          "notes": "Demand zone where price found support and bounced in recent sessions. Blue trendline support confluence adds strength to this area."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 132.0,
-          "zone_high": 136.0,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Very strong fresh demand zone from May consolidation that launched the major rally to highs. Never retested since the breakout, making it high probability."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          158.0,
-          162.0,
-          165.0
-        ],
-        "support": [
-          147.0,
-          145.0,
-          135.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "SHORT",
-        "entry_zone": 155.0,
-        "target": 147.0,
-        "stop": 159.0,
-        "rationale": "Price is in downtrend below major supply zones. Current bounce appears to be testing supply resistance around 155-158 area. Risk/reward favors short position targeting demand zone support."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/CVX_daily.png"
+      "symbol": "LULU",
+      "direction": "LONG",
+      "entry": 220.5,
+      "stop": 205.0,
+      "target": 267.0,
+      "current_price": 212.37,
+      "distance_pct": 3.83,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 78,
+      "notes": "Breaking above November/December swing high resistance zone around $220. This level has been tested multiple times creating a strong resistance. Entry at 3.8% above current price. Stop below recent swing low support.",
+      "source": "Vision AI",
+      "chart_image": "LULU_daily.png",
+      "detected_at": "2025-12-23T06:55:07.055409"
     },
     {
-      "symbol": "SPY",
-      "current_price": 684.57,
-      "analysis_time": "2025-12-22T12:26:16.647945",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 656,
-          "zone_high": 664,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone from late November consolidation before sharp rally to new highs. High volume base with rapid departure upward. Never retested since breakout."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 634,
-          "zone_high": 642,
-          "quality": 75,
-          "fresh": true,
-          "notes": "October consolidation zone that launched the rally to current levels. Solid base formation with strong volume and clean breakout above."
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 678,
-          "zone_high": 686,
-          "quality": 65,
-          "fresh": false,
-          "notes": "Recent resistance zone from December highs around 684-686 area. Price has touched this level multiple times, showing some selling pressure but zone is weakening with multiple tests."
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 596,
-          "zone_high": 608,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major demand zone from September consolidation that launched significant rally. Very strong base with high volume and explosive move higher. Untested since breakout - highest quality zone on chart."
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          686,
-          690
-        ],
-        "support": [
-          660,
-          640,
-          605
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 660,
-        "target": 695,
-        "stop": 652,
-        "rationale": "Strong uptrend intact with price above all major moving averages. Looking for pullback to 656-664 demand zone for long entry targeting new highs above 686 resistance."
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/SPY_daily.png"
+      "symbol": "LULU",
+      "direction": "SHORT",
+      "entry": 202.0,
+      "stop": 215.0,
+      "target": 163.0,
+      "current_price": 212.37,
+      "distance_pct": 4.88,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 72,
+      "notes": "Breaking below the consolidation support around $202-205 level. This represents the low from early December and recent swing support. Entry at 4.9% below current price. Failure here could target the October lows.",
+      "source": "Vision AI",
+      "chart_image": "LULU_daily.png",
+      "detected_at": "2025-12-23T06:55:07.055457"
     },
     {
-      "symbol": "QQQ",
-      "current_price": 619.19,
-      "analysis_time": "2025-12-22T12:26:30.349017",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 590,
-          "zone_high": 600,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone from November consolidation that launched the rally to current highs. Never retested, high volume base with sharp departure"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 575,
-          "zone_high": 585,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Secondary demand zone from October-November base. Clean consolidation before breakout, protected by 200 SMA confluence"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 620,
-          "zone_high": 630,
-          "quality": 60,
-          "fresh": false,
-          "notes": "Recent highs area showing some resistance. Multiple touches visible but not a strong supply zone yet due to limited selling pressure"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 460,
-          "zone_high": 480,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major demand zone from April-May consolidation that launched massive rally. Extremely strong base with high volume and explosive departure"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          620,
-          630,
-          640
-        ],
-        "support": [
-          600,
-          590,
-          580
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 595,
-        "target": 650,
-        "stop": 585,
-        "rationale": "Bullish trend intact above all moving averages. Any pullback to 590-600 demand zone offers high-probability long entry with strong uptrend momentum"
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/QQQ_daily.png"
+      "symbol": "MSTR",
+      "direction": "SHORT",
+      "entry": 156.0,
+      "stop": 170.0,
+      "target": 114.0,
+      "current_price": 164.32,
+      "distance_pct": 5.06,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 78,
+      "notes": "Breakdown below recent consolidation lows around $156-160. This is a fresh support level that has held briefly but breaking below would signal continuation of the major downtrend with targets to $114 area.",
+      "source": "Vision AI",
+      "chart_image": "MSTR_daily.png",
+      "detected_at": "2025-12-23T06:55:18.628023"
+    },
+    {
+      "symbol": "MSTR",
+      "direction": "LONG",
+      "entry": 172.0,
+      "stop": 156.0,
+      "target": 220.0,
+      "current_price": 164.32,
+      "distance_pct": 4.67,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakout above recent consolidation highs around $170-172 area. This resistance has been tested multiple times in the recent range. A break above could trigger short covering rally toward $220 area, though overall trend remains bearish.",
+      "source": "Vision AI",
+      "chart_image": "MSTR_daily.png",
+      "detected_at": "2025-12-23T06:55:18.628070"
+    },
+    {
+      "symbol": "HOOD",
+      "direction": "LONG",
+      "entry": 125.5,
+      "stop": 120.0,
+      "target": 142.0,
+      "current_price": 122.37,
+      "distance_pct": 2.56,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 78,
+      "notes": "Break above recent consolidation highs around 125 level. This area has acted as resistance multiple times in December. Volume confirmation needed on breakout.",
+      "source": "Vision AI",
+      "chart_image": "HOOD_daily.png",
+      "detected_at": "2025-12-23T06:55:31.733756"
+    },
+    {
+      "symbol": "HOOD",
+      "direction": "SHORT",
+      "entry": 119.5,
+      "stop": 123.5,
+      "target": 107.5,
+      "current_price": 122.37,
+      "distance_pct": 2.35,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 72,
+      "notes": "Break below recent swing low and 20 SMA support around 120 level. Would signal potential breakdown from consolidation pattern back toward November lows.",
+      "source": "Vision AI",
+      "chart_image": "HOOD_daily.png",
+      "detected_at": "2025-12-23T06:55:31.733799"
+    },
+    {
+      "symbol": "COIN",
+      "direction": "SHORT",
+      "entry": 240.0,
+      "stop": 252.0,
+      "target": 204.0,
+      "current_price": 247.9,
+      "distance_pct": 3.19,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 80,
+      "notes": "Breakdown below the ascending blue trendline support that has held since April lows. This is a critical support level that if broken would signal continuation of the downtrend",
+      "source": "Vision AI",
+      "chart_image": "COIN_daily.png",
+      "detected_at": "2025-12-23T06:55:43.505826"
+    },
+    {
+      "symbol": "COIN",
+      "direction": "LONG",
+      "entry": 260.0,
+      "stop": 247.0,
+      "target": 299.0,
+      "current_price": 247.9,
+      "distance_pct": 4.88,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakout above the recent resistance zone around $255-260 which has acted as resistance multiple times in November/December. Would signal potential reversal of the downtrend",
+      "source": "Vision AI",
+      "chart_image": "COIN_daily.png",
+      "detected_at": "2025-12-23T06:55:43.505875"
     },
     {
       "symbol": "IWM",
-      "current_price": 254.32,
-      "analysis_time": "2025-12-22T12:26:42.056170",
-      "overall_bias": "BULLISH",
-      "zones": [
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 229.0,
-          "zone_high": 235.0,
-          "quality": 85,
-          "fresh": true,
-          "notes": "Strong demand zone from October consolidation that launched the rally to current highs. Sharp departure with good volume, never retested"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 244.0,
-          "zone_high": 248.0,
-          "quality": 75,
-          "fresh": true,
-          "notes": "Recent demand zone from November pullback that sparked the move to new highs. Quick reversal with decent volume"
-        },
-        {
-          "type": "supply",
-          "direction": "SHORT",
-          "zone_low": 248.0,
-          "zone_high": 252.0,
-          "quality": 65,
-          "fresh": false,
-          "notes": "Supply zone from late November where price consolidated before the brief pullback. Already tested multiple times, weakening quality"
-        },
-        {
-          "type": "demand",
-          "direction": "LONG",
-          "zone_low": 188.0,
-          "zone_high": 195.0,
-          "quality": 90,
-          "fresh": true,
-          "notes": "Major demand zone from April that launched the entire uptrend. Extremely strong departure with high volume, never retested - would be massive support"
-        }
-      ],
-      "key_levels": {
-        "resistance": [
-          255.0,
-          260.0
-        ],
-        "support": [
-          248.0,
-          235.0,
-          229.0
-        ]
-      },
-      "trade_idea": {
-        "bias": "LONG",
-        "entry_zone": 248.0,
-        "target": 265.0,
-        "stop": 244.0,
-        "rationale": "Strong uptrend with price above all major moving averages. On any pullback to 244-248 demand zone, would look for long entry targeting new highs above 260"
-      },
-      "chart_path": "/Users/robert/Desktop/getargus_projects/Trading Agent/data/charts/IWM_daily.png"
+      "direction": "LONG",
+      "entry": 255.5,
+      "stop": 249.0,
+      "target": 275.0,
+      "current_price": 253.58,
+      "distance_pct": 0.76,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 80,
+      "notes": "Breakout above recent highs around 255-256 area with strong uptrend momentum. Fresh resistance level with clean break potential.",
+      "source": "Vision AI",
+      "chart_image": "IWM_daily.png",
+      "detected_at": "2025-12-23T06:55:54.909377"
+    },
+    {
+      "symbol": "IWM",
+      "direction": "SHORT",
+      "entry": 249.5,
+      "stop": 256.0,
+      "target": 230.0,
+      "current_price": 253.58,
+      "distance_pct": 1.61,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakdown below recent breakout support around 250 level. However, going against strong uptrend reduces quality. Would need significant volume on breakdown.",
+      "source": "Vision AI",
+      "chart_image": "IWM_daily.png",
+      "detected_at": "2025-12-23T06:55:54.909410"
+    },
+    {
+      "symbol": "XLF",
+      "direction": "LONG",
+      "entry": 55.5,
+      "stop": 54.2,
+      "target": 59.4,
+      "current_price": 55.32,
+      "distance_pct": 0.33,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 82,
+      "notes": "Breakout above recent consolidation highs and all-time high resistance. Clean break of $55.50 would target measured move higher with strong trend momentum behind it.",
+      "source": "Vision AI",
+      "chart_image": "XLF_daily.png",
+      "detected_at": "2025-12-23T06:56:07.457397"
+    },
+    {
+      "symbol": "XLF",
+      "direction": "SHORT",
+      "entry": 53.75,
+      "stop": 54.8,
+      "target": 50.6,
+      "current_price": 55.32,
+      "distance_pct": 2.84,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakdown below 20 SMA support and recent consolidation lows. However, counter-trend setup in strong uptrend reduces quality. Would need decisive break with volume.",
+      "source": "Vision AI",
+      "chart_image": "XLF_daily.png",
+      "detected_at": "2025-12-23T06:56:07.457435"
+    },
+    {
+      "symbol": "TQQQ",
+      "direction": "LONG",
+      "entry": 55.0,
+      "stop": 52.5,
+      "target": 62.5,
+      "current_price": 54.25,
+      "distance_pct": 1.38,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 70,
+      "notes": "Breaking above recent consolidation highs around $55 level. This zone has been tested multiple times as resistance over past few weeks. Entry within 1.4% of current price.",
+      "source": "Vision AI",
+      "chart_image": "TQQQ_daily.png",
+      "detected_at": "2025-12-23T06:56:18.391558"
+    },
+    {
+      "symbol": "TQQQ",
+      "direction": "SHORT",
+      "entry": 52.0,
+      "stop": 54.5,
+      "target": 44.5,
+      "current_price": 54.25,
+      "distance_pct": 4.15,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breaking below recent consolidation lows and key support around $52 level. Would signal breakdown from current range. Entry within 4.1% of current price.",
+      "source": "Vision AI",
+      "chart_image": "TQQQ_daily.png",
+      "detected_at": "2025-12-23T06:56:18.391648"
+    },
+    {
+      "symbol": "DIS",
+      "direction": "LONG",
+      "entry": 115.5,
+      "stop": 109.0,
+      "target": 135.0,
+      "current_price": 112.38,
+      "distance_pct": 2.78,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 78,
+      "notes": "Break above 115-117 resistance zone that has been tested multiple times. Entry at 115.50 represents clear break of prior resistance with good R:R setup targeting higher highs.",
+      "source": "Vision AI",
+      "chart_image": "DIS_daily.png",
+      "detected_at": "2025-12-23T06:56:31.649207"
+    },
+    {
+      "symbol": "DIS",
+      "direction": "SHORT",
+      "entry": 107.5,
+      "stop": 111.5,
+      "target": 95.5,
+      "current_price": 112.38,
+      "distance_pct": 4.34,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 72,
+      "notes": "Break below rising blue trendline support and 20 SMA. Entry at 107.50 would confirm breakdown from current uptrend channel with target back to prior support levels.",
+      "source": "Vision AI",
+      "chart_image": "DIS_daily.png",
+      "detected_at": "2025-12-23T06:56:31.649248"
+    },
+    {
+      "symbol": "FDX",
+      "direction": "LONG",
+      "entry": 294.0,
+      "stop": 285.0,
+      "target": 321.0,
+      "current_price": 292.78,
+      "distance_pct": 0.42,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 80,
+      "notes": "Breaking above $294 resistance (previous high) would signal continuation of strong uptrend with room to run to new highs",
+      "source": "Vision AI",
+      "chart_image": "FDX_daily.png",
+      "detected_at": "2025-12-23T06:56:44.032713"
+    },
+    {
+      "symbol": "FDX",
+      "direction": "SHORT",
+      "entry": 278.0,
+      "stop": 285.0,
+      "target": 257.0,
+      "current_price": 292.78,
+      "distance_pct": 5.05,
+      "status": "PENDING",
+      "rr_ratio": 3.0,
+      "quality": 65,
+      "notes": "Breakdown below $278 support (recent swing low) would break the uptrend structure and target lower support around $257",
+      "source": "Vision AI",
+      "chart_image": "FDX_daily.png",
+      "detected_at": "2025-12-23T06:56:44.032756"
     }
   ]
 }

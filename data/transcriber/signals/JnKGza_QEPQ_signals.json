@@ -1,0 +1,55 @@
+{
+  "trade_signals": [],
+  "zone_levels": [],
+  "trade_outcomes": [
+    {
+      "symbol": "JPM (Chase)",
+      "direction": "short",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": null,
+      "lessons": "Stock dropped 5% on rumors of increased expenses and revenue compression - options allowed limited risk compared to equity position"
+    },
+    {
+      "symbol": "GM",
+      "direction": null,
+      "entry_price": 8.0,
+      "exit_price": 103.0,
+      "result": "win",
+      "pnl_percent": 1187.5,
+      "lessons": "Analyst Gus had strong rationale - trade went up over 1000% - mentioned as example of outlier performance"
+    }
+  ],
+  "key_insights": [
+    "Options provide leverage - can control $315,000 of Chase stock for $2,400 vs buying $315,000 in shares",
+    "When stock moves $1, options can move 29% ROI vs 0.32% ROI on stock",
+    "Risk management is critical - only allocate 5-10% of net worth to options trading",
+    "Options should be short duration trades - minutes to hours, not long-term holds",
+    "Fear is a stronger emotion than greed - market pullbacks create explosive options opportunities",
+    "Technical analysis beats intuition - need price levels, Fib levels, fair value gaps",
+    "Don't chase what instructors make - focus on whether the skill is duplicatable",
+    "Stock moves a dollar, options contracts can move 30-60-90%",
+    "Show your charts and CEST (context, entry, stop, target) to validate trades",
+    "Wait for technical setups - don't trade on gut feelings without price confirmation"
+  ],
+  "market_context": {
+    "overall_sentiment": "neutral",
+    "key_levels_mentioned": [
+      "JPM $315.50"
+    ],
+    "notable_events": [
+      "Chase stock dropped 5% on expense/revenue rumors",
+      "Bitcoin dropped from $125,000 to $90,000 mentioned as example"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "This is an introductory educational webinar explaining the advantages of options trading over stock trading, emphasizing leverage, risk management, and technical analysis. Bill Fanter focuses on explaining how options provide exponential returns with defined risk when traded with proper technical setups, while warning against gambling without analysis. The presentation includes examples comparing stock vs options positions in Chase (JPM) and mentions successful trades by community analysts including a 1000%+ gain in GM.",
+  "video_id": "JnKGza_QEPQ",
+  "video_info": {
+    "title": "Bill Fanter Video JnKGza_QEPQ",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:02:47.366822"
+}

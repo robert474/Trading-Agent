@@ -1,0 +1,83 @@
+{
+  "trade_signals": [],
+  "zone_levels": [
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 107000,
+      "zone_low": 107000,
+      "timeframe": "daily/weekly",
+      "freshness": "tested",
+      "context": "Key support level that held multiple times before breaking, clear pivot high that was rejected and tested before free fall"
+    },
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 99000,
+      "zone_low": 99000,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Breaking below this level triggered 'lights out to the downside'"
+    },
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 92000,
+      "zone_low": 92000,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Potential recovery level needed for market to move back to upside"
+    },
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 83000,
+      "zone_low": 83000,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Critical level - breaking below this targets 74k"
+    },
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 74000,
+      "zone_low": 74000,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Next major price target if 83k breaks, Bill's personal prediction for where Bitcoin is heading"
+    }
+  ],
+  "trade_outcomes": [],
+  "key_insights": [
+    "Leverage can be extremely dangerous - Bitcoin platforms allow 10X, 20X, 50X, even 100X leverage which amplifies losses exponentially",
+    "Leveraged liquidations create cascading sell-offs across asset classes as traders must sell stocks (Apple, Google, Meta, Microsoft) to cover Bitcoin margin calls",
+    "Options provide controlled risk vs high leverage - with bought calls/puts you can't lose more than the cost of the trade",
+    "When support levels break with high leverage in the system, 'free fall' scenarios occur with no significant buying support",
+    "$1.2 trillion was liquidated out of Bitcoin during this move"
+  ],
+  "market_context": {
+    "overall_sentiment": "bearish",
+    "key_levels_mentioned": [
+      "BTC 107k",
+      "BTC 99k",
+      "BTC 92k",
+      "BTC 86k (current)",
+      "BTC 83k",
+      "BTC 74k"
+    ],
+    "notable_events": [
+      "Bitcoin was a major catalyst for broader market selloff",
+      "$1.2 trillion liquidation from Bitcoin",
+      "Leveraged position liquidations forcing stock sales across blue chip names"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter analyzes Bitcoin's severe decline, explaining how extreme leverage (10-100X) available on crypto platforms created cascading liquidations that forced traders to sell traditional stocks to cover margin calls. He identifies multiple key support levels that broke, with $107k being the critical pivot that led to a free fall, and predicts Bitcoin could drop to $74k if it breaks below $83k. The video serves as a cautionary tale about leverage risks while highlighting why he prefers options trading with defined risk.",
+  "video_id": "g04tcH49-Ag",
+  "video_info": {
+    "title": "Bill Fanter Video g04tcH49-Ag",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:08:00.686971"
+}

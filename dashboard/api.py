@@ -28,6 +28,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 from trading_agent.analysis.zone_detector import ZoneDetector
 from trading_agent.data.providers.polygon import PolygonDataProvider
 from trading_agent.core.models import ZoneType
+from trading_agent.putt_indicator import PuttIndicator
 
 app = FastAPI(title="Bill Fanter Trading Dashboard")
 
@@ -50,10 +51,20 @@ app.mount("/charts", StaticFiles(directory=str(CHARTS_DIR)), name="charts")
 
 # Cache for setups (to avoid rate limiting)
 _setups_cache = {"data": [], "timestamp": None}
-CACHE_TTL_SECONDS = 120  # Refresh every 2 minutes (scanning ~80 stocks takes time)
+CACHE_TTL_SECONDS = 60  # Refresh every 1 minute (lightweight - just price updates)
 
 # In-memory price overrides for extended hours
 _price_overrides: dict[str, float] = {}
+
+# Initialize Putt Indicator (RAG-based validation)
+_putt_indicator = None
+
+def get_putt_indicator() -> PuttIndicator:
+    """Lazy load Putt Indicator to avoid slow startup."""
+    global _putt_indicator
+    if _putt_indicator is None:
+        _putt_indicator = PuttIndicator()
+    return _putt_indicator
 
 
 async def get_yahoo_price(symbol: str, session) -> float | None:
@@ -214,6 +225,7 @@ async def get_positions():
             "option_pnl_pct": round(option_pnl_pct, 2) if option_entry > 0 else None,
             "pnl_color": "green" if pnl >= 0 else "red",
             "time_in_trade": _time_since(pos.get("entry_time")),
+            "chart_5min": f"{symbol}_5min.png",  # 5-min chart for position monitoring
         })
 
         await asyncio.sleep(0.15)  # Rate limiting
@@ -787,6 +799,30 @@ async def get_pending_setups():
                     elif status == "PENDING":
                         status = f"PENDING ({dist:.1f}% away)"
 
+                    # === PUTT INDICATOR VALIDATION ===
+                    # Query RAG for historical context and confidence adjustment
+                    try:
+                        putt = get_putt_indicator()
+                        putt_context = putt.analyze_setup(
+                            symbol=symbol,
+                            direction=trade_plan["direction"].lower(),
+                            zone_type="demand" if trade_plan["direction"] == "LONG" else "supply",
+                            zone_level=trade_plan["entry"],
+                            base_confidence=float(confidence),
+                        )
+                        putt_data = {
+                            "putt_adjustment": putt_context.putt_adjustment,
+                            "putt_confidence": putt_context.final_confidence,
+                            "putt_win_rate": putt_context.win_rate,
+                            "putt_similar_trades": len(putt_context.similar_trades),
+                            "putt_bill_mentioned": putt_context.bill_mentioned,
+                            "putt_summary": putt_context.summary,
+                            "putt_insights": putt_context.key_insights[:2] if putt_context.key_insights else [],
+                        }
+                    except Exception as e:
+                        print(f"Putt Indicator error for {symbol}: {e}")
+                        putt_data = {}
+
                     setups.append({
                         "symbol": symbol,
                         "direction": trade_plan["direction"],
@@ -803,81 +839,15 @@ async def get_pending_setups():
                         "date": bill_levels.get("date", ""),
                         "confidence_score": confidence,
                         "confirmations": confirmations,
+                        **putt_data,  # Add Putt Indicator data
                     })
 
                 except Exception as e:
                     print(f"Error processing Bill's {symbol}: {e}")
                     continue
 
-        # 2. Auto-detect zones for additional symbols not covered by Bill
-        # Comprehensive list of tradeable stocks
-        auto_symbols = [
-            # Mega caps / MAG7
-            "AAPL", "MSFT", "NVDA", "AMD", "TSLA", "META", "GOOGL", "AMZN", "AVGO",
-            # Major tech
-            "ORCL", "CRM", "ADBE", "INTC", "QCOM", "MU", "AMAT", "LRCX", "KLAC", "MRVL",
-            "SNPS", "CDNS", "ARM", "PANW", "CRWD", "ZS", "FTNT", "NET", "DDOG", "SNOW",
-            "NOW", "WDAY", "TEAM", "SHOP", "SQ", "COIN", "MSTR", "PLTR", "UBER", "ABNB",
-            # Streaming / entertainment
-            "NFLX", "DIS", "PARA", "WBD", "SPOT", "ROKU",
-            # Financials
-            "JPM", "BAC", "WFC", "GS", "MS", "C", "SCHW", "BLK", "V", "MA", "AXP", "PYPL",
-            # Consumer
-            "NKE", "SBUX", "MCD", "CMG", "LULU", "TGT", "WMT", "COST", "HD", "LOW",
-            # Healthcare / Biotech
-            "JNJ", "UNH", "PFE", "MRK", "ABBV", "LLY", "BMY", "AMGN", "GILD", "MRNA", "BNTX",
-            # Energy
-            "XOM", "CVX", "COP", "SLB", "OXY",
-            # Industrial / Defense
-            "BA", "LMT", "RTX", "GE", "CAT", "DE", "HON",
-            # EVs / Auto
-            "RIVN", "LCID", "F", "GM",
-            # ETFs
-            "SPY", "QQQ", "IWM", "DIA", "XLF", "XLE", "XLK", "ARKK", "SOXL", "TQQQ",
-        ]
-
-        for symbol in auto_symbols:
-            # Skip if Bill has fresh levels for this symbol
-            if symbol in bill_symbols and not bill_stale:
-                continue
-
-            try:
-                async with aiohttp.ClientSession() as session:
-                    # Use Yahoo Finance for real-time prices
-                    current_price = await get_yahoo_price(symbol, session)
-                    if not current_price:
-                        # Fall back to Polygon
-                        url = f"https://api.polygon.io/v2/snapshot/locale/us/markets/stocks/tickers/{symbol}?apiKey={polygon.api_key}"
-                        async with session.get(url) as resp:
-                            if resp.status == 200:
-                                data = await resp.json()
-                                ticker_data = data.get("ticker", {})
-                                if ticker_data.get("day", {}).get("c"):
-                                    current_price = ticker_data["day"]["c"]
-                                elif ticker_data.get("min", {}).get("c"):
-                                    current_price = ticker_data["min"]["c"]
-                                elif ticker_data.get("prevDay", {}).get("c"):
-                                    current_price = ticker_data["prevDay"]["c"]
-                                else:
-                                    continue
-                            else:
-                                continue
-
-                await asyncio.sleep(0.1)  # Reduced delay for faster scanning
-
-                # Get auto-detected setups
-                auto_setups = await get_auto_detected_setup(
-                    symbol, current_price, polygon, zone_detector
-                )
-                setups.extend(auto_setups)
-
-                await asyncio.sleep(0.25)
-
-            except Exception as e:
-                print(f"Error auto-detecting {symbol}: {e}")
-                continue
-
-        # 3. Add Vision AI detected levels (if available)
+        # 2. Add Vision AI detected levels (from daily scan)
+        # This is LIGHTWEIGHT - just load pre-scanned levels and update prices
         vision_file = Path(__file__).parent.parent / "data" / "vision_levels.json"
         if vision_file.exists():
             try:
@@ -892,38 +862,83 @@ async def get_pending_setups():
                         scan_dt = dt.fromisoformat(scan_time)
                         hours_old = (datetime.now() - scan_dt).total_seconds() / 3600
                         if hours_old < 24:
-                            # Add vision levels that aren't duplicates of Bill's
-                            for level in vision_data.get("levels", []):
-                                symbol = level.get("symbol", "")
-                                # Skip if Bill already has this symbol
-                                if symbol in bill_symbols:
-                                    continue
-                                # Use status from vision level (PENDING, MISSED)
-                                status = level.get("status", "PENDING")
-                                if status == "PENDING":
-                                    dist = level.get("distance_pct", 0)
-                                    status = f"PENDING ({abs(dist):.1f}% away)"
-                                # Add vision level as a setup
-                                setups.append({
-                                    "symbol": symbol,
-                                    "direction": level.get("direction", "LONG"),
-                                    "bias": "vision",
-                                    "current_price": level.get("current_price", 0),
-                                    "entry": level.get("entry", 0),
-                                    "target": level.get("target"),
-                                    "stop": level.get("stop"),
-                                    "zone_low": level.get("zone_low"),
-                                    "zone_high": level.get("zone_high"),
-                                    "distance_pct": level.get("distance_pct", 0),
-                                    "rr_ratio": level.get("rr_ratio", 3.0),
-                                    "notes": level.get("notes", ""),
-                                    "status": status,
-                                    "source": "Vision AI",
-                                    "quality": level.get("quality", 50),
-                                    "chart_image": level.get("chart_image"),
-                                    "confidence_score": 0,
-                                    "confirmations": [],
-                                })
+                            # Get fresh prices for vision levels
+                            async with aiohttp.ClientSession() as session:
+                                for level in vision_data.get("levels", []):
+                                    symbol = level.get("symbol", "")
+                                    # Skip if Bill already has this symbol
+                                    if symbol in bill_symbols:
+                                        continue
+
+                                    # Get current price
+                                    current_price = await get_yahoo_price(symbol, session)
+                                    if not current_price:
+                                        current_price = level.get("current_price", 0)
+
+                                    entry = level.get("entry", 0)
+                                    direction = level.get("direction", "LONG")
+
+                                    # Recalculate distance and status with fresh price
+                                    if direction == "LONG":
+                                        distance_pct = (entry - current_price) / current_price * 100
+                                        if current_price >= entry:
+                                            status = "MISSED"
+                                        else:
+                                            status = f"PENDING ({abs(distance_pct):.1f}% away)"
+                                    else:
+                                        distance_pct = (current_price - entry) / current_price * 100
+                                        if current_price <= entry:
+                                            status = "MISSED"
+                                        else:
+                                            status = f"PENDING ({abs(distance_pct):.1f}% away)"
+
+                                    # === PUTT INDICATOR FOR VISION LEVELS ===
+                                    try:
+                                        putt = get_putt_indicator()
+                                        putt_context = putt.analyze_setup(
+                                            symbol=symbol,
+                                            direction=direction.lower(),
+                                            zone_type="demand" if direction == "LONG" else "supply",
+                                            zone_level=entry,
+                                            base_confidence=50.0,  # Vision starts at 50%
+                                        )
+                                        vision_putt_data = {
+                                            "putt_adjustment": putt_context.putt_adjustment,
+                                            "putt_confidence": putt_context.final_confidence,
+                                            "putt_win_rate": putt_context.win_rate,
+                                            "putt_similar_trades": len(putt_context.similar_trades),
+                                            "putt_bill_mentioned": putt_context.bill_mentioned,
+                                            "putt_summary": putt_context.summary,
+                                            "putt_insights": putt_context.key_insights[:2] if putt_context.key_insights else [],
+                                        }
+                                    except Exception as e:
+                                        print(f"Putt error for Vision {symbol}: {e}")
+                                        vision_putt_data = {}
+
+                                    # Add vision level as a setup
+                                    setups.append({
+                                        "symbol": symbol,
+                                        "direction": direction,
+                                        "bias": "vision",
+                                        "current_price": round(current_price, 2),
+                                        "entry": entry,
+                                        "target": level.get("target"),
+                                        "stop": level.get("stop"),
+                                        "zone_low": level.get("zone_low"),
+                                        "zone_high": level.get("zone_high"),
+                                        "distance_pct": round(abs(distance_pct), 2),
+                                        "rr_ratio": level.get("rr_ratio", 3.0),
+                                        "notes": level.get("notes", ""),
+                                        "status": status,
+                                        "source": "Vision AI",
+                                        "quality": level.get("quality", 50),
+                                        "chart_image": level.get("chart_image"),
+                                        "confidence_score": 0,
+                                        "confirmations": [],
+                                        **vision_putt_data,  # Add Putt Indicator data
+                                    })
+
+                                    await asyncio.sleep(0.05)  # Small delay between price fetches
                     except Exception as e:
                         print(f"Error parsing vision scan time: {e}")
             except Exception as e:
@@ -1290,6 +1305,172 @@ async def get_vision_status():
             status["last_monitor"] = data.get("timestamp")
 
     return status
+
+
+# ============================================================================
+# PUTT INDICATOR ENDPOINTS
+# ============================================================================
+
+class PuttAnalysisRequest(BaseModel):
+    """Request for Putt Indicator analysis."""
+    symbol: str
+    direction: str  # "long" or "short"
+    zone_type: str  # "demand" or "supply"
+    zone_level: float
+    base_confidence: float = 50.0
+
+
+@app.post("/api/putt/analyze")
+async def analyze_with_putt(request: PuttAnalysisRequest):
+    """
+    Analyze a setup using the Putt Indicator.
+
+    The Putt Indicator combines:
+    - Your trading intuition (base confidence)
+    - RAG database (historical patterns from Bill Fanter)
+    - Bill's methodology (insights, zone history)
+    """
+    try:
+        putt = get_putt_indicator()
+        context = putt.analyze_setup(
+            symbol=request.symbol.upper(),
+            direction=request.direction.lower(),
+            zone_type=request.zone_type.lower(),
+            zone_level=request.zone_level,
+            base_confidence=request.base_confidence,
+        )
+
+        return {
+            "symbol": context.symbol,
+            "direction": context.direction,
+            "zone_type": context.zone_type,
+            "base_confidence": context.base_confidence,
+            "putt_adjustment": context.putt_adjustment,
+            "final_confidence": context.final_confidence,
+            "win_rate": context.win_rate,
+            "avg_rr": context.avg_rr,
+            "similar_trades": len(context.similar_trades),
+            "bill_mentioned": context.bill_mentioned,
+            "pattern_recognized": context.pattern_recognized,
+            "summary": context.summary,
+            "key_insights": context.key_insights,
+            "zone_history": [
+                {"text": z.get("text", "")[:150], "metadata": z.get("metadata", {})}
+                for z in context.zone_history[:3]
+            ],
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+
+@app.get("/api/putt/context/{symbol}")
+async def get_putt_context(symbol: str):
+    """
+    Get full Putt Indicator context for a symbol.
+
+    Returns all historical data Bill has mentioned about this symbol.
+    """
+    try:
+        putt = get_putt_indicator()
+
+        # Get trading context from RAG
+        rag_context = putt.rag.get_trading_context(symbol.upper())
+
+        # Quick validation
+        quick = putt.get_quick_validation(symbol.upper(), "long")
+
+        return {
+            "symbol": symbol.upper(),
+            "zones": [
+                {"text": z.get("text", "")[:150], "type": z.get("metadata", {}).get("zone_type")}
+                for z in rag_context.get("zones", [])[:5]
+            ],
+            "signals": [
+                {"text": s.get("text", "")[:150], "direction": s.get("metadata", {}).get("direction")}
+                for s in rag_context.get("signals", [])[:5]
+            ],
+            "insights": [
+                i.get("text", "")[:200] for i in rag_context.get("insights", [])[:5]
+            ],
+            "mentions": len(rag_context.get("recent_mentions", [])),
+            "validation": quick,
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+
+@app.get("/api/putt/stats")
+async def get_putt_stats():
+    """Get Putt Indicator database statistics."""
+    try:
+        putt = get_putt_indicator()
+        doc_count = putt.rag.get_collection_count()
+
+        return {
+            "total_documents": doc_count,
+            "status": "active",
+            "description": "Putt Indicator: Your Brain + RAG + Bill Fanter Combined",
+        }
+    except Exception as e:
+        return {"error": str(e), "status": "inactive"}
+
+
+@app.get("/api/risk-indicators")
+async def get_risk_indicators():
+    """
+    Get risk-off indicators that Bill Fanter watches.
+
+    From his videos:
+    - Bitcoin < $87k = risk-off signal
+    - HOOD < $120 = risk-off signal
+    - MSTR < $166 = risk-off signal
+    - VIX > 20 = elevated fear
+    """
+    import aiohttp
+
+    indicators = {
+        "bitcoin": {"symbol": "BTC-USD", "threshold": 87000, "direction": "below", "value": None, "signal": None},
+        "hood": {"symbol": "HOOD", "threshold": 120, "direction": "below", "value": None, "signal": None},
+        "mstr": {"symbol": "MSTR", "threshold": 166, "direction": "below", "value": None, "signal": None},
+        "vix": {"symbol": "^VIX", "threshold": 20, "direction": "above", "value": None, "signal": None},
+    }
+
+    async with aiohttp.ClientSession() as session:
+        for key, ind in indicators.items():
+            try:
+                symbol = ind["symbol"]
+                url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1m&range=1d"
+                headers = {"User-Agent": "Mozilla/5.0"}
+
+                async with session.get(url, headers=headers) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        result = data.get("chart", {}).get("result", [])
+                        if result:
+                            price = result[0].get("meta", {}).get("regularMarketPrice")
+                            if price:
+                                indicators[key]["value"] = round(price, 2)
+
+                                # Determine if signal is triggered
+                                if ind["direction"] == "below":
+                                    indicators[key]["signal"] = price < ind["threshold"]
+                                else:  # above
+                                    indicators[key]["signal"] = price > ind["threshold"]
+            except Exception as e:
+                print(f"Error fetching {key}: {e}")
+
+            await asyncio.sleep(0.1)  # Rate limiting
+
+    # Calculate overall risk level
+    risk_signals = sum(1 for ind in indicators.values() if ind["signal"] is True)
+    risk_level = "HIGH" if risk_signals >= 3 else "ELEVATED" if risk_signals >= 2 else "CAUTION" if risk_signals >= 1 else "NORMAL"
+
+    return {
+        "indicators": indicators,
+        "risk_signals_active": risk_signals,
+        "risk_level": risk_level,
+        "timestamp": datetime.now().isoformat()
+    }
 
 
 if __name__ == "__main__":

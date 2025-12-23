@@ -1,0 +1,190 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "QQQ",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": "candle close below 592.86",
+      "target": 596.0,
+      "zone_type": "demand",
+      "zone_level": 592.86,
+      "reasoning": "Positive PCE inflation data, strong consumer spending, price came within 10 cents of level at 592.96, volatility dropping, futures bullish, holding 200 SMA and VWAP",
+      "confidence": "high",
+      "timestamp_hint": "Market open Friday, first candle"
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": "back to liquidity level",
+      "zone_type": "supply",
+      "zone_level": "between 50-61.8% fib",
+      "reasoning": "Classic textbook fib reject in golden zone, rejecting off VWAP",
+      "confidence": "high",
+      "timestamp_hint": "Second trade Friday after first profit"
+    },
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 257.39,
+      "zone_type": "demand",
+      "zone_level": 253.0,
+      "reasoning": "Strong relative strength, buyers stepping in on dips",
+      "confidence": "medium",
+      "timestamp_hint": "Weekly watchlist discussion"
+    },
+    {
+      "symbol": "AAPL",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 248.0,
+      "zone_type": "supply",
+      "zone_level": 253.0,
+      "reasoning": "If fails 253 level, could drop to 248, but caution advised due to quick buyups",
+      "confidence": "low",
+      "timestamp_hint": "Weekly watchlist discussion"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "supply",
+      "zone_high": 661.04,
+      "zone_low": null,
+      "timeframe": "1m/5m",
+      "freshness": "tested",
+      "context": "Pre-market high after positive PCE data, market stopped right at this level at 5:30am"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "demand",
+      "zone_high": 594.0,
+      "zone_low": 592.86,
+      "timeframe": "1m",
+      "freshness": "tested",
+      "context": "Market opened and came within 10 cents of this level (592.96 low vs 592.86 level)"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "supply",
+      "zone_high": 594.54,
+      "zone_low": null,
+      "timeframe": "1m",
+      "freshness": "tested",
+      "context": "Liquidity level where price consolidated multiple times during the day"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "supply",
+      "zone_high": 596.2,
+      "zone_low": null,
+      "timeframe": "1h",
+      "freshness": "tested",
+      "context": "Key level to watch for Monday, pre-market high, tops of candles failing here"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "supply",
+      "zone_high": 596.0,
+      "zone_low": null,
+      "timeframe": "1m",
+      "freshness": "tested",
+      "context": "Tested multiple times during Friday, grabbed liquidity repeatedly at this level"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "supply",
+      "zone_high": 257.39,
+      "zone_low": null,
+      "timeframe": "intraday",
+      "freshness": "tested",
+      "context": "Interim level, candle high 257.38, whipped out at 257.39, missed by a penny"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "demand",
+      "zone_high": 253.0,
+      "zone_low": 251.0,
+      "timeframe": "intraday",
+      "freshness": "fresh",
+      "context": "Key support levels for potential long entries or short failures"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "QQQ",
+      "direction": "long",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": 100.0,
+      "pnl_dollars": 13500,
+      "lessons": "Took profits after 7 minutes of consolidation at resistance, trade went up over 100% in less than two minutes"
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "short",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": null,
+      "pnl_dollars": 1700,
+      "lessons": "Classic textbook fib reject in golden zone between 50-61.8% fib, rejecting off VWAP"
+    }
+  ],
+  "key_insights": [
+    "Trade level to level using daily, 4-hour, and 1-hour timeframes to identify where market observes liquidity",
+    "Watch futures data on 5-minute timeframe for higher structure while taking trades on 1-minute for sniper entries",
+    "Don't trade against positive fundamental news - PCE inflation data and consumer spending were both positive",
+    "Pay attention to volume flow - decreasing volume on pushdown into open, then huge volume candles on reversal",
+    "Monitor VIX as an indicator just like individual names - VIX was dropping below price level at same time as entry",
+    "Patience is key - wait for price to come to your predetermined levels rather than chasing",
+    "Use multiple confirmations: price levels, 200 SMA, VWAP, futures structure, and volatility all aligned",
+    "Be aware of pre-market levels but don't trade off them - mark them as interim blue lines vs yellow confirmed levels",
+    "Market makers can't buy/sell options in pre-market, so watch for the open volume surge",
+    "When consolidating at resistance for multiple minutes (7+ minutes), consider taking profits rather than risking a rejection"
+  ],
+  "market_context": {
+    "overall_sentiment": "bullish",
+    "key_levels_mentioned": [
+      "SPY 661.04",
+      "QQQ 592.86",
+      "QQQ 594.54",
+      "QQQ 596.20",
+      "AAPL 253.00",
+      "AAPL 257.39"
+    ],
+    "notable_events": [
+      "PCE inflation data for August released Friday 5:30am - came in same as prior month",
+      "Personal spending higher than expected",
+      "Potential government shutdown and massive layoffs upcoming",
+      "Market at all-time highs",
+      "Federal Reserve focused on two mandates: inflation and unemployment"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill provides detailed trade recap of Friday's 100%+ winning QQQ call trade in under 2 minutes, followed by a second $1,700 winning put trade. He explains his pre-market analysis using PCE inflation data, price levels, futures structure, VIX, and volume flow. Demonstrates multi-timeframe analysis using 5-minute charts for structure and 1-minute for entries, emphasizing the importance of trading level-to-level with patience and multiple confirmations.",
+  "video_id": "Ll_fWl039pc",
+  "video_info": {
+    "title": "Bill Fanter Video Ll_fWl039pc",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:04:14.833398"
+}

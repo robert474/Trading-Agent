@@ -1,0 +1,137 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": null,
+      "zone_level": null,
+      "reasoning": "Taken during live trading on Friday when market showed weakness",
+      "confidence": "medium",
+      "timestamp_hint": "Mentioned early in video during Friday recap"
+    },
+    {
+      "symbol": "NQ/QQQ",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 673.15,
+      "reasoning": "Could not close above 67315 on 5-minute chart after live ended, rejection at prior all-time high",
+      "confidence": "high",
+      "timestamp_hint": "Discussed during Friday market recap"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "QQQ",
+      "zone_type": "support",
+      "zone_high": 560.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Would love to see pullback to this area, pivot high level"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "support",
+      "zone_high": 240.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Prior resistance level that held as support, bounced hard off this level from 257"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "support",
+      "zone_high": 207.0,
+      "zone_low": null,
+      "timeframe": "4-hour",
+      "freshness": "tested",
+      "context": "Major support level, buyers present at this level"
+    },
+    {
+      "symbol": "JPM",
+      "zone_type": "resistance",
+      "zone_high": 300.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Magic number they had to get over, now dropping back below"
+    },
+    {
+      "symbol": "USB",
+      "zone_type": "support",
+      "zone_high": 45.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Current support level, but looking for 42 or 39 for entry"
+    },
+    {
+      "symbol": "VPST",
+      "zone_type": "support",
+      "zone_high": 81.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Could find stability here, but needs to hold above 70"
+    }
+  ],
+  "trade_outcomes": [],
+  "key_insights": [
+    "When financials (XLF) stop making new highs while the market makes new all-time highs, it's an indicator that the market is probably getting close to the top",
+    "Always look at the banks - if the banks don't keep going higher, then the market ultimately will not keep going up because you need the liquidity",
+    "Hope is not a strategy - don't sit and do nothing during pullbacks",
+    "Buying on margin creates double risk - you lose on your capital AND the borrowed money, effectively doubling your losses",
+    "When QQQ makes new all-time highs but SPY does not, it can indicate the market is potentially going to roll over",
+    "Go long at a price level or go short at the trend - use these levels for entries",
+    "Don't buy the banks after big rallies when valuations are too high and price-to-tangible book value is unsustainable"
+  ],
+  "market_context": {
+    "overall_sentiment": "bearish",
+    "key_levels_mentioned": [
+      "QQQ 560",
+      "AAPL 240",
+      "AAPL 257",
+      "JPM 300",
+      "USB 45",
+      "USB 42",
+      "USB 39",
+      "AMZN 207",
+      "AMZN 238",
+      "NQ 67315",
+      "VPST 81",
+      "VPST 70",
+      "VPST 56"
+    ],
+    "notable_events": [
+      "Columbus Day Monday - bond market closed but stock market open",
+      "Major bank earnings Tuesday (Goldman, Citi, Wells Fargo, BlackRock, JP Morgan Chase)",
+      "Bank of America and Morgan Stanley earnings following day",
+      "Government shutdown concerns affecting economic data releases",
+      "FOMC rate cut expectations - two more cuts expected this year",
+      "POTUS tweet on tariffs caused market selloff",
+      "Crypto market liquidation - $1 trillion wiped out, XRP dropped 36%",
+      "Margin calls triggered mass liquidations on Friday"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter's October 13th watchlist focuses on the importance of monitoring financial sector weakness as a leading indicator for market tops. He discusses how all major banks peaked around September 23rd while the market continued making new highs, signaling the recent selloff. He emphasizes the dangers of margin trading after Friday's crypto liquidation event and provides specific price levels to watch for major indices and bank stocks heading into earnings week.",
+  "video_id": "-1lB1iLQ8vw",
+  "video_info": {
+    "title": "Bill Fanter Video -1lB1iLQ8vw",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T08:59:18.057958"
+}

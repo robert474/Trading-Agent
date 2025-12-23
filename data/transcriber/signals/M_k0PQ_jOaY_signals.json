@@ -1,0 +1,202 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": 272.5,
+      "expiration": "not specified",
+      "entry_price": "not specified",
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 270.8,
+      "reasoning": "Relative strength when overall market was down 1.7-1.8%, caught call trade at support level",
+      "confidence": "high",
+      "timestamp_hint": "discussed during Apple chart analysis"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "demand",
+      "zone_high": 663.3,
+      "zone_low": 663.27,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Bounced off this level on Friday Nov 14th and the Friday before - history repeating itself"
+    },
+    {
+      "symbol": "SPY",
+      "zone_type": "resistance",
+      "zone_high": 669.37,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "618 fib level alignment with price levels"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "support",
+      "zone_high": 607.16,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Key level to watch, golden zone below for potential bounce"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "demand",
+      "zone_high": 269.13,
+      "zone_low": null,
+      "timeframe": "intraday",
+      "freshness": "fresh",
+      "context": "Originally wanted to buy at 269.13 with confluence, never got there"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "resistance",
+      "zone_high": 278.0,
+      "zone_low": null,
+      "timeframe": "intraday",
+      "freshness": "tested",
+      "context": "Never got pullback below close of 278"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "gap",
+      "zone_high": "not specified",
+      "zone_low": "not specified",
+      "timeframe": "daily",
+      "freshness": "unfilled",
+      "context": "Only stock that hasn't had gap filled to the bottom, bounced off top of gap"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "support",
+      "zone_high": 500.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Held 500 price level for most part"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "resistance",
+      "zone_high": 510.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Need to break above this level"
+    },
+    {
+      "symbol": "GOOGL",
+      "zone_type": "support",
+      "zone_high": 270.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Pushed off this pivot high price level"
+    },
+    {
+      "symbol": "GOOGL",
+      "zone_type": "support",
+      "zone_high": 276.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Currently holding this level"
+    },
+    {
+      "symbol": "TSLA",
+      "zone_type": "support",
+      "zone_high": 400.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Psychological level, market right below this"
+    },
+    {
+      "symbol": "NVDA",
+      "zone_type": "resistance",
+      "zone_high": 191.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "If can get above 191, might play strength going into earnings up to 195 or 200"
+    },
+    {
+      "symbol": "PLTR",
+      "zone_type": "support",
+      "zone_high": 170.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Good level to trade off of, want to see below 170 to drop significantly lower"
+    },
+    {
+      "symbol": "PLTR",
+      "zone_type": "demand",
+      "zone_high": 164.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Heavy one day demand strength, got bounce here"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_price": "272.50 calls entered at 270",
+      "exit_price": "ran to 276",
+      "result": "win",
+      "pnl_percent": "300-400%",
+      "lessons": "Stay in trades longer, watch higher time frames, never got pullback below close of 278 so could have stayed in"
+    }
+  ],
+  "key_insights": [
+    "Do not play earnings with options - premiums are juiced up significantly and pricing in 6-7% move already",
+    "IV Crush can destroy option value even if you get the direction right - need to beat expectations significantly",
+    "Let the news drop and then trade around it - don't have a bias or trade going into earnings",
+    "History repeats itself - SPY bounced off same level 663.27 on two consecutive Fridays",
+    "When fibs align with price levels, should give added confidence to take directional trade",
+    "Stay in winning trades longer by watching higher time frames",
+    "Watch relative strength - Apple was near break even when overall market was down 1.7-1.8%",
+    "Be cautious when volume days are trading at half of normal - causes erratic price movement",
+    "When shorting, need to know where your sellers and buyers are"
+  ],
+  "market_context": {
+    "overall_sentiment": "cautious",
+    "key_levels_mentioned": [
+      "SPY 663.27",
+      "SPY 669.37",
+      "QQQ 607.16",
+      "NVDA 191",
+      "AAPL 270",
+      "MSFT 500-510",
+      "TSLA 400",
+      "PLTR 170"
+    ],
+    "notable_events": [
+      "Nvidia earnings Wednesday - expected to move 6-7%",
+      "Retail earnings: Home Depot, Lowe's, Target, TJX, Walmart",
+      "FOMC meeting minutes release Wednesday",
+      "Market uncertainty around December rate cut",
+      "Federal government back open - economic data resuming",
+      "Unemployment rate release Thursday uncertain",
+      "Consumer sentiment at 40 year low",
+      "Volume starting to slow toward end of year",
+      "Warren Buffett took position in Google in Q3 at 236"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides a comprehensive weekly watchlist for November 17th, highlighting Nvidia earnings as the major market catalyst while warning against playing earnings with options due to IV crush. He reviews specific trade levels on major stocks including a successful Apple call trade that returned 300-400%, emphasizes the importance of staying in winning trades longer, and identifies key support/resistance levels across SPY, QQQ, and mega-cap tech stocks while noting decreasing volume heading into year-end.",
+  "video_id": "M_k0PQ_jOaY",
+  "video_info": {
+    "title": "Bill Fanter Video M_k0PQ_jOaY",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:04:48.372314"
+}

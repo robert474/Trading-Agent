@@ -1,0 +1,276 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 269.0,
+      "reasoning": "Holding at 270 support level, if market shows strength on Monday. Ideally wants entry at 269 or optimally at 265. Overall structure still bullish.",
+      "confidence": "medium",
+      "timestamp_hint": "Apple analysis section"
+    },
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 274.14,
+      "zone_type": "demand",
+      "zone_level": 270.0,
+      "reasoning": "Good price level at 270-280 zone for calls if market shows strength",
+      "confidence": "medium",
+      "timestamp_hint": "Apple analysis section"
+    },
+    {
+      "symbol": "AMZN",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 222.35,
+      "reasoning": "If price gets above 222.35, potential room to upside. More of a scalp than directional trade. Market still trending down so caution advised.",
+      "confidence": "low",
+      "timestamp_hint": "Amazon analysis section"
+    },
+    {
+      "symbol": "AMZN",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 222.35,
+      "reasoning": "If doesn't break above 222.35, potentially some puts to downside. Lot of structural damage done.",
+      "confidence": "low",
+      "timestamp_hint": "Amazon analysis section"
+    },
+    {
+      "symbol": "MSFT",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 473.34,
+      "reasoning": "If gets above 473.34 which was prior consolidation, likes calls. Otherwise let it settle. Tied to Nvidia and OpenAI.",
+      "confidence": "low",
+      "timestamp_hint": "Microsoft analysis section"
+    },
+    {
+      "symbol": "META",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 591.71,
+      "reasoning": "Trading at low PE multiple. Was at $800, now at $591. Looks good for calls. Really likes $586 level. Resistance at 606.",
+      "confidence": "medium",
+      "timestamp_hint": "Meta analysis section"
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 366.0,
+      "zone_type": "supply",
+      "zone_level": 400.0,
+      "reasoning": "Below 400 level psychological. More downside pressure expected. Next support at 366, then 350, then gap below.",
+      "confidence": "medium",
+      "timestamp_hint": "Tesla analysis section"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 107000.0,
+      "zone_low": 107000.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Key support level that was clear pivot high, held multiple times before breaking and causing free fall"
+    },
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 99000.0,
+      "zone_low": 99000.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "As soon as it got below 99, was lights out to the downside"
+    },
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 92000.0,
+      "zone_low": 92000.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Price level where market needs to recover. Currently trading at 86k"
+    },
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 83000.0,
+      "zone_low": 83000.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "If gets below 83, next target is 74k. Author thinks it's coming to 74."
+    },
+    {
+      "symbol": "BTC",
+      "zone_type": "support",
+      "zone_high": 74000.0,
+      "zone_low": 74000.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Next major support level if 83k breaks"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "support",
+      "zone_high": 270.0,
+      "zone_low": 265.0,
+      "timeframe": "2h",
+      "freshness": "tested",
+      "context": "Currently holding at 270 zone. Good support zone with multiple price levels: 265, 269, 270, 274.14"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "support",
+      "zone_high": 222.35,
+      "zone_low": 222.35,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Prior earnings gap that was filled. Lot of buyers here, hard to push lower"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "resistance",
+      "zone_high": 473.34,
+      "zone_low": 473.34,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Prior consolidation area to the left. Structural damage from Nvidia correlation"
+    },
+    {
+      "symbol": "META",
+      "zone_type": "support",
+      "zone_high": 591.71,
+      "zone_low": 586.0,
+      "timeframe": "45m",
+      "freshness": "tested",
+      "context": "Gap fill target is lower. Fair amount of buyers here. Resistance at 606."
+    },
+    {
+      "symbol": "GOOGL",
+      "zone_type": "resistance",
+      "zone_high": 300.0,
+      "zone_low": 300.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Super strong, holding immune to market. Right at 300 level on Friday. Opportunity at 270-275 if market rolls over."
+    },
+    {
+      "symbol": "TSLA",
+      "zone_type": "support",
+      "zone_high": 400.0,
+      "zone_low": 393.26,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Psychological level at 400. Showing relative weakness. Next support 366, then 350, then gap below"
+    },
+    {
+      "symbol": "SPY",
+      "zone_type": "resistance",
+      "zone_high": null,
+      "zone_low": null,
+      "timeframe": "2h",
+      "freshness": "tested",
+      "context": "Rejected exactly in the golden zone (Fib 50-61.8% retracement) from pivot high to pivot low. Lost 55 level which was key."
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "TSLA",
+      "direction": "long",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "mentioned",
+      "pnl_percent": null,
+      "lessons": "Calls were played in the discord on Friday, got a pop higher but below 400 remains weak"
+    }
+  ],
+  "key_insights": [
+    "Leverage in Bitcoin (10X-100X) can lead to catastrophic liquidations - when BTC drops 10%, leveraged accounts can be wiped out completely",
+    "Options limit risk to cost of trade, unlike leverage which can create debt beyond initial investment",
+    "When Bitcoin sells off hard, leveraged traders must liquidate regular stocks (AAPL, GOOGL, META, MSFT) to cover losses",
+    "$1.2 trillion was liquidated out of Bitcoin during this crash",
+    "Gap fills happen 80-90% of the time once a stock enters the gap on daily timeframe",
+    "Use Fibonacci retracements with price levels for confluence - SPY rejected exactly in the golden zone (50-61.8%)",
+    "Market pushed higher after Nvidia earnings on Thursday, then relentless selling all day - this is structural damage",
+    "Don't trade on Friday after Thanksgiving - low volume, lots of chop, poor risk/reward ratio",
+    "Safety buying moved to banks, airlines, oil, pharma rather than technology during selloff",
+    "When market loses key support levels (like BTC at 107k), it triggers cascade of liquidations"
+  ],
+  "market_context": {
+    "overall_sentiment": "bearish",
+    "key_levels_mentioned": [
+      "SPY 55 level support lost",
+      "QQQ did not reach 50 Fib",
+      "BTC 107k, 99k, 92k, 83k, 74k levels",
+      "AAPL 265, 270, 274.14",
+      "AMZN 222.35",
+      "META 586, 591.71, 606",
+      "TSLA 400, 393.26, 366, 350"
+    ],
+    "notable_events": [
+      "Thanksgiving week - market closed Thursday, early close Friday 1pm ET",
+      "End of earnings season",
+      "Key earnings: Zoom, Dell, Alibaba, Coles, Best Buy",
+      "Government shutdown ended, economic data stream resuming",
+      "Tuesday: Retail sales, PPI data",
+      "Wednesday: Jobless claims, durable goods",
+      "Next FOMC meeting in December",
+      "Fed dual mandate: 2% inflation (currently above) and strong jobs (unemployment at 4.1%, highest since COVID)",
+      "Home prices dropping, cheaper than new construction",
+      "Consumer confidence dropping",
+      "Bitcoin $1.2T liquidation event"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides a comprehensive market watchlist for Thanksgiving week, explaining how Bitcoin's leveraged liquidation cascade ($1.2T wiped out) forced selling in major tech stocks. He emphasizes the dangers of leverage versus options trading, analyzes key support/resistance levels across major indices and individual stocks using Fibonacci retracements and gap theory, and advises against trading the low-volume Friday after Thanksgiving. The overall market shows structural damage with bearish pressure, though some opportunities exist in oversold names like META.",
+  "video_id": "Ld2JJf18SIw",
+  "video_info": {
+    "title": "Bill Fanter Video Ld2JJf18SIw",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:03:38.711499"
+}

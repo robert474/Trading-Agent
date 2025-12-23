@@ -1,0 +1,141 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "QQQ",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 592.86,
+      "reasoning": "Positive PCE inflation data, consumer spending higher than expected, market testing demand level with decreasing volume, VIX dropping below price level, futures holding support",
+      "confidence": "high",
+      "timestamp_hint": "Market open, first candle pushed down to 592.96 (10 cents above level)"
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": null,
+      "reasoning": "Classic textbook fib reject in golden zone between 50-618 fib, rejecting off VWAP, targeting liquidity level",
+      "confidence": "high",
+      "timestamp_hint": "Second trade of the day after first winning trade"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "resistance",
+      "zone_high": 566.04,
+      "zone_low": null,
+      "timeframe": "1m/5m",
+      "freshness": "tested",
+      "context": "Pre-market high after PCE data release at 5:30am, market stopped at this level"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "resistance",
+      "zone_high": 594.0,
+      "zone_low": null,
+      "timeframe": "1m/5m",
+      "freshness": "tested",
+      "context": "Liquidity level hit after positive data release"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "demand",
+      "zone_high": 592.86,
+      "zone_low": null,
+      "timeframe": "1m",
+      "freshness": "tested",
+      "context": "Market opened and pushed down to this level (within 10 cents), near 200 SMA"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "support",
+      "zone_high": 594.54,
+      "zone_low": null,
+      "timeframe": "1m",
+      "freshness": "tested",
+      "context": "Liquidity level that market bounced from after consolidation"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "resistance",
+      "zone_high": 596.0,
+      "zone_low": null,
+      "timeframe": "1m",
+      "freshness": "tested multiple times",
+      "context": "Tested multiple times throughout the day with liquidity grabs in between"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "QQQ",
+      "direction": "long",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": 100.0,
+      "pnl_dollars": 13500.0,
+      "lessons": "Took profits after consolidation at SPY level, up over 100% in less than two minutes. Decided to take money off table after 7 minutes of consolidation rather than risk reversal"
+    },
+    {
+      "symbol": "QQQ or SPY",
+      "direction": "short",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": null,
+      "pnl_dollars": 1700.0,
+      "lessons": "Classic textbook fib reject in golden zone between 50-618 fib, rejected off VWAP targeting liquidity level"
+    }
+  ],
+  "key_insights": [
+    "Trade level to level using daily, 4-hour, and 1-hour timeframes to identify where market observes liquidity",
+    "Watch futures data on 5-minute timeframe for higher structure while taking entries on 1-minute for sniper entries",
+    "Chart VIX just like an individual name - dropped below price level signaling bullish entry",
+    "Don't chase the market - wait for price to come to your levels",
+    "Pre-market volume decreasing into open can signal reversal potential",
+    "Watch huge volume candles at reversals as confirmation",
+    "When news is positive (inflation stable, consumer spending high), don't take bearish positions against the data",
+    "Market makers can't buy/sell options in pre-market, wait for market open for real volume",
+    "Multiple timeframe confirmation: 1-minute for entry, 5-minute for structure, watch VIX and futures simultaneously",
+    "Zoom out and watch futures on 5-minute, VIX on 5-minute, take trades on 1-minute",
+    "Look for absence of sellers at key levels (tons of buyers, no sellers)",
+    "9 EMA below 21 EMA on VIX with price dropping = bullish signal"
+  ],
+  "market_context": {
+    "overall_sentiment": "bullish",
+    "key_levels_mentioned": [
+      "SPY 566.04",
+      "QQQ 594.00",
+      "QQQ 592.86",
+      "QQQ 594.54",
+      "QQQ 596.00"
+    ],
+    "notable_events": [
+      "PCE inflation data for August released at 5:30am - came in at same level as prior month (inflation not going higher)",
+      "Personal spending higher than expected - consumer still buying despite tariffs",
+      "Federal Reserve's two mandates: inflation and unemployment"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides a detailed trade recap of a QQQ call trade that gained over 100% in less than two minutes after the market open on Friday. He explains how he identified the setup using positive PCE inflation data, consumer spending data, multiple timeframe analysis (1-min and 5-min charts), VIX analysis, futures levels, and supply/demand zones. He then took a second winning trade shorting into a fibonacci golden zone rejection for an additional $1,700 profit.",
+  "video_id": "RXrUp6oNscg",
+  "video_info": {
+    "title": "Bill Fanter Video RXrUp6oNscg",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:07:11.497591"
+}

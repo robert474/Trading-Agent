@@ -1,0 +1,164 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": null,
+      "reasoning": "Took puts on Apple during Friday session, market not able to recapture prior levels",
+      "confidence": "medium",
+      "timestamp_hint": "Mentioned during Friday trading discussion"
+    },
+    {
+      "symbol": "SPY",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 673.15,
+      "reasoning": "Could not close above 673.15 on 5-minute chart, position held after rejection at prior all-time high",
+      "confidence": "medium",
+      "timestamp_hint": "After live trading ended on Friday"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "QQQ",
+      "zone_type": "demand",
+      "zone_high": 560.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "untested",
+      "context": "Would love to see pullback into 560 area, back below pivot high or test pivot high"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "demand",
+      "zone_high": 257.0,
+      "zone_low": 240.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Bounced hard off 240 level which was prior resistance"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "demand",
+      "zone_high": null,
+      "zone_low": 207.0,
+      "timeframe": "4h",
+      "freshness": "tested",
+      "context": "Major support level, buyers down at 207"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "supply",
+      "zone_high": 238.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Rejection area at 238, huge flush lower after earnings despite beat"
+    },
+    {
+      "symbol": "JPM",
+      "zone_type": "supply",
+      "zone_high": 300.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Magic number that had to get over, now dropping back below it"
+    },
+    {
+      "symbol": "BAC",
+      "zone_type": "demand",
+      "zone_high": 86.0,
+      "zone_low": 77.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "10% pullback from highs, now at 77 from 86"
+    },
+    {
+      "symbol": "USB",
+      "zone_type": "demand",
+      "zone_high": 50.0,
+      "zone_low": 45.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "At support level of 45, can't get to 50 or prior high at 53"
+    },
+    {
+      "symbol": "USB",
+      "zone_type": "demand",
+      "zone_high": 42.0,
+      "zone_low": 39.0,
+      "timeframe": "daily",
+      "freshness": "untested",
+      "context": "Not a buyer until price reaches 42 or maybe 39"
+    },
+    {
+      "symbol": "VPST",
+      "zone_type": "demand",
+      "zone_high": 81.0,
+      "zone_low": 70.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Finding stability at 81, but can't take position until earnings; if breaks below 70, going to 56"
+    }
+  ],
+  "trade_outcomes": [],
+  "key_insights": [
+    "When bond market is closed but stock market is open (like Columbus Day), expect wonky price action and market chop - size down accordingly",
+    "Stock market and bond market need to work in unison for markets to either go up or down",
+    "Always watch financials - if financials don't keep going higher, the market will not keep going up because you need liquidity and banks to participate",
+    "When trading on margin, losses are amplified - a 20% drop on 2:1 margin equals 40% loss on your capital",
+    "Mass liquidation events occur when margin calls trigger automatic position closures",
+    "When QQQ is making new all-time highs but SPY is not, it's an indication market may roll over",
+    "If you're going to go long, go long at a price level or go short at the trend",
+    "Banks making all-time highs around same timeframe (Sept 23rd) then all selling off together is a warning sign",
+    "Look at call/put ratio for potential market direction clues, though it doesn't predict insider knowledge",
+    "Don't buy tops - people who put new capital to work over last month are second-guessing themselves",
+    "Hope is not a strategy - don't sit and do nothing during pullbacks"
+  ],
+  "market_context": {
+    "overall_sentiment": "bearish",
+    "key_levels_mentioned": [
+      "QQQ 560",
+      "SPY 673.15",
+      "AAPL 240-257",
+      "AMZN 207-238",
+      "JPM 300",
+      "BAC 77-86",
+      "USB 45-50",
+      "XLF highs Sept 23rd"
+    ],
+    "notable_events": [
+      "Columbus Day Monday Oct 13 - bond market closed, stock market open",
+      "FOMC rate cut expectations - two more cuts expected this year",
+      "Big bank earnings Tuesday: Goldman, Citi, Wells Fargo, BlackRock, JP Morgan Chase, Bank of America, Morgan Stanley",
+      "Government shutdown affecting economic data releases (PPI, retail sales, jobless claims, housing starts, building permits, import prices, industrial production)",
+      "Trump tariff tweet raised China tariffs to 100%",
+      "Liberation Day tariff announcement",
+      "Crypto market liquidation - XRP dropped 36%, trillion dollars wiped out",
+      "Auto repossessions at all-time high (COVID levels)",
+      "Jamie Dimon stated market too expensive"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides watchlist for Monday October 13th, warning about choppy price action due to bond market closure. He emphasizes the importance of watching financial sector weakness as a leading indicator for market pullbacks, detailing how all major banks peaked around September 23rd before declining. He explains margin liquidation mechanics from Friday's crypto crash and discusses how to identify market tops by monitoring divergences between indexes and financial sector performance.",
+  "video_id": "QUBwZmRqcg0",
+  "video_info": {
+    "title": "Bill Fanter Video QUBwZmRqcg0",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:05:55.779958"
+}

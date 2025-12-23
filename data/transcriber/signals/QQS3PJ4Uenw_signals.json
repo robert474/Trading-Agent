@@ -1,0 +1,188 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "QQQ",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 613.18,
+      "reasoning": "Bounce off top of gap and ORB (opening range breakout) bottom, also aligned with 0.55 Fibonacci retracement",
+      "confidence": "high",
+      "timestamp_hint": "during discussion of QQQ chart"
+    },
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 260.0,
+      "reasoning": "Ideal position at 0.55 Fibonacci level, area of prior buyers",
+      "confidence": "medium",
+      "timestamp_hint": "during Apple chart analysis"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "demand",
+      "zone_high": 673.94,
+      "zone_low": 673.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Prior all-time high, consolidation area ahead of open. Gap fill below to watch"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "demand",
+      "zone_high": 616.0,
+      "zone_low": 615.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Key support zone, multiple bounces at 0.55 Fib level at 615.5-616"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "supply",
+      "zone_high": 618.42,
+      "zone_low": 615.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Current trading range after gap up on CPI data"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "demand",
+      "zone_high": 262.0,
+      "zone_low": 260.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Interim level at 262, ideal buy at 260 (0.55 Fib), safer level at 261"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "supply",
+      "zone_high": 228.0,
+      "zone_low": 225.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Sellers at 228, need to break above 225 to go long"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "demand",
+      "zone_high": 523.0,
+      "zone_low": 522.08,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Multiple pivots holding at 522.08 level, buyers present"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "supply",
+      "zone_high": 525.23,
+      "zone_low": 525.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Current resistance, well below all-time high of 562"
+    },
+    {
+      "symbol": "GOOGL",
+      "zone_type": "demand",
+      "zone_high": 256.0,
+      "zone_low": 250.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "256 held on Friday, better buy at 250. Large put position placed at 250 level"
+    },
+    {
+      "symbol": "TSLA",
+      "zone_type": "demand",
+      "zone_high": 400.0,
+      "zone_low": 398.0,
+      "timeframe": "4h",
+      "freshness": "fresh",
+      "context": "Gap fill level, looking for 10% pullback to ~490 area"
+    },
+    {
+      "symbol": "NVDA",
+      "zone_type": "supply",
+      "zone_high": 188.0,
+      "zone_low": 187.35,
+      "timeframe": "4h",
+      "freshness": "tested",
+      "context": "Cannot break above 187-188, oscillating between 180-187"
+    },
+    {
+      "symbol": "AMD",
+      "zone_type": "demand",
+      "zone_high": 237.0,
+      "zone_low": 235.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Gap below at 235, longer-term trend line at 272"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": 300.0,
+      "lessons": "Trade taken by Iceman and others during live session, went from liquidity level to liquidity level, 300% winner"
+    }
+  ],
+  "key_insights": [
+    "Don't trade FOMC mornings - options premiums are expensive, market chops around, statistically you will lose 10x more than you make over time",
+    "Use Fibonacci retracement (0.55 level) when you don't have predetermined price levels to trade off",
+    "One third of S&P 500 weighted index is due to the Mag Seven stocks (Microsoft, Alphabet, Meta, Amazon, etc.)",
+    "Opening Range Breakout (ORB) can provide excellent entry signals when aligned with other technical levels",
+    "Don't fight the trend - wait for pullbacks to key levels rather than shorting strength",
+    "Be patient - don't buy into sellers, wait for price to come to demand zones",
+    "Watch for liquidity grabs and how price moves from liquidity level to liquidity level",
+    "Earnings will be more important than FOMC for market direction this week - focus on capital spend guidance for AI infrastructure"
+  ],
+  "market_context": {
+    "overall_sentiment": "bullish",
+    "key_levels_mentioned": [
+      "SPY 673.94",
+      "QQQ 618.42",
+      "QQQ 613.18",
+      "AAPL 260-262",
+      "MSFT 522-525",
+      "GOOGL 261.68",
+      "NVDA 187-188",
+      "TSLA 398-490"
+    ],
+    "notable_events": [
+      "FOMC rate decision Wednesday",
+      "CPI came in hotter than expected on Friday but market gapped up",
+      "US-Canada tariff tensions escalating",
+      "Big tech earnings week: Meta, Microsoft, Alphabet (Wed), Amazon, Apple, Coinbase (Thu)",
+      "Tesla had disappointing earnings but stock bought back up",
+      "Government shutdown affecting economic data releases",
+      "Mortgage rates around 6%, but homeowners locked in at 2-4% not selling",
+      "Large put position placed on Alphabet at 250 strike"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides a comprehensive market outlook for the week of October 27th, focusing on FOMC rate decision and major tech earnings (Meta, Microsoft, Alphabet, Amazon, Apple). He emphasizes not trading FOMC mornings due to poor statistical outcomes, and demonstrates multiple technical analysis techniques including Fibonacci retracements, opening range breakouts, gap fills, and liquidity levels. Key focus is on Mag Seven stocks which comprise one-third of S&P 500 weighting, with specific entry zones identified for each major tech stock.",
+  "video_id": "QQS3PJ4Uenw",
+  "video_info": {
+    "title": "Bill Fanter Video QQS3PJ4Uenw",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:05:23.411647"
+}

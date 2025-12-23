@@ -1,0 +1,200 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": 269.0,
+      "stop_loss": null,
+      "target": 272.0,
+      "zone_type": "demand",
+      "zone_level": 269.0,
+      "reasoning": "Called out during live trading after post-earnings selloff, some traders able to capture move to 272",
+      "confidence": "medium",
+      "timestamp_hint": "Discussion of Friday's losing trade on Apple"
+    },
+    {
+      "symbol": "META",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 622.0,
+      "reasoning": "Golden zone bounce level after gap fill, or top of gap fill. Longer term hold at $600 which is 8-9% lower",
+      "confidence": "medium",
+      "timestamp_hint": "Meta analysis section discussing gap fill"
+    },
+    {
+      "symbol": "SPY",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 621.28,
+      "reasoning": "Must hold 621.28 or go short into gap fill. Market not making new all time highs after tech earnings",
+      "confidence": "medium",
+      "timestamp_hint": "SPY analysis section"
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 629.28,
+      "reasoning": "Below 629.28 level, puts could be relevant. Market not making new all time highs",
+      "confidence": "medium",
+      "timestamp_hint": "QQQ analysis section"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "supply",
+      "zone_high": 621.28,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Key pivot level, must hold or go short. Gap below at 679.25 (appears to be typo, likely 619.25)"
+    },
+    {
+      "symbol": "SPY",
+      "zone_type": "demand",
+      "zone_high": null,
+      "zone_low": 666.0,
+      "timeframe": "4h/1h",
+      "freshness": "fresh",
+      "context": "Heavy buyers at this level, fair amount of black space above indicating sellers"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "supply",
+      "zone_high": 629.28,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Below this level, puts relevant. Huge gap below if tech weakens"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "support",
+      "zone_high": 517.0,
+      "zone_low": 506.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Key levels: 517, could come to 513, ultimately to 506. No trades liked due to expensive contracts"
+    },
+    {
+      "symbol": "META",
+      "zone_type": "demand",
+      "zone_high": 622.0,
+      "zone_low": 600.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Golden zone at 622, gap fill top. $600 is 8-9% lower, good longer term hold. Trading at lowest RSI valuation Meta has seen"
+    },
+    {
+      "symbol": "GOOGL",
+      "zone_type": "demand",
+      "zone_high": null,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Gap fill to downside available. Post-earnings selloff, not quite back to pre-earnings close (about 6-7 bucks off)"
+    },
+    {
+      "symbol": "TSLA",
+      "zone_type": "demand",
+      "zone_high": 444.0,
+      "zone_low": 400.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "444 good bounce level, tested twice at 439. Would like to see 400 which is 10% lower"
+    },
+    {
+      "symbol": "NVDA",
+      "zone_type": "support",
+      "zone_high": 212.0,
+      "zone_low": 188.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Key level at 200. Down 5% from all-time high of 212 to 202. Break of 202 could see 195 and 188. No buyers below 200"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "loss",
+      "pnl_percent": null,
+      "lessons": "Took losing trade on Friday that would take over and over again. Apple ran up 4% post-earnings, sold in pre-market, then heavily sold on market open. Only tech name selling while rest of sector bought. Apple was called at 269 for some who captured to 272"
+    }
+  ],
+  "key_insights": [
+    "Buy the rumor, sell the news pattern playing out across big tech earnings",
+    "Market not making new all-time highs despite big tech earnings not disappointing",
+    "Top 10 names controlling 40% of overall market, breadth starting to get exhausted",
+    "Trading volume typically declines significantly in November-December unless major catalyst",
+    "Fund managers up for the year likely won't risk performance before year-end",
+    "Gap fills only charted on daily timeframe, not lower timeframes",
+    "When halfway through a gap, typically pushes to bottom to close it completely",
+    "Chart on extended hours timeframe, then verify on regular hours for volume support",
+    "Don't fight strength - when everything green and one stock red, low probability it continues",
+    "Warren Buffett indicator shows market more overvalued than .com bubble and pre-COVID",
+    "AI spend concerns weighing on stocks - market questioning if ROI will justify expenditure",
+    "Look for fair amount of black space (no buyers) when playing puts",
+    "Use supply and demand analysis with regular vs extended trading hours",
+    "Golden zone (Fibonacci) for entry on pullbacks to strong levels"
+  ],
+  "market_context": {
+    "overall_sentiment": "bearish",
+    "key_levels_mentioned": [
+      "SPY 621.28",
+      "QQQ 629.28",
+      "AAPL 269-272",
+      "MSFT 517-506",
+      "META 622-600",
+      "TSLA 444-400",
+      "NVDA 200-188"
+    ],
+    "notable_events": [
+      "Big tech earnings week (Meta, Google, Microsoft, Apple, Amazon)",
+      "Government shutdown affecting economic data releases",
+      "PMI and ISM manufacturing data scheduled Monday 9:45/10:00am",
+      "ADP employment numbers Wednesday",
+      "Jerome Powell stated December rate cut not a slam dunk",
+      "Fed governors speaking throughout week",
+      "November-December typically lower volume period",
+      "Earnings: Palantir (Monday), Uber, Shopify, Spotify, AMD, Super Micro, McDonald's, Robinhood, Snap",
+      "Berkshire sold 30M Apple shares in Q3",
+      "Meta spooked by 2026-2027 AI spend guidance from Zuckerberg",
+      "Nvidia doesn't report for another week",
+      "Warren Buffett has largest cash stockpile in history"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides weekly market watchlist for November 3rd, analyzing post-big tech earnings action where SPY/QQQ failed to make new highs despite solid earnings. He emphasizes buy-the-rumor-sell-the-news pattern, discusses gap fill strategies on daily timeframes, and provides specific supply/demand zones for major names. Key theme is market overvaluation concerns and AI spending skepticism weighing on tech despite strong earnings, with reduced volume expected into year-end.",
+  "video_id": "ED_sp8xc17U",
+  "video_info": {
+    "title": "Bill Fanter Video ED_sp8xc17U",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:02:32.703865"
+}

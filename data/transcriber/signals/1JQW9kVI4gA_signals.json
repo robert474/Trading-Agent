@@ -1,0 +1,176 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "supply",
+      "zone_level": 244.0,
+      "reasoning": "More sellers sitting up at resistance, stock at supply zone, would wait for move up to take puts back down into demand",
+      "confidence": "medium",
+      "timestamp_hint": "Apple discussion section"
+    },
+    {
+      "symbol": "AMZN",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 209.0,
+      "reasoning": "In downtrend but holding support at 209-210, potential wedge pattern. Would take calls at support or on break above trend line",
+      "confidence": "medium",
+      "timestamp_hint": "Amazon discussion section"
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 195.0,
+      "reasoning": "In downtrend from 195, showing pattern of lower highs holding lows. Wait to buy calls at the low pivot points, not at current levels",
+      "confidence": "medium",
+      "timestamp_hint": "Nvidia discussion section"
+    },
+    {
+      "symbol": "META",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 693.0,
+      "reasoning": "Holding 693 support level with buyers. Expected consolidation between 705-723 ahead of earnings on Oct 29. Buy calls at lower range around 693",
+      "confidence": "medium",
+      "timestamp_hint": "Meta discussion section"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "NQ",
+      "zone_type": "demand",
+      "zone_high": null,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Market observing liquidity zones, new daily level from previous bounce point"
+    },
+    {
+      "symbol": "ES",
+      "zone_type": "consolidation",
+      "zone_high": 6715.0,
+      "zone_low": 6659.0,
+      "timeframe": "intraday",
+      "freshness": "tested",
+      "context": "Tight consolidation range with whipsaw action, high volatility with large wicks"
+    },
+    {
+      "symbol": "SPY",
+      "zone_type": "resistance",
+      "zone_high": 673.0,
+      "zone_low": 660.0,
+      "timeframe": "1h",
+      "freshness": "tested",
+      "context": "Only 10 points from all-time highs at 673, holding 660 range"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "resistance",
+      "zone_high": 607.0,
+      "zone_low": null,
+      "timeframe": "intraday",
+      "freshness": "tested",
+      "context": "Failed to break above 607 on Wednesday and Thursday, showing rejection at level"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "demand",
+      "zone_high": 244.0,
+      "zone_low": null,
+      "timeframe": "1h",
+      "freshness": "tested",
+      "context": "Holding 244 level, back in uptrend but sellers present above"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "demand",
+      "zone_high": 210.0,
+      "zone_low": 209.0,
+      "timeframe": "1h",
+      "freshness": "tested",
+      "context": "Buyers at 209-210 level holding support in downtrend structure"
+    },
+    {
+      "symbol": "JPM",
+      "zone_type": "demand",
+      "zone_high": 296.0,
+      "zone_low": 292.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Pushed down to 292 during bank scare, then moved higher from demand zone"
+    }
+  ],
+  "trade_outcomes": [],
+  "key_insights": [
+    "Don't buy calls at the top of range - buy at bottom of range. Don't buy puts at bottom - buy puts at top of range",
+    "When 9 EMA crosses 21 EMA on 1 hour timeframe, take directional trade and ride it. Confirm on 15 min and 5 min charts",
+    "Stick with the same basket of stocks rather than constantly switching - you need to understand the characteristics and behavior of each stock",
+    "Don't trade stocks where buyers and sellers are balanced (supply/demand zones on top of each other) - want to see black open space for price to move",
+    "In a downtrend pattern (high, low, lower high, lower low), wait to buy calls at the pivot lows, not at current price",
+    "Watch the directional bias of the stock - don't fight the trend structure",
+    "Be patient and wait for price to come to your preferred entry zone rather than chasing",
+    "When VIX gets above 20, there is more volatility and price instability - be more cautious",
+    "Large wicks with whipsaw action back and forth is dangerous trading environment versus more candle body movement",
+    "Watch major tech stocks (Google, Apple, Microsoft, Nvidia) behavior when trading QQQ to confirm price action"
+  ],
+  "market_context": {
+    "overall_sentiment": "neutral",
+    "key_levels_mentioned": [
+      "SPY 660-673",
+      "QQQ 607",
+      "NQ liquidity zones",
+      "ES 6659-6715",
+      "VIX above 20"
+    ],
+    "notable_events": [
+      "Regional bank earnings week of Oct 20 (Zions, HBT, Winchester, BOK, Capital One, East West Bank)",
+      "Netflix earnings - hovering in consolidation",
+      "Tesla earnings - heavily anticipated",
+      "Airlines earnings (American, Southwest, Alaska)",
+      "Auto sector earnings (GM, Ford, AutoNation)",
+      "Intel earnings",
+      "Tech earnings starting following week",
+      "Meta earnings Oct 29",
+      "Regional bank credit scare Thursday causing selloff",
+      "100% China tariffs news previous Friday",
+      "Auto loan delinquencies and charge-offs (fraud concerns)",
+      "EV credit expired Sept 30",
+      "Average US car now $50k+ with 8-9% rates, $800+ monthly payments"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides a comprehensive weekly watchlist for October 20th, focusing on upcoming earnings (banks, Netflix, Tesla, autos), chart analysis of major indices and tech stocks, and emphasizes the importance of patience in trading - waiting for price to come to demand/supply zones rather than chasing. He stresses understanding stock behavior characteristics, respecting trend structure, and being cautious during high volatility periods with the VIX above 20.",
+  "video_id": "1JQW9kVI4gA",
+  "video_info": {
+    "title": "Bill Fanter Video 1JQW9kVI4gA",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:00:30.371406"
+}

@@ -1,0 +1,148 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": 272.5,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "demand",
+      "zone_level": 270.8,
+      "reasoning": "Relative strength when overall market was down 1.7-1.8%, entered at 270.80 after originally wanting 269.13",
+      "confidence": "high",
+      "timestamp_hint": "Apple chart analysis section"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "demand",
+      "zone_high": 663.3,
+      "zone_low": 663.27,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Bounced off this level twice - prior Friday and the 14th, watching 669.37 (618 fib) as resistance"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "demand",
+      "zone_high": 607.16,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Watching for hold at 607.16, golden zone below as support for bounce to resume higher"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "supply",
+      "zone_high": null,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Only big stock that hasn't filled gap to bottom, bounced off top of gap, looking for gap fill play to downside"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "support",
+      "zone_high": 500.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Holding 500 level, needs to break above 510, positive traction on EMAs and MACD"
+    },
+    {
+      "symbol": "GOOGL",
+      "zone_type": "support",
+      "zone_high": 276.0,
+      "zone_low": 270.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Pushed off 270 pivot high, holding 276, watching for move to 291"
+    },
+    {
+      "symbol": "TSLA",
+      "zone_type": "support",
+      "zone_high": 400.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Gap filled, needs to hold psychological 400 level, needs to recapture 408 to head to 412 then 420"
+    },
+    {
+      "symbol": "NVDA",
+      "zone_type": "resistance",
+      "zone_high": 191.0,
+      "zone_low": null,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Prior gap fill closed, if above 191 could play strength to 195-200, stock expected to move 7% ($15-16) on earnings"
+    },
+    {
+      "symbol": "PLTR",
+      "zone_type": "support",
+      "zone_high": 170.0,
+      "zone_low": 164.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Sold off from 207 to 175, bouncing off VWAP, 170 is key level, 164 showed heavy demand bounce"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_price": 270.8,
+      "exit_price": 276.0,
+      "result": "win",
+      "pnl_percent": 300.0,
+      "lessons": "Played into relative strength when market was down, stayed in trade watching higher timeframes, never pulled back below close of 270.80 so could have stayed in for 300-400% ROI"
+    }
+  ],
+  "key_insights": [
+    "History repeats itself - SPY bounced off same level (663.27) twice when bought up hard",
+    "Don't play earnings with options - premiums are juiced up 6-7% already pricing in the move, wrong side leads to IV crush",
+    "When fibs align with price levels, gives added confidence to take directional trades",
+    "Enter on 1 minute, watch on 5 minute and 15 minute timeframes",
+    "Watch ES and NQ futures simultaneously with ETFs for precise levels",
+    "When you have volume days trading at half of normal, expect erratic price movement",
+    "Fresh zones are harder to break than tested zones",
+    "Need to know where your sellers and buyers are when trying to short",
+    "Layer supply and demand zones for better trade setups"
+  ],
+  "market_context": {
+    "overall_sentiment": "cautious",
+    "key_levels_mentioned": [
+      "SPY 663.27-663.30",
+      "SPY 669.37",
+      "QQQ 607.16",
+      "AAPL 270.80",
+      "MSFT 500-510",
+      "TSLA 400",
+      "NVDA 191-195-200",
+      "PLTR 170"
+    ],
+    "notable_events": [
+      "NVIDIA earnings Wednesday - expected 6-7% move, elephant in the room for entire market",
+      "Retail earnings week - Home Depot, Lowe's, Target, TJX, Walmart for consumer spending data",
+      "October FOMC meeting minutes Wednesday",
+      "Uncertainty about December rate cut - Fed governors said not enough data",
+      "Federal government back open after closure",
+      "Unemployment data Thursday - may only release number without commentary",
+      "Consumer sentiment at 40 year low",
+      "Friday PMI and inflationary data coming",
+      "Warren Buffett took Google position in Q3 at 236 (now at 276)"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides weekly watchlist for November 17th focusing on retail earnings and crucial NVIDIA earnings Wednesday that could make or break market direction. He emphasizes not playing earnings due to IV crush risk, demonstrates successful Apple call trade that made 300-400% by playing relative strength, and provides detailed chart analysis of major tech stocks with specific support/resistance levels. Key theme is patience, waiting for price to come to zones, and watching multiple timeframes for confirmation.",
+  "video_id": "ZXCmAGkWKU8",
+  "video_info": {
+    "title": "Bill Fanter Video ZXCmAGkWKU8",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:07:43.898885"
+}

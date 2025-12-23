@@ -1,0 +1,293 @@
+{
+  "trade_signals": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 246.0,
+      "zone_type": "demand",
+      "zone_level": 244.0,
+      "reasoning": "Apple announced new iPhone release, stock ripped up 3%, watching for pullback to 244 to continue trend higher",
+      "confidence": "high",
+      "timestamp_hint": "Apple section"
+    },
+    {
+      "symbol": "AMZN",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 233.0,
+      "zone_type": "demand",
+      "zone_level": 230.0,
+      "reasoning": "Higher low forming on one hour chart, wait for pullback to 230 to go long to 233, possibly up to 236",
+      "confidence": "medium",
+      "timestamp_hint": "Amazon section"
+    },
+    {
+      "symbol": "MSFT",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 522.0,
+      "zone_type": "demand",
+      "zone_level": 513.0,
+      "reasoning": "Rounding bottom breakout pattern, pullback to 513 ideal for long entry, if above 518.29 can take to 522",
+      "confidence": "high",
+      "timestamp_hint": "Microsoft section"
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 456.0,
+      "zone_type": "support",
+      "zone_level": 350.0,
+      "reasoning": "Making higher lows, trending up, if catches momentum could go to 439, 450, up to 456",
+      "confidence": "medium",
+      "timestamp_hint": "Tesla section"
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 177.0,
+      "zone_type": "resistance",
+      "zone_level": 177.0,
+      "reasoning": "Need to get above 177 to move higher, bounced at pre-market low",
+      "confidence": "medium",
+      "timestamp_hint": "Nvidia section"
+    },
+    {
+      "symbol": "AMD",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": 150.0,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 157.44,
+      "zone_type": "demand",
+      "zone_level": 150.0,
+      "reasoning": "Retail sold off on Nvidia/Intel news, smart money stepped in at 150, consolidating in golden zone (50-618 fib), above 157.44 should go higher",
+      "confidence": "high",
+      "timestamp_hint": "AMD section"
+    },
+    {
+      "symbol": "PLTR",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 187.0,
+      "zone_type": "demand",
+      "zone_level": 182.0,
+      "reasoning": "Market broadening to higher alpha stocks, watch for bounce at 182 going to 184 up to 187",
+      "confidence": "medium",
+      "timestamp_hint": "Palantir section"
+    },
+    {
+      "symbol": "PANW",
+      "direction": "long",
+      "entry_type": "call",
+      "strike": null,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": null,
+      "zone_type": "resistance",
+      "zone_level": 210.0,
+      "reasoning": "At all-time highs, strong trend line, beat last two earnings, watch if they get above 210 and hold for new all-time highs",
+      "confidence": "medium",
+      "timestamp_hint": "Palo Alto section"
+    },
+    {
+      "symbol": "DIS",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": 110.0,
+      "expiration": null,
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 108.0,
+      "zone_type": "supply",
+      "zone_level": 113.41,
+      "reasoning": "In downtrend, Jimmy Kimmel controversy, if doesn't recapture 113.41 room down to 110 and gap fill at 108",
+      "confidence": "medium",
+      "timestamp_hint": "Disney section"
+    },
+    {
+      "symbol": "AQLO",
+      "direction": "short",
+      "entry_type": "put",
+      "strike": null,
+      "expiration": "year out leaps",
+      "entry_price": null,
+      "stop_loss": null,
+      "target": 85.0,
+      "zone_type": "supply",
+      "zone_level": 135.0,
+      "reasoning": "Meme stock gone from $5 to $135, no earnings, insiders selling shares, should retrace to at least $85",
+      "confidence": "medium",
+      "timestamp_hint": "Aqualo wild card section"
+    }
+  ],
+  "zone_levels": [
+    {
+      "symbol": "SPY",
+      "zone_type": "demand",
+      "zone_high": 564.0,
+      "zone_low": 564.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Pushed down to demand at 564 after FOMC, then bought up to new all-time highs"
+    },
+    {
+      "symbol": "QQQ",
+      "zone_type": "resistance",
+      "zone_high": 600.0,
+      "zone_low": 600.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Making new all-time highs, targeting 600 number"
+    },
+    {
+      "symbol": "AAPL",
+      "zone_type": "demand",
+      "zone_high": 244.0,
+      "zone_low": 240.0,
+      "timeframe": "5m",
+      "freshness": "tested",
+      "context": "Great retest at 240, no 5m candle closed below this level, ripped to 246"
+    },
+    {
+      "symbol": "AMZN",
+      "zone_type": "demand",
+      "zone_high": 233.0,
+      "zone_low": 228.0,
+      "timeframe": "hourly",
+      "freshness": "tested",
+      "context": "Selling at 233, buying at 228 repeatedly, now getting higher low"
+    },
+    {
+      "symbol": "MSFT",
+      "zone_type": "demand",
+      "zone_high": 513.0,
+      "zone_low": 505.0,
+      "timeframe": "daily",
+      "freshness": "tested",
+      "context": "Multiple bounces at 505, rejecting at 518, no sellers above"
+    },
+    {
+      "symbol": "FDX",
+      "zone_type": "range",
+      "zone_high": 234.0,
+      "zone_low": 229.0,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Consolidation zone after earnings beat, possible trade in either direction"
+    },
+    {
+      "symbol": "UPS",
+      "zone_type": "resistance",
+      "zone_high": 84.28,
+      "zone_low": 81.95,
+      "timeframe": "daily",
+      "freshness": "fresh",
+      "context": "Above 84.28 for bounce higher, or hold for weakness to 81.95"
+    }
+  ],
+  "trade_outcomes": [
+    {
+      "symbol": "AAPL",
+      "direction": "long",
+      "entry_price": 240.0,
+      "exit_price": 246.0,
+      "result": "win",
+      "pnl_percent": null,
+      "lessons": "Called Apple calls in morning, got great retest at 240, ripped up to almost 246 on iPhone release news"
+    },
+    {
+      "symbol": "AMD",
+      "direction": "long",
+      "entry_price": 150.0,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": null,
+      "lessons": "Calls at 150 after retail sold off pre-market was huge winning day, smart money stepped in when down 4-5%"
+    },
+    {
+      "symbol": "DIS",
+      "direction": "short",
+      "entry_price": null,
+      "exit_price": null,
+      "result": "win",
+      "pnl_percent": null,
+      "lessons": "Called 110 puts live at market open Friday, should have made pretty decent profit"
+    }
+  ],
+  "key_insights": [
+    "Don't try to short this market - they keep buying dips, better to wait for call trades",
+    "Dips are being bought up heavily and quickly",
+    "When market is greedy, they pile into high alpha stocks without valuations",
+    "Pre-market retail selling is 'stupid money', not institutional - smart money steps in when down 4-5%",
+    "Watch for consolidation in golden fib zone (50-618) as sign of potential breakout",
+    "Fed is watching job market like a hawk, not so much inflation",
+    "Food costs going higher, consumer sentiment dropping",
+    "Be cognizant of position size during Fed speak, especially Powell at 12:30 ET"
+  ],
+  "market_context": {
+    "overall_sentiment": "bullish",
+    "key_levels_mentioned": [
+      "SPY 564 demand",
+      "QQQ 600 target",
+      "AAPL 244-246",
+      "AMZN 228-236",
+      "MSFT 505-522",
+      "NVDA 177",
+      "AMD 157.44"
+    ],
+    "notable_events": [
+      "FOMC rate cut quarter percent",
+      "Two more quarter percent rate drops baked in through year end",
+      "Heavy Fed speak Monday-Friday",
+      "Powell speaking Tuesday 12:30 ET",
+      "S&P US Services PMI data",
+      "New home sales Wednesday",
+      "Durable goods, GDP, jobless claims Thursday",
+      "PCE inflation data Friday",
+      "Apple iPhone release announcement",
+      "Nvidia $5 billion investment in Intel",
+      "Disney/Jimmy Kimmel controversy",
+      "FedEx earnings beat"
+    ]
+  },
+  "educational_value": "high",
+  "summary": "Bill Fanter provides weekly watchlist for Sept 22nd with heavy focus on Fed speak throughout the week and economic data releases. He emphasizes buying dips rather than shorting this bullish market, provides specific entry/exit levels for major tech stocks, and highlights trade setups including Apple calls after iPhone announcement, AMD calls after retail selloff, and potential Disney puts due to controversy. Multiple zone levels and consolidation patterns identified across SPY, QQQ, and individual names.",
+  "video_id": "RREeKr3wz9E",
+  "video_info": {
+    "title": "Bill Fanter Video RREeKr3wz9E",
+    "channel": "Options Action",
+    "published_at": "2024-01-01"
+  },
+  "extracted_at": "2025-12-23T09:06:42.904374"
+}
