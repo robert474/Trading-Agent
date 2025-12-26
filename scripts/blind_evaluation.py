@@ -81,14 +81,14 @@ CLAUDE_MODELS = {
 
 GEMINI_MODELS = {
     "gemini-2.5-flash": {
-        "id": "gemini-2.5-flash-preview-05-20",
-        "name": "Gemini 2.5 Flash",
+        "id": "gemini-2.0-flash",  # Use 2.0 as 2.5 may not be available
+        "name": "Gemini 2.0 Flash",
         "provider": "google",
-        "input_cost": 0.15,
-        "output_cost": 0.60,
+        "input_cost": 0.10,  # Updated pricing
+        "output_cost": 0.40,
     },
     "gemini-1.5-flash": {
-        "id": "gemini-1.5-flash",
+        "id": "gemini-1.5-flash-latest",
         "name": "Gemini 1.5 Flash",
         "provider": "google",
         "input_cost": 0.075,
@@ -184,11 +184,11 @@ def get_anthropic_client():
 def get_gemini_client():
     """Get Google Gemini client."""
     try:
-        import google.generativeai as genai
-        genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-        return genai
+        from google import genai
+        client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+        return client
     except ImportError:
-        raise ImportError("google-generativeai not installed. Run: pip install google-generativeai")
+        raise ImportError("google-genai not installed. Run: pip install google-genai")
 
 
 # ============================================================================
@@ -349,23 +349,23 @@ def analyze_with_claude(model_key: str, image_bytes: bytes, symbol: str, current
 def analyze_with_gemini(model_key: str, image_bytes: bytes, symbol: str, current_price: float) -> dict:
     """Analyze chart with Gemini model."""
     model_info = GEMINI_MODELS[model_key]
-    genai = get_gemini_client()
+    client = get_gemini_client()
 
     prompt = get_analysis_prompt(symbol, current_price)
 
     start_time = time.time()
 
     try:
-        # Create model
-        model = genai.GenerativeModel(model_info["id"])
-
-        # Create image part
+        # Create image part using new google-genai API
         import PIL.Image
         import io
         image = PIL.Image.open(io.BytesIO(image_bytes))
 
-        # Generate response
-        response = model.generate_content([prompt, image])
+        # Generate response using new API
+        response = client.models.generate_content(
+            model=model_info["id"],
+            contents=[prompt, image],
+        )
 
         elapsed = time.time() - start_time
         response_text = response.text
@@ -380,19 +380,25 @@ def analyze_with_gemini(model_key: str, image_bytes: bytes, symbol: str, current
 
         analysis = json.loads(json_str)
 
-        # Estimate cost (Gemini doesn't return exact token counts easily)
-        # Rough estimate: ~1000 input tokens for image + prompt, ~500 output
-        estimated_input = 1500
-        estimated_output = 500
-        cost = (estimated_input * model_info["input_cost"] / 1_000_000) + \
-               (estimated_output * model_info["output_cost"] / 1_000_000)
+        # Get actual token counts from response if available
+        usage = getattr(response, 'usage_metadata', None)
+        if usage:
+            input_tokens = getattr(usage, 'prompt_token_count', 1500)
+            output_tokens = getattr(usage, 'candidates_token_count', 500)
+        else:
+            # Estimate: ~1000 input tokens for image + prompt, ~500 output
+            input_tokens = 1500
+            output_tokens = 500
+
+        cost = (input_tokens * model_info["input_cost"] / 1_000_000) + \
+               (output_tokens * model_info["output_cost"] / 1_000_000)
 
         return {
             "success": True,
             "analysis": analysis,
             "elapsed": elapsed,
             "cost": cost,
-            "tokens": {"input": estimated_input, "output": estimated_output},
+            "tokens": {"input": input_tokens, "output": output_tokens},
         }
 
     except Exception as e:
