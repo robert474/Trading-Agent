@@ -55,6 +55,10 @@ transcriber = [
     "openai-whisper>=20231117",
     "openai>=1.0.0",
 ]
+vision = [
+    "google-generativeai>=0.8.0",
+    "Pillow>=10.0.0",
+]
 dev = [
     "black>=24.1.0",
     "ruff>=0.1.0",

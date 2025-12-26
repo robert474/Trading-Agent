@@ -1,0 +1,40 @@
+{
+  "video_date": "2025-01-05",
+  "video_title": "Bill Fanter Weekly Watchlist",
+  "video_url": "",
+  "notes": "Fill in Bill's actual recommendations from his Sunday video",
+  "symbols": {
+    "NVDA": {
+      "direction": "LONG",
+      "entry": 140.0,
+      "stop": 135.0,
+      "target": 150.0,
+      "bill_notes": "Demand zone at 138-140, looking for bounce"
+    },
+    "TSLA": {
+      "direction": "SHORT",
+      "entry": 420.0,
+      "stop": 430.0,
+      "target": 400.0,
+      "bill_notes": "Supply zone at 415-425"
+    },
+    "AAPL": {
+      "direction": "WAIT",
+      "entry": null,
+      "stop": null,
+      "target": null,
+      "bill_notes": "No clear setup, in the middle of range"
+    }
+  },
+  "instructions": [
+    "1. Watch Bill's Sunday watchlist video",
+    "2. For each stock he mentions, record:",
+    "   - direction: LONG, SHORT, or WAIT",
+    "   - entry: His suggested entry price (or null)",
+    "   - stop: His suggested stop loss (or null)",
+    "   - target: His suggested target (or null)",
+    "   - bill_notes: Any relevant notes from his analysis",
+    "3. Save this file as data/bill_watchlist.json",
+    "4. Run: python scripts/blind_evaluation.py --bill-file data/bill_watchlist.json"
+  ]
+}
