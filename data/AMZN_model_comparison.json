@@ -1,0 +1,247 @@
+{
+  "symbol": "AMZN",
+  "current_price": 232.38,
+  "test_time": "2025-12-26T06:35:19.563258",
+  "results": [
+    {
+      "model": "Claude 3.5 Haiku",
+      "model_id": "claude-3-5-haiku-20241022",
+      "success": true,
+      "analysis": {
+        "symbol": "AMZN",
+        "current_price": 232.38,
+        "patterns_detected": [
+          "Ascending wedge/triangle",
+          "Multiple consolidation zones",
+          "Potential double bottom formation",
+          "Horizontal support and resistance levels"
+        ],
+        "trend": "RANGING",
+        "trend_strength": "MODERATE",
+        "supply_zones": [
+          {
+            "high": 250,
+            "low": 245,
+            "quality": 85,
+            "notes": "Recent price peak in December, strong resistance"
+          },
+          {
+            "high": 235,
+            "low": 230,
+            "quality": 70,
+            "notes": "Current consolidation resistance"
+          }
+        ],
+        "demand_zones": [
+          {
+            "high": 210,
+            "low": 205,
+            "quality": 80,
+            "notes": "Strong support level from multiple bounces"
+          },
+          {
+            "high": 190,
+            "low": 180,
+            "quality": 75,
+            "notes": "Major support from April price action"
+          }
+        ],
+        "key_levels": {
+          "resistance": [
+            250,
+            235,
+            240
+          ],
+          "support": [
+            210,
+            205,
+            190
+          ]
+        },
+        "trade_idea": {
+          "direction": "WAIT",
+          "entry": null,
+          "stop": null,
+          "target": null,
+          "confidence": 50,
+          "rationale": "Lacking clear directional momentum, waiting for clearer breakout or breakdown"
+        },
+        "additional_observations": "Stock is in a consolidation phase after significant volatility. Volume appears relatively low, suggesting indecision in the market. Potential for breakout or breakdown depends on upcoming market catalysts."
+      },
+      "elapsed_seconds": 7.19,
+      "input_tokens": 1003,
+      "output_tokens": 402,
+      "total_tokens": 1405,
+      "cost_usd": 0.0008
+    },
+    {
+      "model": "Claude Sonnet 4",
+      "model_id": "claude-sonnet-4-20250514",
+      "success": true,
+      "analysis": {
+        "symbol": "AMZN",
+        "current_price": 232.38,
+        "patterns_detected": [
+          "Double bottom",
+          "Higher lows formation",
+          "Breakout from consolidation",
+          "Bullish flag pattern after recent decline"
+        ],
+        "trend": "BULLISH",
+        "trend_strength": "MODERATE",
+        "supply_zones": [
+          {
+            "high": 252,
+            "low": 248,
+            "quality": 85,
+            "notes": "Strong resistance zone where price rejected multiple times in November with high volume"
+          },
+          {
+            "high": 245,
+            "low": 242,
+            "quality": 75,
+            "notes": "Secondary resistance where price stalled recently before pullback"
+          },
+          {
+            "high": 238,
+            "low": 235,
+            "quality": 65,
+            "notes": "Minor resistance from previous consolidation area"
+          }
+        ],
+        "demand_zones": [
+          {
+            "high": 220,
+            "low": 215,
+            "quality": 90,
+            "notes": "Very strong demand zone - double bottom formation with significant buying volume"
+          },
+          {
+            "high": 228,
+            "low": 225,
+            "quality": 80,
+            "notes": "Recent support that held during December pullback"
+          },
+          {
+            "high": 210,
+            "low": 205,
+            "quality": 70,
+            "notes": "Major demand zone from earlier consolidation with blue trendline support"
+          }
+        ],
+        "key_levels": {
+          "resistance": [
+            235,
+            242,
+            248,
+            252
+          ],
+          "support": [
+            228,
+            220,
+            215,
+            210
+          ]
+        },
+        "trade_idea": {
+          "direction": "LONG",
+          "entry": 230,
+          "stop": 224,
+          "target": 245,
+          "confidence": 75,
+          "rationale": "Price showing bullish structure with higher lows, bouncing from strong demand zone around 220. Currently consolidating above 228 support. Entry on pullback to 230 with stop below recent support and target at next supply zone."
+        },
+        "additional_observations": "Stock is respecting the upward sloping purple trendline and showing resilience at demand zones. Volume patterns suggest accumulation during dips. The 20 and 200 SMAs are providing dynamic support. Price action suggests institutional buying interest at lower levels."
+      },
+      "elapsed_seconds": 11.94,
+      "input_tokens": 956,
+      "output_tokens": 541,
+      "total_tokens": 1497,
+      "cost_usd": 0.011
+    },
+    {
+      "model": "Claude Opus 4",
+      "model_id": "claude-opus-4-20250514",
+      "success": true,
+      "analysis": {
+        "symbol": "AMZN",
+        "current_price": 232.38,
+        "patterns_detected": [
+          "Ascending triangle/wedge formation (April-July)",
+          "Double top pattern around $250-255 level",
+          "Breakdown from rising channel",
+          "Recent consolidation between $220-240",
+          "Higher lows maintained above $220 support"
+        ],
+        "trend": "RANGING",
+        "trend_strength": "WEAK",
+        "supply_zones": [
+          {
+            "high": 255,
+            "low": 250,
+            "quality": 90,
+            "notes": "Double top rejection area with high volume selling"
+          },
+          {
+            "high": 245,
+            "low": 240,
+            "quality": 75,
+            "notes": "Recent resistance level where price failed multiple times"
+          },
+          {
+            "high": 235,
+            "low": 232,
+            "quality": 60,
+            "notes": "Current resistance area where price is struggling"
+          }
+        ],
+        "demand_zones": [
+          {
+            "high": 225,
+            "low": 220,
+            "quality": 85,
+            "notes": "Strong support tested multiple times with buying interest"
+          },
+          {
+            "high": 215,
+            "low": 210,
+            "quality": 70,
+            "notes": "Previous consolidation area and 200 SMA support"
+          },
+          {
+            "high": 205,
+            "low": 200,
+            "quality": 60,
+            "notes": "Psychological level and previous breakout point"
+          }
+        ],
+        "key_levels": {
+          "resistance": [
+            255,
+            240,
+            235
+          ],
+          "support": [
+            220,
+            210,
+            200
+          ]
+        },
+        "trade_idea": {
+          "direction": "WAIT",
+          "entry": null,
+          "stop": null,
+          "target": null,
+          "confidence": 40,
+          "rationale": "Price in middle of range between $220-240. Wait for clear break above $235 for long or below $220 for short. Current location offers poor risk/reward"
+        },
+        "additional_observations": "Price respecting both 20 SMA (red) and 50 SMA (blue) as dynamic support/resistance. Volume increasing on recent moves suggesting potential breakout coming. The failed breakout above $250 created a bearish double top, but support at $220 holding well"
+      },
+      "elapsed_seconds": 15.79,
+      "input_tokens": 956,
+      "output_tokens": 552,
+      "total_tokens": 1508,
+      "cost_usd": 0.0557
+    }
+  ]
+}
